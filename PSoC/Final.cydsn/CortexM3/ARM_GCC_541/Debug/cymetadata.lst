@@ -1,0 +1,4647 @@
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"cymetadata.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.global	cy_metadata
+  20              		.global	cy_meta_flashprotect
+  21              		.global	cy_meta_wonvl
+  22              		.global	cy_meta_custnvl
+  23              		.global	cy_meta_configecc
+  24              		.section	.cyconfigecc,"a",%progbits
+  25              		.align	2
+  26              		.type	cy_meta_configecc, %object
+  27              		.size	cy_meta_configecc, 3936
+  28              	cy_meta_configecc:
+  29 0000 06       		.byte	6
+  30 0001 52       		.byte	82
+  31 0002 00       		.byte	0
+  32 0003 40       		.byte	64
+  33 0004 0B       		.byte	11
+  34 0005 64       		.byte	100
+  35 0006 00       		.byte	0
+  36 0007 40       		.byte	64
+  37 0008 06       		.byte	6
+  38 0009 65       		.byte	101
+  39 000a 00       		.byte	0
+  40 000b 40       		.byte	64
+  41 000c 12       		.byte	18
+  42 000d 00       		.byte	0
+  43 000e 01       		.byte	1
+  44 000f 40       		.byte	64
+  45 0010 3A       		.byte	58
+  46 0011 01       		.byte	1
+  47 0012 01       		.byte	1
+  48 0013 40       		.byte	64
+  49 0014 71       		.byte	113
+  50 0015 02       		.byte	2
+  51 0016 01       		.byte	1
+  52 0017 40       		.byte	64
+  53 0018 4E       		.byte	78
+  54 0019 03       		.byte	3
+  55 001a 01       		.byte	1
+  56 001b 40       		.byte	64
+  57 001c 56       		.byte	86
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 2
+
+
+  58 001d 04       		.byte	4
+  59 001e 01       		.byte	1
+  60 001f 40       		.byte	64
+  61 0020 49       		.byte	73
+  62 0021 05       		.byte	5
+  63 0022 01       		.byte	1
+  64 0023 40       		.byte	64
+  65 0024 4B       		.byte	75
+  66 0025 06       		.byte	6
+  67 0026 01       		.byte	1
+  68 0027 40       		.byte	64
+  69 0028 53       		.byte	83
+  70 0029 07       		.byte	7
+  71 002a 01       		.byte	1
+  72 002b 40       		.byte	64
+  73 002c 15       		.byte	21
+  74 002d 09       		.byte	9
+  75 002e 01       		.byte	1
+  76 002f 40       		.byte	64
+  77 0030 6D       		.byte	109
+  78 0031 0A       		.byte	10
+  79 0032 01       		.byte	1
+  80 0033 40       		.byte	64
+  81 0034 4C       		.byte	76
+  82 0035 0B       		.byte	11
+  83 0036 01       		.byte	1
+  84 0037 40       		.byte	64
+  85 0038 5D       		.byte	93
+  86 0039 0C       		.byte	12
+  87 003a 01       		.byte	1
+  88 003b 40       		.byte	64
+  89 003c 41       		.byte	65
+  90 003d 0D       		.byte	13
+  91 003e 01       		.byte	1
+  92 003f 40       		.byte	64
+  93 0040 5E       		.byte	94
+  94 0041 0E       		.byte	14
+  95 0042 01       		.byte	1
+  96 0043 40       		.byte	64
+  97 0044 3B       		.byte	59
+  98 0045 0F       		.byte	15
+  99 0046 01       		.byte	1
+ 100 0047 40       		.byte	64
+ 101 0048 66       		.byte	102
+ 102 0049 14       		.byte	20
+ 103 004a 01       		.byte	1
+ 104 004b 40       		.byte	64
+ 105 004c 4B       		.byte	75
+ 106 004d 15       		.byte	21
+ 107 004e 01       		.byte	1
+ 108 004f 40       		.byte	64
+ 109 0050 5E       		.byte	94
+ 110 0051 16       		.byte	22
+ 111 0052 01       		.byte	1
+ 112 0053 40       		.byte	64
+ 113 0054 58       		.byte	88
+ 114 0055 17       		.byte	23
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 3
+
+
+ 115 0056 01       		.byte	1
+ 116 0057 40       		.byte	64
+ 117 0058 71       		.byte	113
+ 118 0059 18       		.byte	24
+ 119 005a 01       		.byte	1
+ 120 005b 40       		.byte	64
+ 121 005c 4D       		.byte	77
+ 122 005d 19       		.byte	25
+ 123 005e 01       		.byte	1
+ 124 005f 40       		.byte	64
+ 125 0060 0A       		.byte	10
+ 126 0061 1B       		.byte	27
+ 127 0062 01       		.byte	1
+ 128 0063 40       		.byte	64
+ 129 0064 0D       		.byte	13
+ 130 0065 40       		.byte	64
+ 131 0066 01       		.byte	1
+ 132 0067 40       		.byte	64
+ 133 0068 16       		.byte	22
+ 134 0069 41       		.byte	65
+ 135 006a 01       		.byte	1
+ 136 006b 40       		.byte	64
+ 137 006c 0C       		.byte	12
+ 138 006d 42       		.byte	66
+ 139 006e 01       		.byte	1
+ 140 006f 40       		.byte	64
+ 141 0070 04       		.byte	4
+ 142 0071 43       		.byte	67
+ 143 0072 01       		.byte	1
+ 144 0073 40       		.byte	64
+ 145 0074 04       		.byte	4
+ 146 0075 44       		.byte	68
+ 147 0076 01       		.byte	1
+ 148 0077 40       		.byte	64
+ 149 0078 03       		.byte	3
+ 150 0079 45       		.byte	69
+ 151 007a 01       		.byte	1
+ 152 007b 40       		.byte	64
+ 153 007c 03       		.byte	3
+ 154 007d 46       		.byte	70
+ 155 007e 01       		.byte	1
+ 156 007f 40       		.byte	64
+ 157 0080 04       		.byte	4
+ 158 0081 47       		.byte	71
+ 159 0082 01       		.byte	1
+ 160 0083 40       		.byte	64
+ 161 0084 08       		.byte	8
+ 162 0085 48       		.byte	72
+ 163 0086 01       		.byte	1
+ 164 0087 40       		.byte	64
+ 165 0088 0D       		.byte	13
+ 166 0089 49       		.byte	73
+ 167 008a 01       		.byte	1
+ 168 008b 40       		.byte	64
+ 169 008c 08       		.byte	8
+ 170 008d 4C       		.byte	76
+ 171 008e 01       		.byte	1
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 4
+
+
+ 172 008f 40       		.byte	64
+ 173 0090 06       		.byte	6
+ 174 0091 4D       		.byte	77
+ 175 0092 01       		.byte	1
+ 176 0093 40       		.byte	64
+ 177 0094 08       		.byte	8
+ 178 0095 50       		.byte	80
+ 179 0096 01       		.byte	1
+ 180 0097 40       		.byte	64
+ 181 0098 02       		.byte	2
+ 182 0099 51       		.byte	81
+ 183 009a 01       		.byte	1
+ 184 009b 40       		.byte	64
+ 185 009c 04       		.byte	4
+ 186 009d 55       		.byte	85
+ 187 009e 08       		.byte	8
+ 188 009f 14       		.byte	20
+ 189 00a0 09       		.byte	9
+ 190 00a1 80       		.byte	-128
+ 191 00a2 19       		.byte	25
+ 192 00a3 01       		.byte	1
+ 193 00a4 21       		.byte	33
+ 194 00a5 01       		.byte	1
+ 195 00a6 60       		.byte	96
+ 196 00a7 10       		.byte	16
+ 197 00a8 7E       		.byte	126
+ 198 00a9 01       		.byte	1
+ 199 00aa 7F       		.byte	127
+ 200 00ab 01       		.byte	1
+ 201 00ac 81       		.byte	-127
+ 202 00ad 72       		.byte	114
+ 203 00ae 83       		.byte	-125
+ 204 00af 0F       		.byte	15
+ 205 00b0 84       		.byte	-124
+ 206 00b1 72       		.byte	114
+ 207 00b2 85       		.byte	-123
+ 208 00b3 72       		.byte	114
+ 209 00b4 86       		.byte	-122
+ 210 00b5 72       		.byte	114
+ 211 00b6 87       		.byte	-121
+ 212 00b7 38       		.byte	56
+ 213 00b8 8C       		.byte	-116
+ 214 00b9 0D       		.byte	13
+ 215 00ba 8D       		.byte	-115
+ 216 00bb 0F       		.byte	15
+ 217 00bc 8F       		.byte	-113
+ 218 00bd 0F       		.byte	15
+ 219 00be 84       		.byte	-124
+ 220 00bf 0D       		.byte	13
+ 221 00c0 85       		.byte	-123
+ 222 00c1 0F       		.byte	15
+ 223 00c2 86       		.byte	-122
+ 224 00c3 38       		.byte	56
+ 225 00c4 87       		.byte	-121
+ 226 00c5 38       		.byte	56
+ 227 00c6 88       		.byte	-120
+ 228 00c7 38       		.byte	56
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 5
+
+
+ 229 00c8 89       		.byte	-119
+ 230 00c9 0F       		.byte	15
+ 231 00ca 03       		.byte	3
+ 232 00cb 02       		.byte	2
+ 233 00cc 06       		.byte	6
+ 234 00cd 01       		.byte	1
+ 235 00ce 07       		.byte	7
+ 236 00cf 01       		.byte	1
+ 237 00d0 0E       		.byte	14
+ 238 00d1 02       		.byte	2
+ 239 00d2 13       		.byte	19
+ 240 00d3 02       		.byte	2
+ 241 00d4 1E       		.byte	30
+ 242 00d5 02       		.byte	2
+ 243 00d6 23       		.byte	35
+ 244 00d7 01       		.byte	1
+ 245 00d8 30       		.byte	48
+ 246 00d9 02       		.byte	2
+ 247 00da 31       		.byte	49
+ 248 00db 01       		.byte	1
+ 249 00dc 34       		.byte	52
+ 250 00dd 01       		.byte	1
+ 251 00de 37       		.byte	55
+ 252 00df 02       		.byte	2
+ 253 00e0 3B       		.byte	59
+ 254 00e1 08       		.byte	8
+ 255 00e2 3E       		.byte	62
+ 256 00e3 01       		.byte	1
+ 257 00e4 3F       		.byte	63
+ 258 00e5 41       		.byte	65
+ 259 00e6 58       		.byte	88
+ 260 00e7 04       		.byte	4
+ 261 00e8 59       		.byte	89
+ 262 00e9 04       		.byte	4
+ 263 00ea 5C       		.byte	92
+ 264 00eb 32       		.byte	50
+ 265 00ec 5F       		.byte	95
+ 266 00ed 01       		.byte	1
+ 267 00ee 00       		.byte	0
+ 268 00ef 80       		.byte	-128
+ 269 00f0 03       		.byte	3
+ 270 00f1 20       		.byte	32
+ 271 00f2 04       		.byte	4
+ 272 00f3 24       		.byte	36
+ 273 00f4 06       		.byte	6
+ 274 00f5 40       		.byte	64
+ 275 00f6 0A       		.byte	10
+ 276 00f7 02       		.byte	2
+ 277 00f8 0C       		.byte	12
+ 278 00f9 40       		.byte	64
+ 279 00fa 0E       		.byte	14
+ 280 00fb 04       		.byte	4
+ 281 00fc 0F       		.byte	15
+ 282 00fd 50       		.byte	80
+ 283 00fe 16       		.byte	22
+ 284 00ff 01       		.byte	1
+ 285 0100 17       		.byte	23
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 6
+
+
+ 286 0101 2A       		.byte	42
+ 287 0102 1B       		.byte	27
+ 288 0103 11       		.byte	17
+ 289 0104 1C       		.byte	28
+ 290 0105 06       		.byte	6
+ 291 0106 1D       		.byte	29
+ 292 0107 01       		.byte	1
+ 293 0108 1F       		.byte	31
+ 294 0109 18       		.byte	24
+ 295 010a 22       		.byte	34
+ 296 010b 82       		.byte	-126
+ 297 010c 23       		.byte	35
+ 298 010d 10       		.byte	16
+ 299 010e 24       		.byte	36
+ 300 010f 60       		.byte	96
+ 301 0110 25       		.byte	37
+ 302 0111 04       		.byte	4
+ 303 0112 26       		.byte	38
+ 304 0113 10       		.byte	16
+ 305 0114 27       		.byte	39
+ 306 0115 01       		.byte	1
+ 307 0116 29       		.byte	41
+ 308 0117 01       		.byte	1
+ 309 0118 2C       		.byte	44
+ 310 0119 80       		.byte	-128
+ 311 011a 2F       		.byte	47
+ 312 011b 18       		.byte	24
+ 313 011c 33       		.byte	51
+ 314 011d 01       		.byte	1
+ 315 011e 34       		.byte	52
+ 316 011f 80       		.byte	-128
+ 317 0120 37       		.byte	55
+ 318 0121 28       		.byte	40
+ 319 0122 39       		.byte	57
+ 320 0123 01       		.byte	1
+ 321 0124 3A       		.byte	58
+ 322 0125 04       		.byte	4
+ 323 0126 3C       		.byte	60
+ 324 0127 40       		.byte	64
+ 325 0128 3D       		.byte	61
+ 326 0129 08       		.byte	8
+ 327 012a 3E       		.byte	62
+ 328 012b 02       		.byte	2
+ 329 012c 3F       		.byte	63
+ 330 012d 10       		.byte	16
+ 331 012e 44       		.byte	68
+ 332 012f 80       		.byte	-128
+ 333 0130 45       		.byte	69
+ 334 0131 28       		.byte	40
+ 335 0132 4D       		.byte	77
+ 336 0133 01       		.byte	1
+ 337 0134 4F       		.byte	79
+ 338 0135 50       		.byte	80
+ 339 0136 56       		.byte	86
+ 340 0137 04       		.byte	4
+ 341 0138 5E       		.byte	94
+ 342 0139 20       		.byte	32
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 7
+
+
+ 343 013a 64       		.byte	100
+ 344 013b C0       		.byte	-64
+ 345 013c 67       		.byte	103
+ 346 013d 80       		.byte	-128
+ 347 013e 6C       		.byte	108
+ 348 013f 04       		.byte	4
+ 349 0140 6D       		.byte	109
+ 350 0141 40       		.byte	64
+ 351 0142 6F       		.byte	111
+ 352 0143 10       		.byte	16
+ 353 0144 76       		.byte	118
+ 354 0145 02       		.byte	2
+ 355 0146 77       		.byte	119
+ 356 0147 2A       		.byte	42
+ 357 0148 81       		.byte	-127
+ 358 0149 21       		.byte	33
+ 359 014a 87       		.byte	-121
+ 360 014b 48       		.byte	72
+ 361 014c 88       		.byte	-120
+ 362 014d 01       		.byte	1
+ 363 014e C0       		.byte	-64
+ 364 014f 75       		.byte	117
+ 365 0150 C2       		.byte	-62
+ 366 0151 F1       		.byte	-15
+ 367 0152 C4       		.byte	-60
+ 368 0153 F0       		.byte	-16
+ 369 0154 CA       		.byte	-54
+ 370 0155 E1       		.byte	-31
+ 371 0156 CC       		.byte	-52
+ 372 0157 71       		.byte	113
+ 373 0158 CE       		.byte	-50
+ 374 0159 F3       		.byte	-13
+ 375 015a D0       		.byte	-48
+ 376 015b E0       		.byte	-32
+ 377 015c D2       		.byte	-46
+ 378 015d 30       		.byte	48
+ 379 015e D6       		.byte	-42
+ 380 015f 20       		.byte	32
+ 381 0160 E2       		.byte	-30
+ 382 0161 10       		.byte	16
+ 383 0162 00       		.byte	0
+ 384 0163 09       		.byte	9
+ 385 0164 02       		.byte	2
+ 386 0165 32       		.byte	50
+ 387 0166 04       		.byte	4
+ 388 0167 9F       		.byte	-97
+ 389 0168 05       		.byte	5
+ 390 0169 F3       		.byte	-13
+ 391 016a 09       		.byte	9
+ 392 016b F3       		.byte	-13
+ 393 016c 0C       		.byte	12
+ 394 016d 02       		.byte	2
+ 395 016e 0E       		.byte	14
+ 396 016f 45       		.byte	69
+ 397 0170 11       		.byte	17
+ 398 0171 10       		.byte	16
+ 399 0172 13       		.byte	19
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 8
+
+
+ 400 0173 64       		.byte	100
+ 401 0174 18       		.byte	24
+ 402 0175 14       		.byte	20
+ 403 0176 19       		.byte	25
+ 404 0177 42       		.byte	66
+ 405 0178 1A       		.byte	26
+ 406 0179 2A       		.byte	42
+ 407 017a 1B       		.byte	27
+ 408 017b 19       		.byte	25
+ 409 017c 25       		.byte	37
+ 410 017d 21       		.byte	33
+ 411 017e 27       		.byte	39
+ 412 017f 1A       		.byte	26
+ 413 0180 28       		.byte	40
+ 414 0181 9F       		.byte	-97
+ 415 0182 2C       		.byte	44
+ 416 0183 80       		.byte	-128
+ 417 0184 2D       		.byte	45
+ 418 0185 80       		.byte	-128
+ 419 0186 30       		.byte	48
+ 420 0187 07       		.byte	7
+ 421 0188 31       		.byte	49
+ 422 0189 70       		.byte	112
+ 423 018a 32       		.byte	50
+ 424 018b 60       		.byte	96
+ 425 018c 33       		.byte	51
+ 426 018d 0C       		.byte	12
+ 427 018e 34       		.byte	52
+ 428 018f 18       		.byte	24
+ 429 0190 35       		.byte	53
+ 430 0191 03       		.byte	3
+ 431 0192 36       		.byte	54
+ 432 0193 80       		.byte	-128
+ 433 0194 37       		.byte	55
+ 434 0195 80       		.byte	-128
+ 435 0196 3E       		.byte	62
+ 436 0197 04       		.byte	4
+ 437 0198 3F       		.byte	63
+ 438 0199 04       		.byte	4
+ 439 019a 40       		.byte	64
+ 440 019b 15       		.byte	21
+ 441 019c 41       		.byte	65
+ 442 019d 06       		.byte	6
+ 443 019e 42       		.byte	66
+ 444 019f 03       		.byte	3
+ 445 01a0 44       		.byte	68
+ 446 01a1 02       		.byte	2
+ 447 01a2 45       		.byte	69
+ 448 01a3 0C       		.byte	12
+ 449 01a4 46       		.byte	70
+ 450 01a5 0E       		.byte	14
+ 451 01a6 48       		.byte	72
+ 452 01a7 05       		.byte	5
+ 453 01a8 49       		.byte	73
+ 454 01a9 FF       		.byte	-1
+ 455 01aa 4A       		.byte	74
+ 456 01ab FF       		.byte	-1
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 9
+
+
+ 457 01ac 4B       		.byte	75
+ 458 01ad FF       		.byte	-1
+ 459 01ae 4C       		.byte	76
+ 460 01af 62       		.byte	98
+ 461 01b0 4D       		.byte	77
+ 462 01b1 A0       		.byte	-96
+ 463 01b2 4E       		.byte	78
+ 464 01b3 F0       		.byte	-16
+ 465 01b4 4F       		.byte	79
+ 466 01b5 41       		.byte	65
+ 467 01b6 50       		.byte	80
+ 468 01b7 0C       		.byte	12
+ 469 01b8 58       		.byte	88
+ 470 01b9 04       		.byte	4
+ 471 01ba 59       		.byte	89
+ 472 01bb 04       		.byte	4
+ 473 01bc 5A       		.byte	90
+ 474 01bd 04       		.byte	4
+ 475 01be 5C       		.byte	92
+ 476 01bf 23       		.byte	35
+ 477 01c0 5D       		.byte	93
+ 478 01c1 02       		.byte	2
+ 479 01c2 5F       		.byte	95
+ 480 01c3 01       		.byte	1
+ 481 01c4 66       		.byte	102
+ 482 01c5 40       		.byte	64
+ 483 01c6 67       		.byte	103
+ 484 01c7 02       		.byte	2
+ 485 01c8 69       		.byte	105
+ 486 01c9 10       		.byte	16
+ 487 01ca 6A       		.byte	106
+ 488 01cb 30       		.byte	48
+ 489 01cc 6B       		.byte	107
+ 490 01cd 10       		.byte	16
+ 491 01ce 6D       		.byte	109
+ 492 01cf 10       		.byte	16
+ 493 01d0 6E       		.byte	110
+ 494 01d1 10       		.byte	16
+ 495 01d2 6F       		.byte	111
+ 496 01d3 12       		.byte	18
+ 497 01d4 80       		.byte	-128
+ 498 01d5 14       		.byte	20
+ 499 01d6 82       		.byte	-126
+ 500 01d7 2A       		.byte	42
+ 501 01d8 85       		.byte	-123
+ 502 01d9 44       		.byte	68
+ 503 01da 87       		.byte	-121
+ 504 01db 2A       		.byte	42
+ 505 01dc 88       		.byte	-120
+ 506 01dd 02       		.byte	2
+ 507 01de 89       		.byte	-119
+ 508 01df 67       		.byte	103
+ 509 01e0 8A       		.byte	-118
+ 510 01e1 45       		.byte	69
+ 511 01e2 8D       		.byte	-115
+ 512 01e3 02       		.byte	2
+ 513 01e4 8F       		.byte	-113
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 10
+
+
+ 514 01e5 15       		.byte	21
+ 515 01e6 94       		.byte	-108
+ 516 01e7 09       		.byte	9
+ 517 01e8 95       		.byte	-107
+ 518 01e9 67       		.byte	103
+ 519 01ea 96       		.byte	-106
+ 520 01eb B2       		.byte	-78
+ 521 01ec A4       		.byte	-92
+ 522 01ed 1F       		.byte	31
+ 523 01ee A8       		.byte	-88
+ 524 01ef 1F       		.byte	31
+ 525 01f0 A9       		.byte	-87
+ 526 01f1 21       		.byte	33
+ 527 01f2 AB       		.byte	-85
+ 528 01f3 CA       		.byte	-54
+ 529 01f4 B0       		.byte	-80
+ 530 01f5 80       		.byte	-128
+ 531 01f6 B1       		.byte	-79
+ 532 01f7 07       		.byte	7
+ 533 01f8 B2       		.byte	-78
+ 534 01f9 07       		.byte	7
+ 535 01fa B3       		.byte	-77
+ 536 01fb 60       		.byte	96
+ 537 01fc B4       		.byte	-76
+ 538 01fd 60       		.byte	96
+ 539 01fe B5       		.byte	-75
+ 540 01ff 80       		.byte	-128
+ 541 0200 B6       		.byte	-74
+ 542 0201 18       		.byte	24
+ 543 0202 B7       		.byte	-73
+ 544 0203 18       		.byte	24
+ 545 0204 BE       		.byte	-66
+ 546 0205 10       		.byte	16
+ 547 0206 BF       		.byte	-65
+ 548 0207 40       		.byte	64
+ 549 0208 C0       		.byte	-64
+ 550 0209 64       		.byte	100
+ 551 020a C1       		.byte	-63
+ 552 020b 01       		.byte	1
+ 553 020c C2       		.byte	-62
+ 554 020d 05       		.byte	5
+ 555 020e C4       		.byte	-60
+ 556 020f 02       		.byte	2
+ 557 0210 C5       		.byte	-59
+ 558 0211 CE       		.byte	-50
+ 559 0212 C8       		.byte	-56
+ 560 0213 03       		.byte	3
+ 561 0214 C9       		.byte	-55
+ 562 0215 FF       		.byte	-1
+ 563 0216 CA       		.byte	-54
+ 564 0217 FF       		.byte	-1
+ 565 0218 CB       		.byte	-53
+ 566 0219 FF       		.byte	-1
+ 567 021a CC       		.byte	-52
+ 568 021b 62       		.byte	98
+ 569 021c CD       		.byte	-51
+ 570 021d A0       		.byte	-96
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 11
+
+
+ 571 021e CE       		.byte	-50
+ 572 021f F0       		.byte	-16
+ 573 0220 CF       		.byte	-49
+ 574 0221 41       		.byte	65
+ 575 0222 D0       		.byte	-48
+ 576 0223 0C       		.byte	12
+ 577 0224 D4       		.byte	-44
+ 578 0225 01       		.byte	1
+ 579 0226 D8       		.byte	-40
+ 580 0227 04       		.byte	4
+ 581 0228 D9       		.byte	-39
+ 582 0229 04       		.byte	4
+ 583 022a DA       		.byte	-38
+ 584 022b 04       		.byte	4
+ 585 022c DB       		.byte	-37
+ 586 022d 04       		.byte	4
+ 587 022e DC       		.byte	-36
+ 588 022f 01       		.byte	1
+ 589 0230 DD       		.byte	-35
+ 590 0231 11       		.byte	17
+ 591 0232 DF       		.byte	-33
+ 592 0233 01       		.byte	1
+ 593 0234 E6       		.byte	-26
+ 594 0235 40       		.byte	64
+ 595 0236 E7       		.byte	-25
+ 596 0237 02       		.byte	2
+ 597 0238 E9       		.byte	-23
+ 598 0239 10       		.byte	16
+ 599 023a EA       		.byte	-22
+ 600 023b 30       		.byte	48
+ 601 023c EB       		.byte	-21
+ 602 023d 10       		.byte	16
+ 603 023e ED       		.byte	-19
+ 604 023f 10       		.byte	16
+ 605 0240 EE       		.byte	-18
+ 606 0241 10       		.byte	16
+ 607 0242 EF       		.byte	-17
+ 608 0243 12       		.byte	18
+ 609 0244 00       		.byte	0
+ 610 0245 10       		.byte	16
+ 611 0246 03       		.byte	3
+ 612 0247 80       		.byte	-128
+ 613 0248 04       		.byte	4
+ 614 0249 48       		.byte	72
+ 615 024a 06       		.byte	6
+ 616 024b 41       		.byte	65
+ 617 024c 0B       		.byte	11
+ 618 024d 20       		.byte	32
+ 619 024e 0C       		.byte	12
+ 620 024f 04       		.byte	4
+ 621 0250 0D       		.byte	13
+ 622 0251 04       		.byte	4
+ 623 0252 0E       		.byte	14
+ 624 0253 04       		.byte	4
+ 625 0254 11       		.byte	17
+ 626 0255 14       		.byte	20
+ 627 0256 15       		.byte	21
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 12
+
+
+ 628 0257 40       		.byte	64
+ 629 0258 17       		.byte	23
+ 630 0259 10       		.byte	16
+ 631 025a 18       		.byte	24
+ 632 025b 14       		.byte	20
+ 633 025c 19       		.byte	25
+ 634 025d 01       		.byte	1
+ 635 025e 1B       		.byte	27
+ 636 025f 80       		.byte	-128
+ 637 0260 1C       		.byte	28
+ 638 0261 40       		.byte	64
+ 639 0262 1D       		.byte	29
+ 640 0263 08       		.byte	8
+ 641 0264 1E       		.byte	30
+ 642 0265 04       		.byte	4
+ 643 0266 1F       		.byte	31
+ 644 0267 40       		.byte	64
+ 645 0268 20       		.byte	32
+ 646 0269 02       		.byte	2
+ 647 026a 21       		.byte	33
+ 648 026b 06       		.byte	6
+ 649 026c 23       		.byte	35
+ 650 026d 44       		.byte	68
+ 651 026e 24       		.byte	36
+ 652 026f 02       		.byte	2
+ 653 0270 26       		.byte	38
+ 654 0271 51       		.byte	81
+ 655 0272 27       		.byte	39
+ 656 0273 20       		.byte	32
+ 657 0274 28       		.byte	40
+ 658 0275 88       		.byte	-120
+ 659 0276 29       		.byte	41
+ 660 0277 01       		.byte	1
+ 661 0278 2E       		.byte	46
+ 662 0279 40       		.byte	64
+ 663 027a 2F       		.byte	47
+ 664 027b 20       		.byte	32
+ 665 027c 30       		.byte	48
+ 666 027d 02       		.byte	2
+ 667 027e 32       		.byte	50
+ 668 027f 01       		.byte	1
+ 669 0280 33       		.byte	51
+ 670 0281 04       		.byte	4
+ 671 0282 36       		.byte	54
+ 672 0283 11       		.byte	17
+ 673 0284 38       		.byte	56
+ 674 0285 20       		.byte	32
+ 675 0286 39       		.byte	57
+ 676 0287 08       		.byte	8
+ 677 0288 3B       		.byte	59
+ 678 0289 40       		.byte	64
+ 679 028a 3D       		.byte	61
+ 680 028b 28       		.byte	40
+ 681 028c 40       		.byte	64
+ 682 028d 04       		.byte	4
+ 683 028e 41       		.byte	65
+ 684 028f 01       		.byte	1
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 13
+
+
+ 685 0290 42       		.byte	66
+ 686 0291 01       		.byte	1
+ 687 0292 44       		.byte	68
+ 688 0293 20       		.byte	32
+ 689 0294 47       		.byte	71
+ 690 0295 60       		.byte	96
+ 691 0296 48       		.byte	72
+ 692 0297 42       		.byte	66
+ 693 0298 49       		.byte	73
+ 694 0299 24       		.byte	36
+ 695 029a 4C       		.byte	76
+ 696 029b 01       		.byte	1
+ 697 029c 4F       		.byte	79
+ 698 029d 18       		.byte	24
+ 699 029e 57       		.byte	87
+ 700 029f 40       		.byte	64
+ 701 02a0 59       		.byte	89
+ 702 02a1 8A       		.byte	-118
+ 703 02a2 5A       		.byte	90
+ 704 02a3 10       		.byte	16
+ 705 02a4 5D       		.byte	93
+ 706 02a5 01       		.byte	1
+ 707 02a6 5E       		.byte	94
+ 708 02a7 02       		.byte	2
+ 709 02a8 78       		.byte	120
+ 710 02a9 01       		.byte	1
+ 711 02aa 7B       		.byte	123
+ 712 02ab 80       		.byte	-128
+ 713 02ac 87       		.byte	-121
+ 714 02ad 10       		.byte	16
+ 715 02ae 8A       		.byte	-118
+ 716 02af 80       		.byte	-128
+ 717 02b0 8D       		.byte	-115
+ 718 02b1 02       		.byte	2
+ 719 02b2 90       		.byte	-112
+ 720 02b3 08       		.byte	8
+ 721 02b4 91       		.byte	-111
+ 722 02b5 40       		.byte	64
+ 723 02b6 96       		.byte	-106
+ 724 02b7 06       		.byte	6
+ 725 02b8 97       		.byte	-105
+ 726 02b9 80       		.byte	-128
+ 727 02ba 9B       		.byte	-101
+ 728 02bb 10       		.byte	16
+ 729 02bc 9E       		.byte	-98
+ 730 02bd 41       		.byte	65
+ 731 02be A2       		.byte	-94
+ 732 02bf 82       		.byte	-126
+ 733 02c0 A3       		.byte	-93
+ 734 02c1 11       		.byte	17
+ 735 02c2 A4       		.byte	-92
+ 736 02c3 C0       		.byte	-64
+ 737 02c4 A5       		.byte	-91
+ 738 02c5 08       		.byte	8
+ 739 02c6 A7       		.byte	-89
+ 740 02c7 20       		.byte	32
+ 741 02c8 C0       		.byte	-64
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 14
+
+
+ 742 02c9 BA       		.byte	-70
+ 743 02ca C2       		.byte	-62
+ 744 02cb 44       		.byte	68
+ 745 02cc C4       		.byte	-60
+ 746 02cd C6       		.byte	-58
+ 747 02ce CA       		.byte	-54
+ 748 02cf 54       		.byte	84
+ 749 02d0 CC       		.byte	-52
+ 750 02d1 A2       		.byte	-94
+ 751 02d2 CE       		.byte	-50
+ 752 02d3 6E       		.byte	110
+ 753 02d4 D0       		.byte	-48
+ 754 02d5 7D       		.byte	125
+ 755 02d6 D2       		.byte	-46
+ 756 02d7 3C       		.byte	60
+ 757 02d8 D6       		.byte	-42
+ 758 02d9 0F       		.byte	15
+ 759 02da E2       		.byte	-30
+ 760 02db 05       		.byte	5
+ 761 02dc E4       		.byte	-28
+ 762 02dd 40       		.byte	64
+ 763 02de E6       		.byte	-26
+ 764 02df 08       		.byte	8
+ 765 02e0 00       		.byte	0
+ 766 02e1 2F       		.byte	47
+ 767 02e2 02       		.byte	2
+ 768 02e3 D0       		.byte	-48
+ 769 02e4 04       		.byte	4
+ 770 02e5 C3       		.byte	-61
+ 771 02e6 05       		.byte	5
+ 772 02e7 01       		.byte	1
+ 773 02e8 08       		.byte	8
+ 774 02e9 F3       		.byte	-13
+ 775 02ea 09       		.byte	9
+ 776 02eb 01       		.byte	1
+ 777 02ec 0A       		.byte	10
+ 778 02ed 0C       		.byte	12
+ 779 02ee 0E       		.byte	14
+ 780 02ef D3       		.byte	-45
+ 781 02f0 10       		.byte	16
+ 782 02f1 3C       		.byte	60
+ 783 02f2 11       		.byte	17
+ 784 02f3 01       		.byte	1
+ 785 02f4 12       		.byte	18
+ 786 02f5 C3       		.byte	-61
+ 787 02f6 14       		.byte	20
+ 788 02f7 41       		.byte	65
+ 789 02f8 17       		.byte	23
+ 790 02f9 02       		.byte	2
+ 791 02fa 1C       		.byte	28
+ 792 02fb FF       		.byte	-1
+ 793 02fc 20       		.byte	32
+ 794 02fd 08       		.byte	8
+ 795 02fe 24       		.byte	36
+ 796 02ff 04       		.byte	4
+ 797 0300 28       		.byte	40
+ 798 0301 0C       		.byte	12
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 15
+
+
+ 799 0302 2C       		.byte	44
+ 800 0303 82       		.byte	-126
+ 801 0304 2F       		.byte	47
+ 802 0305 02       		.byte	2
+ 803 0306 30       		.byte	48
+ 804 0307 C0       		.byte	-64
+ 805 0308 31       		.byte	49
+ 806 0309 01       		.byte	1
+ 807 030a 32       		.byte	50
+ 808 030b 0F       		.byte	15
+ 809 030c 34       		.byte	52
+ 810 030d 20       		.byte	32
+ 811 030e 35       		.byte	53
+ 812 030f 02       		.byte	2
+ 813 0310 36       		.byte	54
+ 814 0311 1C       		.byte	28
+ 815 0312 3A       		.byte	58
+ 816 0313 08       		.byte	8
+ 817 0314 3E       		.byte	62
+ 818 0315 10       		.byte	16
+ 819 0316 3F       		.byte	63
+ 820 0317 10       		.byte	16
+ 821 0318 40       		.byte	64
+ 822 0319 26       		.byte	38
+ 823 031a 41       		.byte	65
+ 824 031b 03       		.byte	3
+ 825 031c 42       		.byte	66
+ 826 031d 01       		.byte	1
+ 827 031e 44       		.byte	68
+ 828 031f 05       		.byte	5
+ 829 0320 46       		.byte	70
+ 830 0321 0E       		.byte	14
+ 831 0322 47       		.byte	71
+ 832 0323 0C       		.byte	12
+ 833 0324 48       		.byte	72
+ 834 0325 14       		.byte	20
+ 835 0326 49       		.byte	73
+ 836 0327 FF       		.byte	-1
+ 837 0328 4A       		.byte	74
+ 838 0329 FF       		.byte	-1
+ 839 032a 4B       		.byte	75
+ 840 032b FF       		.byte	-1
+ 841 032c 4C       		.byte	76
+ 842 032d 62       		.byte	98
+ 843 032e 4D       		.byte	77
+ 844 032f A0       		.byte	-96
+ 845 0330 4E       		.byte	78
+ 846 0331 F0       		.byte	-16
+ 847 0332 4F       		.byte	79
+ 848 0333 41       		.byte	65
+ 849 0334 50       		.byte	80
+ 850 0335 0C       		.byte	12
+ 851 0336 56       		.byte	86
+ 852 0337 02       		.byte	2
+ 853 0338 57       		.byte	87
+ 854 0339 12       		.byte	18
+ 855 033a 58       		.byte	88
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 16
+
+
+ 856 033b 04       		.byte	4
+ 857 033c 59       		.byte	89
+ 858 033d 04       		.byte	4
+ 859 033e 5A       		.byte	90
+ 860 033f 04       		.byte	4
+ 861 0340 5B       		.byte	91
+ 862 0341 04       		.byte	4
+ 863 0342 5C       		.byte	92
+ 864 0343 11       		.byte	17
+ 865 0344 5D       		.byte	93
+ 866 0345 10       		.byte	16
+ 867 0346 5F       		.byte	95
+ 868 0347 01       		.byte	1
+ 869 0348 66       		.byte	102
+ 870 0349 40       		.byte	64
+ 871 034a 67       		.byte	103
+ 872 034b 02       		.byte	2
+ 873 034c 69       		.byte	105
+ 874 034d 10       		.byte	16
+ 875 034e 6A       		.byte	106
+ 876 034f 30       		.byte	48
+ 877 0350 6B       		.byte	107
+ 878 0351 10       		.byte	16
+ 879 0352 6D       		.byte	109
+ 880 0353 10       		.byte	16
+ 881 0354 6E       		.byte	110
+ 882 0355 10       		.byte	16
+ 883 0356 6F       		.byte	111
+ 884 0357 12       		.byte	18
+ 885 0358 81       		.byte	-127
+ 886 0359 20       		.byte	32
+ 887 035a 85       		.byte	-123
+ 888 035b 10       		.byte	16
+ 889 035c 89       		.byte	-119
+ 890 035d 30       		.byte	48
+ 891 035e 8F       		.byte	-113
+ 892 035f 0F       		.byte	15
+ 893 0360 91       		.byte	-111
+ 894 0361 7C       		.byte	124
+ 895 0362 93       		.byte	-109
+ 896 0363 03       		.byte	3
+ 897 0364 95       		.byte	-107
+ 898 0365 05       		.byte	5
+ 899 0366 99       		.byte	-103
+ 900 0367 0A       		.byte	10
+ 901 0368 9D       		.byte	-99
+ 902 0369 4F       		.byte	79
+ 903 036a 9F       		.byte	-97
+ 904 036b 30       		.byte	48
+ 905 036c A1       		.byte	-95
+ 906 036d 0F       		.byte	15
+ 907 036e A5       		.byte	-91
+ 908 036f 70       		.byte	112
+ 909 0370 A7       		.byte	-89
+ 910 0371 0F       		.byte	15
+ 911 0372 AD       		.byte	-83
+ 912 0373 7F       		.byte	127
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 17
+
+
+ 913 0374 B1       		.byte	-79
+ 914 0375 3C       		.byte	60
+ 915 0376 B5       		.byte	-75
+ 916 0377 40       		.byte	64
+ 917 0378 B7       		.byte	-73
+ 918 0379 03       		.byte	3
+ 919 037a BB       		.byte	-69
+ 920 037b 02       		.byte	2
+ 921 037c BF       		.byte	-65
+ 922 037d 10       		.byte	16
+ 923 037e D6       		.byte	-42
+ 924 037f 02       		.byte	2
+ 925 0380 D7       		.byte	-41
+ 926 0381 12       		.byte	18
+ 927 0382 D9       		.byte	-39
+ 928 0383 04       		.byte	4
+ 929 0384 DB       		.byte	-37
+ 930 0385 04       		.byte	4
+ 931 0386 DC       		.byte	-36
+ 932 0387 20       		.byte	32
+ 933 0388 DD       		.byte	-35
+ 934 0389 20       		.byte	32
+ 935 038a DF       		.byte	-33
+ 936 038b 01       		.byte	1
+ 937 038c 00       		.byte	0
+ 938 038d 90       		.byte	-112
+ 939 038e 01       		.byte	1
+ 940 038f 20       		.byte	32
+ 941 0390 02       		.byte	2
+ 942 0391 A0       		.byte	-96
+ 943 0392 0A       		.byte	10
+ 944 0393 81       		.byte	-127
+ 945 0394 0B       		.byte	11
+ 946 0395 20       		.byte	32
+ 947 0396 10       		.byte	16
+ 948 0397 A9       		.byte	-87
+ 949 0398 18       		.byte	24
+ 950 0399 10       		.byte	16
+ 951 039a 19       		.byte	25
+ 952 039b 02       		.byte	2
+ 953 039c 1A       		.byte	26
+ 954 039d 06       		.byte	6
+ 955 039e 20       		.byte	32
+ 956 039f 80       		.byte	-128
+ 957 03a0 21       		.byte	33
+ 958 03a1 21       		.byte	33
+ 959 03a2 24       		.byte	36
+ 960 03a3 04       		.byte	4
+ 961 03a4 27       		.byte	39
+ 962 03a5 42       		.byte	66
+ 963 03a6 29       		.byte	41
+ 964 03a7 40       		.byte	64
+ 965 03a8 2D       		.byte	45
+ 966 03a9 01       		.byte	1
+ 967 03aa 2F       		.byte	47
+ 968 03ab 22       		.byte	34
+ 969 03ac 30       		.byte	48
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 18
+
+
+ 970 03ad 02       		.byte	2
+ 971 03ae 31       		.byte	49
+ 972 03af 04       		.byte	4
+ 973 03b0 36       		.byte	54
+ 974 03b1 15       		.byte	21
+ 975 03b2 37       		.byte	55
+ 976 03b3 40       		.byte	64
+ 977 03b4 39       		.byte	57
+ 978 03b5 14       		.byte	20
+ 979 03b6 3D       		.byte	61
+ 980 03b7 40       		.byte	64
+ 981 03b8 3E       		.byte	62
+ 982 03b9 2A       		.byte	42
+ 983 03ba 41       		.byte	65
+ 984 03bb 94       		.byte	-108
+ 985 03bc 48       		.byte	72
+ 986 03bd 01       		.byte	1
+ 987 03be 4A       		.byte	74
+ 988 03bf 08       		.byte	8
+ 989 03c0 50       		.byte	80
+ 990 03c1 04       		.byte	4
+ 991 03c2 53       		.byte	83
+ 992 03c3 40       		.byte	64
+ 993 03c4 5A       		.byte	90
+ 994 03c5 04       		.byte	4
+ 995 03c6 5C       		.byte	92
+ 996 03c7 04       		.byte	4
+ 997 03c8 5D       		.byte	93
+ 998 03c9 40       		.byte	64
+ 999 03ca 5E       		.byte	94
+ 1000 03cb 80       		.byte	-128
+ 1001 03cc 68       		.byte	104
+ 1002 03cd 02       		.byte	2
+ 1003 03ce 69       		.byte	105
+ 1004 03cf 14       		.byte	20
+ 1005 03d0 6D       		.byte	109
+ 1006 03d1 28       		.byte	40
+ 1007 03d2 6E       		.byte	110
+ 1008 03d3 40       		.byte	64
+ 1009 03d4 70       		.byte	112
+ 1010 03d5 A8       		.byte	-88
+ 1011 03d6 76       		.byte	118
+ 1012 03d7 2A       		.byte	42
+ 1013 03d8 77       		.byte	119
+ 1014 03d9 18       		.byte	24
+ 1015 03da 87       		.byte	-121
+ 1016 03db 12       		.byte	18
+ 1017 03dc 91       		.byte	-111
+ 1018 03dd 01       		.byte	1
+ 1019 03de 93       		.byte	-109
+ 1020 03df 24       		.byte	36
+ 1021 03e0 94       		.byte	-108
+ 1022 03e1 20       		.byte	32
+ 1023 03e2 95       		.byte	-107
+ 1024 03e3 16       		.byte	22
+ 1025 03e4 96       		.byte	-106
+ 1026 03e5 53       		.byte	83
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 19
+
+
+ 1027 03e6 97       		.byte	-105
+ 1028 03e7 10       		.byte	16
+ 1029 03e8 98       		.byte	-104
+ 1030 03e9 C5       		.byte	-59
+ 1031 03ea 99       		.byte	-103
+ 1032 03eb 04       		.byte	4
+ 1033 03ec 9C       		.byte	-100
+ 1034 03ed 20       		.byte	32
+ 1035 03ee 9D       		.byte	-99
+ 1036 03ef A0       		.byte	-96
+ 1037 03f0 9F       		.byte	-97
+ 1038 03f1 44       		.byte	68
+ 1039 03f2 A0       		.byte	-96
+ 1040 03f3 01       		.byte	1
+ 1041 03f4 A1       		.byte	-95
+ 1042 03f5 02       		.byte	2
+ 1043 03f6 A2       		.byte	-94
+ 1044 03f7 76       		.byte	118
+ 1045 03f8 A3       		.byte	-93
+ 1046 03f9 55       		.byte	85
+ 1047 03fa A5       		.byte	-91
+ 1048 03fb 14       		.byte	20
+ 1049 03fc A8       		.byte	-88
+ 1050 03fd 10       		.byte	16
+ 1051 03fe AA       		.byte	-86
+ 1052 03ff 24       		.byte	36
+ 1053 0400 AB       		.byte	-85
+ 1054 0401 20       		.byte	32
+ 1055 0402 AC       		.byte	-84
+ 1056 0403 C8       		.byte	-56
+ 1057 0404 AE       		.byte	-82
+ 1058 0405 40       		.byte	64
+ 1059 0406 B5       		.byte	-75
+ 1060 0407 08       		.byte	8
+ 1061 0408 C0       		.byte	-64
+ 1062 0409 0F       		.byte	15
+ 1063 040a C2       		.byte	-62
+ 1064 040b 0D       		.byte	13
+ 1065 040c C4       		.byte	-60
+ 1066 040d 0F       		.byte	15
+ 1067 040e CA       		.byte	-54
+ 1068 040f D8       		.byte	-40
+ 1069 0410 CC       		.byte	-52
+ 1070 0411 F3       		.byte	-13
+ 1071 0412 CE       		.byte	-50
+ 1072 0413 F6       		.byte	-10
+ 1073 0414 D0       		.byte	-48
+ 1074 0415 0E       		.byte	14
+ 1075 0416 D2       		.byte	-46
+ 1076 0417 0C       		.byte	12
+ 1077 0418 D6       		.byte	-42
+ 1078 0419 42       		.byte	66
+ 1079 041a E2       		.byte	-30
+ 1080 041b 10       		.byte	16
+ 1081 041c E8       		.byte	-24
+ 1082 041d 90       		.byte	-112
+ 1083 041e 00       		.byte	0
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 20
+
+
+ 1084 041f E7       		.byte	-25
+ 1085 0420 02       		.byte	2
+ 1086 0421 18       		.byte	24
+ 1087 0422 04       		.byte	4
+ 1088 0423 1C       		.byte	28
+ 1089 0424 05       		.byte	5
+ 1090 0425 01       		.byte	1
+ 1091 0426 06       		.byte	6
+ 1092 0427 E1       		.byte	-31
+ 1093 0428 08       		.byte	8
+ 1094 0429 3C       		.byte	60
+ 1095 042a 0A       		.byte	10
+ 1096 042b C2       		.byte	-62
+ 1097 042c 0C       		.byte	12
+ 1098 042d 10       		.byte	16
+ 1099 042e 0D       		.byte	13
+ 1100 042f 01       		.byte	1
+ 1101 0430 12       		.byte	18
+ 1102 0431 63       		.byte	99
+ 1103 0432 15       		.byte	21
+ 1104 0433 01       		.byte	1
+ 1105 0434 16       		.byte	22
+ 1106 0435 04       		.byte	4
+ 1107 0436 18       		.byte	24
+ 1108 0437 04       		.byte	4
+ 1109 0438 20       		.byte	32
+ 1110 0439 FF       		.byte	-1
+ 1111 043a 24       		.byte	36
+ 1112 043b 08       		.byte	8
+ 1113 043c 28       		.byte	40
+ 1114 043d 18       		.byte	24
+ 1115 043e 30       		.byte	48
+ 1116 043f 80       		.byte	-128
+ 1117 0440 32       		.byte	50
+ 1118 0441 38       		.byte	56
+ 1119 0442 33       		.byte	51
+ 1120 0443 01       		.byte	1
+ 1121 0444 34       		.byte	52
+ 1122 0445 1F       		.byte	31
+ 1123 0446 36       		.byte	54
+ 1124 0447 58       		.byte	88
+ 1125 0448 38       		.byte	56
+ 1126 0449 02       		.byte	2
+ 1127 044a 3A       		.byte	58
+ 1128 044b A0       		.byte	-96
+ 1129 044c 56       		.byte	86
+ 1130 044d 02       		.byte	2
+ 1131 044e 57       		.byte	87
+ 1132 044f 11       		.byte	17
+ 1133 0450 58       		.byte	88
+ 1134 0451 04       		.byte	4
+ 1135 0452 59       		.byte	89
+ 1136 0453 04       		.byte	4
+ 1137 0454 5B       		.byte	91
+ 1138 0455 04       		.byte	4
+ 1139 0456 5C       		.byte	92
+ 1140 0457 02       		.byte	2
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 21
+
+
+ 1141 0458 5F       		.byte	95
+ 1142 0459 01       		.byte	1
+ 1143 045a 81       		.byte	-127
+ 1144 045b 08       		.byte	8
+ 1145 045c 84       		.byte	-124
+ 1146 045d 7F       		.byte	127
+ 1147 045e 85       		.byte	-123
+ 1148 045f FF       		.byte	-1
+ 1149 0460 88       		.byte	-120
+ 1150 0461 67       		.byte	103
+ 1151 0462 89       		.byte	-119
+ 1152 0463 0C       		.byte	12
+ 1153 0464 8A       		.byte	-118
+ 1154 0465 18       		.byte	24
+ 1155 0466 8D       		.byte	-115
+ 1156 0467 1F       		.byte	31
+ 1157 0468 8E       		.byte	-114
+ 1158 0469 23       		.byte	35
+ 1159 046a 8F       		.byte	-113
+ 1160 046b E0       		.byte	-32
+ 1161 046c 90       		.byte	-112
+ 1162 046d 1C       		.byte	28
+ 1163 046e 91       		.byte	-111
+ 1164 046f C3       		.byte	-61
+ 1165 0470 92       		.byte	-110
+ 1166 0471 62       		.byte	98
+ 1167 0472 94       		.byte	-108
+ 1168 0473 04       		.byte	4
+ 1169 0474 97       		.byte	-105
+ 1170 0475 E3       		.byte	-29
+ 1171 0476 98       		.byte	-104
+ 1172 0477 1C       		.byte	28
+ 1173 0478 99       		.byte	-103
+ 1174 0479 F3       		.byte	-13
+ 1175 047a 9A       		.byte	-102
+ 1176 047b 61       		.byte	97
+ 1177 047c 9B       		.byte	-101
+ 1178 047d 0C       		.byte	12
+ 1179 047e 9E       		.byte	-98
+ 1180 047f 04       		.byte	4
+ 1181 0480 A0       		.byte	-96
+ 1182 0481 10       		.byte	16
+ 1183 0482 A1       		.byte	-95
+ 1184 0483 41       		.byte	65
+ 1185 0484 A4       		.byte	-92
+ 1186 0485 08       		.byte	8
+ 1187 0486 A5       		.byte	-91
+ 1188 0487 04       		.byte	4
+ 1189 0488 A8       		.byte	-88
+ 1190 0489 18       		.byte	24
+ 1191 048a A9       		.byte	-87
+ 1192 048b 82       		.byte	-126
+ 1193 048c AD       		.byte	-83
+ 1194 048d 3C       		.byte	60
+ 1195 048e AF       		.byte	-81
+ 1196 048f C3       		.byte	-61
+ 1197 0490 B0       		.byte	-80
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 22
+
+
+ 1198 0491 1F       		.byte	31
+ 1199 0492 B1       		.byte	-79
+ 1200 0493 C0       		.byte	-64
+ 1201 0494 B3       		.byte	-77
+ 1202 0495 10       		.byte	16
+ 1203 0496 B4       		.byte	-76
+ 1204 0497 38       		.byte	56
+ 1205 0498 B5       		.byte	-75
+ 1206 0499 0F       		.byte	15
+ 1207 049a B6       		.byte	-74
+ 1208 049b 40       		.byte	64
+ 1209 049c B7       		.byte	-73
+ 1210 049d 2C       		.byte	44
+ 1211 049e B8       		.byte	-72
+ 1212 049f 80       		.byte	-128
+ 1213 04a0 BA       		.byte	-70
+ 1214 04a1 22       		.byte	34
+ 1215 04a2 BB       		.byte	-69
+ 1216 04a3 20       		.byte	32
+ 1217 04a4 BF       		.byte	-65
+ 1218 04a5 04       		.byte	4
+ 1219 04a6 D4       		.byte	-44
+ 1220 04a7 18       		.byte	24
+ 1221 04a8 D8       		.byte	-40
+ 1222 04a9 04       		.byte	4
+ 1223 04aa D9       		.byte	-39
+ 1224 04ab 04       		.byte	4
+ 1225 04ac DB       		.byte	-37
+ 1226 04ad 04       		.byte	4
+ 1227 04ae DC       		.byte	-36
+ 1228 04af 01       		.byte	1
+ 1229 04b0 DD       		.byte	-35
+ 1230 04b1 10       		.byte	16
+ 1231 04b2 DF       		.byte	-33
+ 1232 04b3 01       		.byte	1
+ 1233 04b4 00       		.byte	0
+ 1234 04b5 80       		.byte	-128
+ 1235 04b6 01       		.byte	1
+ 1236 04b7 20       		.byte	32
+ 1237 04b8 02       		.byte	2
+ 1238 04b9 20       		.byte	32
+ 1239 04ba 05       		.byte	5
+ 1240 04bb 14       		.byte	20
+ 1241 04bc 06       		.byte	6
+ 1242 04bd 02       		.byte	2
+ 1243 04be 07       		.byte	7
+ 1244 04bf 40       		.byte	64
+ 1245 04c0 08       		.byte	8
+ 1246 04c1 80       		.byte	-128
+ 1247 04c2 0A       		.byte	10
+ 1248 04c3 88       		.byte	-120
+ 1249 04c4 0B       		.byte	11
+ 1250 04c5 20       		.byte	32
+ 1251 04c6 0E       		.byte	14
+ 1252 04c7 88       		.byte	-120
+ 1253 04c8 0F       		.byte	15
+ 1254 04c9 20       		.byte	32
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 23
+
+
+ 1255 04ca 10       		.byte	16
+ 1256 04cb A8       		.byte	-88
+ 1257 04cc 16       		.byte	22
+ 1258 04cd 80       		.byte	-128
+ 1259 04ce 17       		.byte	23
+ 1260 04cf 18       		.byte	24
+ 1261 04d0 19       		.byte	25
+ 1262 04d1 40       		.byte	64
+ 1263 04d2 1A       		.byte	26
+ 1264 04d3 88       		.byte	-120
+ 1265 04d4 1D       		.byte	29
+ 1266 04d5 10       		.byte	16
+ 1267 04d6 1E       		.byte	30
+ 1268 04d7 22       		.byte	34
+ 1269 04d8 1F       		.byte	31
+ 1270 04d9 21       		.byte	33
+ 1271 04da 21       		.byte	33
+ 1272 04db 90       		.byte	-112
+ 1273 04dc 22       		.byte	34
+ 1274 04dd 11       		.byte	17
+ 1275 04de 23       		.byte	35
+ 1276 04df 10       		.byte	16
+ 1277 04e0 26       		.byte	38
+ 1278 04e1 08       		.byte	8
+ 1279 04e2 28       		.byte	40
+ 1280 04e3 44       		.byte	68
+ 1281 04e4 29       		.byte	41
+ 1282 04e5 80       		.byte	-128
+ 1283 04e6 2A       		.byte	42
+ 1284 04e7 04       		.byte	4
+ 1285 04e8 2E       		.byte	46
+ 1286 04e9 80       		.byte	-128
+ 1287 04ea 2F       		.byte	47
+ 1288 04eb 02       		.byte	2
+ 1289 04ec 31       		.byte	49
+ 1290 04ed 02       		.byte	2
+ 1291 04ee 32       		.byte	50
+ 1292 04ef 18       		.byte	24
+ 1293 04f0 34       		.byte	52
+ 1294 04f1 20       		.byte	32
+ 1295 04f2 36       		.byte	54
+ 1296 04f3 10       		.byte	16
+ 1297 04f4 37       		.byte	55
+ 1298 04f5 04       		.byte	4
+ 1299 04f6 38       		.byte	56
+ 1300 04f7 80       		.byte	-128
+ 1301 04f8 39       		.byte	57
+ 1302 04f9 08       		.byte	8
+ 1303 04fa 3A       		.byte	58
+ 1304 04fb 11       		.byte	17
+ 1305 04fc 3D       		.byte	61
+ 1306 04fd 40       		.byte	64
+ 1307 04fe 3E       		.byte	62
+ 1308 04ff 04       		.byte	4
+ 1309 0500 59       		.byte	89
+ 1310 0501 02       		.byte	2
+ 1311 0502 5F       		.byte	95
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 24
+
+
+ 1312 0503 10       		.byte	16
+ 1313 0504 61       		.byte	97
+ 1314 0505 20       		.byte	32
+ 1315 0506 63       		.byte	99
+ 1316 0507 02       		.byte	2
+ 1317 0508 64       		.byte	100
+ 1318 0509 10       		.byte	16
+ 1319 050a 66       		.byte	102
+ 1320 050b 04       		.byte	4
+ 1321 050c 6C       		.byte	108
+ 1322 050d 10       		.byte	16
+ 1323 050e 6D       		.byte	109
+ 1324 050f 40       		.byte	64
+ 1325 0510 6E       		.byte	110
+ 1326 0511 04       		.byte	4
+ 1327 0512 6F       		.byte	111
+ 1328 0513 04       		.byte	4
+ 1329 0514 74       		.byte	116
+ 1330 0515 04       		.byte	4
+ 1331 0516 76       		.byte	118
+ 1332 0517 15       		.byte	21
+ 1333 0518 84       		.byte	-124
+ 1334 0519 01       		.byte	1
+ 1335 051a 8E       		.byte	-114
+ 1336 051b 02       		.byte	2
+ 1337 051c 90       		.byte	-112
+ 1338 051d 08       		.byte	8
+ 1339 051e 93       		.byte	-109
+ 1340 051f A4       		.byte	-92
+ 1341 0520 94       		.byte	-108
+ 1342 0521 20       		.byte	32
+ 1343 0522 95       		.byte	-107
+ 1344 0523 28       		.byte	40
+ 1345 0524 96       		.byte	-106
+ 1346 0525 81       		.byte	-127
+ 1347 0526 98       		.byte	-104
+ 1348 0527 C4       		.byte	-60
+ 1349 0528 99       		.byte	-103
+ 1350 0529 22       		.byte	34
+ 1351 052a 9A       		.byte	-102
+ 1352 052b 02       		.byte	2
+ 1353 052c 9B       		.byte	-101
+ 1354 052d 5A       		.byte	90
+ 1355 052e 9C       		.byte	-100
+ 1356 052f 20       		.byte	32
+ 1357 0530 9D       		.byte	-99
+ 1358 0531 40       		.byte	64
+ 1359 0532 9F       		.byte	-97
+ 1360 0533 04       		.byte	4
+ 1361 0534 A0       		.byte	-96
+ 1362 0535 E8       		.byte	-24
+ 1363 0536 A1       		.byte	-95
+ 1364 0537 22       		.byte	34
+ 1365 0538 A2       		.byte	-94
+ 1366 0539 46       		.byte	70
+ 1367 053a A3       		.byte	-93
+ 1368 053b 55       		.byte	85
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 25
+
+
+ 1369 053c A5       		.byte	-91
+ 1370 053d 80       		.byte	-128
+ 1371 053e A6       		.byte	-90
+ 1372 053f 89       		.byte	-119
+ 1373 0540 A7       		.byte	-89
+ 1374 0541 22       		.byte	34
+ 1375 0542 A9       		.byte	-87
+ 1376 0543 80       		.byte	-128
+ 1377 0544 B6       		.byte	-74
+ 1378 0545 10       		.byte	16
+ 1379 0546 C0       		.byte	-64
+ 1380 0547 F7       		.byte	-9
+ 1381 0548 C2       		.byte	-62
+ 1382 0549 7F       		.byte	127
+ 1383 054a C4       		.byte	-60
+ 1384 054b 7E       		.byte	126
+ 1385 054c CA       		.byte	-54
+ 1386 054d 0F       		.byte	15
+ 1387 054e CC       		.byte	-52
+ 1388 054f 47       		.byte	71
+ 1389 0550 CE       		.byte	-50
+ 1390 0551 5F       		.byte	95
+ 1391 0552 D6       		.byte	-42
+ 1392 0553 21       		.byte	33
+ 1393 0554 D8       		.byte	-40
+ 1394 0555 0C       		.byte	12
+ 1395 0556 E6       		.byte	-26
+ 1396 0557 08       		.byte	8
+ 1397 0558 EA       		.byte	-22
+ 1398 0559 04       		.byte	4
+ 1399 055a 87       		.byte	-121
+ 1400 055b 01       		.byte	1
+ 1401 055c 8F       		.byte	-113
+ 1402 055d 01       		.byte	1
+ 1403 055e 91       		.byte	-111
+ 1404 055f 02       		.byte	2
+ 1405 0560 93       		.byte	-109
+ 1406 0561 08       		.byte	8
+ 1407 0562 94       		.byte	-108
+ 1408 0563 40       		.byte	64
+ 1409 0564 95       		.byte	-107
+ 1410 0565 08       		.byte	8
+ 1411 0566 97       		.byte	-105
+ 1412 0567 42       		.byte	66
+ 1413 0568 98       		.byte	-104
+ 1414 0569 40       		.byte	64
+ 1415 056a 99       		.byte	-103
+ 1416 056b 02       		.byte	2
+ 1417 056c 9B       		.byte	-101
+ 1418 056d 04       		.byte	4
+ 1419 056e 9C       		.byte	-100
+ 1420 056f 01       		.byte	1
+ 1421 0570 9E       		.byte	-98
+ 1422 0571 18       		.byte	24
+ 1423 0572 9F       		.byte	-97
+ 1424 0573 20       		.byte	32
+ 1425 0574 A0       		.byte	-96
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 26
+
+
+ 1426 0575 10       		.byte	16
+ 1427 0576 A3       		.byte	-93
+ 1428 0577 21       		.byte	33
+ 1429 0578 A5       		.byte	-91
+ 1430 0579 04       		.byte	4
+ 1431 057a A6       		.byte	-90
+ 1432 057b 10       		.byte	16
+ 1433 057c AB       		.byte	-85
+ 1434 057d 10       		.byte	16
+ 1435 057e B7       		.byte	-73
+ 1436 057f 28       		.byte	40
+ 1437 0580 E4       		.byte	-28
+ 1438 0581 10       		.byte	16
+ 1439 0582 EE       		.byte	-18
+ 1440 0583 10       		.byte	16
+ 1441 0584 02       		.byte	2
+ 1442 0585 80       		.byte	-128
+ 1443 0586 04       		.byte	4
+ 1444 0587 28       		.byte	40
+ 1445 0588 05       		.byte	5
+ 1446 0589 01       		.byte	1
+ 1447 058a 06       		.byte	6
+ 1448 058b 13       		.byte	19
+ 1449 058c 0B       		.byte	11
+ 1450 058d 02       		.byte	2
+ 1451 058e 0E       		.byte	14
+ 1452 058f 16       		.byte	22
+ 1453 0590 0F       		.byte	15
+ 1454 0591 02       		.byte	2
+ 1455 0592 10       		.byte	16
+ 1456 0593 16       		.byte	22
+ 1457 0594 11       		.byte	17
+ 1458 0595 08       		.byte	8
+ 1459 0596 12       		.byte	18
+ 1460 0597 29       		.byte	41
+ 1461 0598 14       		.byte	20
+ 1462 0599 28       		.byte	40
+ 1463 059a 16       		.byte	22
+ 1464 059b 15       		.byte	21
+ 1465 059c 1C       		.byte	28
+ 1466 059d 40       		.byte	64
+ 1467 059e 1E       		.byte	30
+ 1468 059f 09       		.byte	9
+ 1469 05a0 23       		.byte	35
+ 1470 05a1 04       		.byte	4
+ 1471 05a2 2A       		.byte	42
+ 1472 05a3 02       		.byte	2
+ 1473 05a4 2E       		.byte	46
+ 1474 05a5 80       		.byte	-128
+ 1475 05a6 30       		.byte	48
+ 1476 05a7 1B       		.byte	27
+ 1477 05a8 31       		.byte	49
+ 1478 05a9 04       		.byte	4
+ 1479 05aa 32       		.byte	50
+ 1480 05ab 07       		.byte	7
+ 1481 05ac 33       		.byte	51
+ 1482 05ad 02       		.byte	2
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 27
+
+
+ 1483 05ae 34       		.byte	52
+ 1484 05af 80       		.byte	-128
+ 1485 05b0 35       		.byte	53
+ 1486 05b1 08       		.byte	8
+ 1487 05b2 36       		.byte	54
+ 1488 05b3 60       		.byte	96
+ 1489 05b4 37       		.byte	55
+ 1490 05b5 01       		.byte	1
+ 1491 05b6 38       		.byte	56
+ 1492 05b7 80       		.byte	-128
+ 1493 05b8 3A       		.byte	58
+ 1494 05b9 0A       		.byte	10
+ 1495 05ba 3E       		.byte	62
+ 1496 05bb 10       		.byte	16
+ 1497 05bc 3F       		.byte	63
+ 1498 05bd 54       		.byte	84
+ 1499 05be 40       		.byte	64
+ 1500 05bf 40       		.byte	64
+ 1501 05c0 41       		.byte	65
+ 1502 05c1 05       		.byte	5
+ 1503 05c2 45       		.byte	69
+ 1504 05c3 D0       		.byte	-48
+ 1505 05c4 46       		.byte	70
+ 1506 05c5 02       		.byte	2
+ 1507 05c6 47       		.byte	71
+ 1508 05c7 01       		.byte	1
+ 1509 05c8 48       		.byte	72
+ 1510 05c9 16       		.byte	22
+ 1511 05ca 49       		.byte	73
+ 1512 05cb FF       		.byte	-1
+ 1513 05cc 4A       		.byte	74
+ 1514 05cd FF       		.byte	-1
+ 1515 05ce 4B       		.byte	75
+ 1516 05cf FF       		.byte	-1
+ 1517 05d0 4D       		.byte	77
+ 1518 05d1 A0       		.byte	-96
+ 1519 05d2 4F       		.byte	79
+ 1520 05d3 04       		.byte	4
+ 1521 05d4 50       		.byte	80
+ 1522 05d5 18       		.byte	24
+ 1523 05d6 52       		.byte	82
+ 1524 05d7 80       		.byte	-128
+ 1525 05d8 58       		.byte	88
+ 1526 05d9 04       		.byte	4
+ 1527 05da 59       		.byte	89
+ 1528 05db 04       		.byte	4
+ 1529 05dc 5A       		.byte	90
+ 1530 05dd 04       		.byte	4
+ 1531 05de 5B       		.byte	91
+ 1532 05df 04       		.byte	4
+ 1533 05e0 5C       		.byte	92
+ 1534 05e1 63       		.byte	99
+ 1535 05e2 5D       		.byte	93
+ 1536 05e3 66       		.byte	102
+ 1537 05e4 5F       		.byte	95
+ 1538 05e5 01       		.byte	1
+ 1539 05e6 60       		.byte	96
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 28
+
+
+ 1540 05e7 40       		.byte	64
+ 1541 05e8 62       		.byte	98
+ 1542 05e9 C0       		.byte	-64
+ 1543 05ea 64       		.byte	100
+ 1544 05eb 40       		.byte	64
+ 1545 05ec 65       		.byte	101
+ 1546 05ed 40       		.byte	64
+ 1547 05ee 66       		.byte	102
+ 1548 05ef C0       		.byte	-64
+ 1549 05f0 68       		.byte	104
+ 1550 05f1 C0       		.byte	-64
+ 1551 05f2 6A       		.byte	106
+ 1552 05f3 C0       		.byte	-64
+ 1553 05f4 6C       		.byte	108
+ 1554 05f5 C0       		.byte	-64
+ 1555 05f6 6E       		.byte	110
+ 1556 05f7 C0       		.byte	-64
+ 1557 05f8 83       		.byte	-125
+ 1558 05f9 12       		.byte	18
+ 1559 05fa 84       		.byte	-124
+ 1560 05fb 32       		.byte	50
+ 1561 05fc 86       		.byte	-122
+ 1562 05fd 0C       		.byte	12
+ 1563 05fe 87       		.byte	-121
+ 1564 05ff 01       		.byte	1
+ 1565 0600 89       		.byte	-119
+ 1566 0601 0C       		.byte	12
+ 1567 0602 8B       		.byte	-117
+ 1568 0603 12       		.byte	18
+ 1569 0604 93       		.byte	-109
+ 1570 0605 01       		.byte	1
+ 1571 0606 94       		.byte	-108
+ 1572 0607 07       		.byte	7
+ 1573 0608 95       		.byte	-107
+ 1574 0609 10       		.byte	16
+ 1575 060a 96       		.byte	-106
+ 1576 060b 18       		.byte	24
+ 1577 060c 97       		.byte	-105
+ 1578 060d 06       		.byte	6
+ 1579 060e 9A       		.byte	-102
+ 1580 060f 20       		.byte	32
+ 1581 0610 9B       		.byte	-101
+ 1582 0611 10       		.byte	16
+ 1583 0612 9E       		.byte	-98
+ 1584 0613 0D       		.byte	13
+ 1585 0614 A4       		.byte	-92
+ 1586 0615 07       		.byte	7
+ 1587 0616 A6       		.byte	-90
+ 1588 0617 38       		.byte	56
+ 1589 0618 A7       		.byte	-89
+ 1590 0619 04       		.byte	4
+ 1591 061a A9       		.byte	-87
+ 1592 061b 10       		.byte	16
+ 1593 061c AB       		.byte	-85
+ 1594 061d 0A       		.byte	10
+ 1595 061e AE       		.byte	-82
+ 1596 061f 30       		.byte	48
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 29
+
+
+ 1597 0620 AF       		.byte	-81
+ 1598 0621 0C       		.byte	12
+ 1599 0622 B2       		.byte	-78
+ 1600 0623 3C       		.byte	60
+ 1601 0624 B3       		.byte	-77
+ 1602 0625 10       		.byte	16
+ 1603 0626 B4       		.byte	-76
+ 1604 0627 03       		.byte	3
+ 1605 0628 B5       		.byte	-75
+ 1606 0629 0E       		.byte	14
+ 1607 062a B7       		.byte	-73
+ 1608 062b 01       		.byte	1
+ 1609 062c B8       		.byte	-72
+ 1610 062d 20       		.byte	32
+ 1611 062e BA       		.byte	-70
+ 1612 062f 08       		.byte	8
+ 1613 0630 BB       		.byte	-69
+ 1614 0631 20       		.byte	32
+ 1615 0632 BE       		.byte	-66
+ 1616 0633 10       		.byte	16
+ 1617 0634 BF       		.byte	-65
+ 1618 0635 44       		.byte	68
+ 1619 0636 C0       		.byte	-64
+ 1620 0637 02       		.byte	2
+ 1621 0638 C6       		.byte	-58
+ 1622 0639 40       		.byte	64
+ 1623 063a C9       		.byte	-55
+ 1624 063b FF       		.byte	-1
+ 1625 063c CA       		.byte	-54
+ 1626 063d 07       		.byte	7
+ 1627 063e CB       		.byte	-53
+ 1628 063f FF       		.byte	-1
+ 1629 0640 CC       		.byte	-52
+ 1630 0641 40       		.byte	64
+ 1631 0642 CD       		.byte	-51
+ 1632 0643 20       		.byte	32
+ 1633 0644 CE       		.byte	-50
+ 1634 0645 F0       		.byte	-16
+ 1635 0646 CF       		.byte	-49
+ 1636 0647 05       		.byte	5
+ 1637 0648 D0       		.byte	-48
+ 1638 0649 08       		.byte	8
+ 1639 064a D8       		.byte	-40
+ 1640 064b 04       		.byte	4
+ 1641 064c D9       		.byte	-39
+ 1642 064d 04       		.byte	4
+ 1643 064e DA       		.byte	-38
+ 1644 064f 04       		.byte	4
+ 1645 0650 DC       		.byte	-36
+ 1646 0651 11       		.byte	17
+ 1647 0652 DD       		.byte	-35
+ 1648 0653 01       		.byte	1
+ 1649 0654 DF       		.byte	-33
+ 1650 0655 01       		.byte	1
+ 1651 0656 E0       		.byte	-32
+ 1652 0657 40       		.byte	64
+ 1653 0658 E1       		.byte	-31
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 30
+
+
+ 1654 0659 A8       		.byte	-88
+ 1655 065a E2       		.byte	-30
+ 1656 065b 40       		.byte	64
+ 1657 065c E3       		.byte	-29
+ 1658 065d 20       		.byte	32
+ 1659 065e 01       		.byte	1
+ 1660 065f 88       		.byte	-120
+ 1661 0660 02       		.byte	2
+ 1662 0661 40       		.byte	64
+ 1663 0662 05       		.byte	5
+ 1664 0663 04       		.byte	4
+ 1665 0664 09       		.byte	9
+ 1666 0665 40       		.byte	64
+ 1667 0666 0A       		.byte	10
+ 1668 0667 60       		.byte	96
+ 1669 0668 0C       		.byte	12
+ 1670 0669 28       		.byte	40
+ 1671 066a 0E       		.byte	14
+ 1672 066b 20       		.byte	32
+ 1673 066c 0F       		.byte	15
+ 1674 066d 02       		.byte	2
+ 1675 066e 11       		.byte	17
+ 1676 066f 20       		.byte	32
+ 1677 0670 12       		.byte	18
+ 1678 0671 02       		.byte	2
+ 1679 0672 15       		.byte	21
+ 1680 0673 40       		.byte	64
+ 1681 0674 17       		.byte	23
+ 1682 0675 04       		.byte	4
+ 1683 0676 18       		.byte	24
+ 1684 0677 04       		.byte	4
+ 1685 0678 19       		.byte	25
+ 1686 0679 C8       		.byte	-56
+ 1687 067a 1A       		.byte	26
+ 1688 067b 50       		.byte	80
+ 1689 067c 1C       		.byte	28
+ 1690 067d 20       		.byte	32
+ 1691 067e 1D       		.byte	29
+ 1692 067f 24       		.byte	36
+ 1693 0680 21       		.byte	33
+ 1694 0681 42       		.byte	66
+ 1695 0682 22       		.byte	34
+ 1696 0683 06       		.byte	6
+ 1697 0684 23       		.byte	35
+ 1698 0685 08       		.byte	8
+ 1699 0686 25       		.byte	37
+ 1700 0687 80       		.byte	-128
+ 1701 0688 27       		.byte	39
+ 1702 0689 14       		.byte	20
+ 1703 068a 29       		.byte	41
+ 1704 068b 01       		.byte	1
+ 1705 068c 2C       		.byte	44
+ 1706 068d 08       		.byte	8
+ 1707 068e 2D       		.byte	45
+ 1708 068f 40       		.byte	64
+ 1709 0690 2F       		.byte	47
+ 1710 0691 21       		.byte	33
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 31
+
+
+ 1711 0692 32       		.byte	50
+ 1712 0693 01       		.byte	1
+ 1713 0694 34       		.byte	52
+ 1714 0695 01       		.byte	1
+ 1715 0696 37       		.byte	55
+ 1716 0697 24       		.byte	36
+ 1717 0698 3A       		.byte	58
+ 1718 0699 18       		.byte	24
+ 1719 069a 3B       		.byte	59
+ 1720 069b 40       		.byte	64
+ 1721 069c 3C       		.byte	60
+ 1722 069d 20       		.byte	32
+ 1723 069e 3D       		.byte	61
+ 1724 069f 08       		.byte	8
+ 1725 06a0 3F       		.byte	63
+ 1726 06a1 02       		.byte	2
+ 1727 06a2 41       		.byte	65
+ 1728 06a3 02       		.byte	2
+ 1729 06a4 43       		.byte	67
+ 1730 06a5 02       		.byte	2
+ 1731 06a6 45       		.byte	69
+ 1732 06a7 20       		.byte	32
+ 1733 06a8 4B       		.byte	75
+ 1734 06a9 81       		.byte	-127
+ 1735 06aa 4F       		.byte	79
+ 1736 06ab 02       		.byte	2
+ 1737 06ac 51       		.byte	81
+ 1738 06ad 08       		.byte	8
+ 1739 06ae 52       		.byte	82
+ 1740 06af 40       		.byte	64
+ 1741 06b0 53       		.byte	83
+ 1742 06b1 40       		.byte	64
+ 1743 06b2 54       		.byte	84
+ 1744 06b3 20       		.byte	32
+ 1745 06b4 57       		.byte	87
+ 1746 06b5 20       		.byte	32
+ 1747 06b6 71       		.byte	113
+ 1748 06b7 01       		.byte	1
+ 1749 06b8 88       		.byte	-120
+ 1750 06b9 40       		.byte	64
+ 1751 06ba 8A       		.byte	-118
+ 1752 06bb 04       		.byte	4
+ 1753 06bc 8D       		.byte	-115
+ 1754 06bd C0       		.byte	-64
+ 1755 06be 91       		.byte	-111
+ 1756 06bf 02       		.byte	2
+ 1757 06c0 92       		.byte	-110
+ 1758 06c1 22       		.byte	34
+ 1759 06c2 93       		.byte	-109
+ 1760 06c3 08       		.byte	8
+ 1761 06c4 94       		.byte	-108
+ 1762 06c5 44       		.byte	68
+ 1763 06c6 95       		.byte	-107
+ 1764 06c7 08       		.byte	8
+ 1765 06c8 96       		.byte	-106
+ 1766 06c9 50       		.byte	80
+ 1767 06ca 97       		.byte	-105
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 32
+
+
+ 1768 06cb 01       		.byte	1
+ 1769 06cc 99       		.byte	-103
+ 1770 06cd 02       		.byte	2
+ 1771 06ce 9C       		.byte	-100
+ 1772 06cf 01       		.byte	1
+ 1773 06d0 9D       		.byte	-99
+ 1774 06d1 40       		.byte	64
+ 1775 06d2 A1       		.byte	-95
+ 1776 06d3 50       		.byte	80
+ 1777 06d4 A5       		.byte	-91
+ 1778 06d5 08       		.byte	8
+ 1779 06d6 A7       		.byte	-89
+ 1780 06d7 02       		.byte	2
+ 1781 06d8 AB       		.byte	-85
+ 1782 06d9 40       		.byte	64
+ 1783 06da B3       		.byte	-77
+ 1784 06db 20       		.byte	32
+ 1785 06dc B5       		.byte	-75
+ 1786 06dd 10       		.byte	16
+ 1787 06de B7       		.byte	-73
+ 1788 06df 08       		.byte	8
+ 1789 06e0 C0       		.byte	-64
+ 1790 06e1 2D       		.byte	45
+ 1791 06e2 C2       		.byte	-62
+ 1792 06e3 ED       		.byte	-19
+ 1793 06e4 C4       		.byte	-60
+ 1794 06e5 A3       		.byte	-93
+ 1795 06e6 CA       		.byte	-54
+ 1796 06e7 71       		.byte	113
+ 1797 06e8 CC       		.byte	-52
+ 1798 06e9 E1       		.byte	-31
+ 1799 06ea CE       		.byte	-50
+ 1800 06eb EE       		.byte	-18
+ 1801 06ec D0       		.byte	-48
+ 1802 06ed 21       		.byte	33
+ 1803 06ee D2       		.byte	-46
+ 1804 06ef 08       		.byte	8
+ 1805 06f0 E2       		.byte	-30
+ 1806 06f1 10       		.byte	16
+ 1807 06f2 E8       		.byte	-24
+ 1808 06f3 94       		.byte	-108
+ 1809 06f4 EA       		.byte	-22
+ 1810 06f5 40       		.byte	64
+ 1811 06f6 04       		.byte	4
+ 1812 06f7 04       		.byte	4
+ 1813 06f8 13       		.byte	19
+ 1814 06f9 07       		.byte	7
+ 1815 06fa 16       		.byte	22
+ 1816 06fb 06       		.byte	6
+ 1817 06fc 17       		.byte	23
+ 1818 06fd 04       		.byte	4
+ 1819 06fe 24       		.byte	36
+ 1820 06ff 01       		.byte	1
+ 1821 0700 27       		.byte	39
+ 1822 0701 01       		.byte	1
+ 1823 0702 2B       		.byte	43
+ 1824 0703 02       		.byte	2
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 33
+
+
+ 1825 0704 30       		.byte	48
+ 1826 0705 04       		.byte	4
+ 1827 0706 31       		.byte	49
+ 1828 0707 01       		.byte	1
+ 1829 0708 32       		.byte	50
+ 1830 0709 02       		.byte	2
+ 1831 070a 34       		.byte	52
+ 1832 070b 01       		.byte	1
+ 1833 070c 35       		.byte	53
+ 1834 070d 02       		.byte	2
+ 1835 070e 37       		.byte	55
+ 1836 070f 04       		.byte	4
+ 1837 0710 3E       		.byte	62
+ 1838 0711 10       		.byte	16
+ 1839 0712 3F       		.byte	63
+ 1840 0713 51       		.byte	81
+ 1841 0714 40       		.byte	64
+ 1842 0715 06       		.byte	6
+ 1843 0716 46       		.byte	70
+ 1844 0717 40       		.byte	64
+ 1845 0718 49       		.byte	73
+ 1846 0719 FF       		.byte	-1
+ 1847 071a 4A       		.byte	74
+ 1848 071b 07       		.byte	7
+ 1849 071c 4B       		.byte	75
+ 1850 071d FF       		.byte	-1
+ 1851 071e 4C       		.byte	76
+ 1852 071f 40       		.byte	64
+ 1853 0720 4D       		.byte	77
+ 1854 0721 20       		.byte	32
+ 1855 0722 4E       		.byte	78
+ 1856 0723 F0       		.byte	-16
+ 1857 0724 4F       		.byte	79
+ 1858 0725 05       		.byte	5
+ 1859 0726 50       		.byte	80
+ 1860 0727 08       		.byte	8
+ 1861 0728 54       		.byte	84
+ 1862 0729 05       		.byte	5
+ 1863 072a 58       		.byte	88
+ 1864 072b 04       		.byte	4
+ 1865 072c 59       		.byte	89
+ 1866 072d 04       		.byte	4
+ 1867 072e 5A       		.byte	90
+ 1868 072f 04       		.byte	4
+ 1869 0730 5B       		.byte	91
+ 1870 0731 04       		.byte	4
+ 1871 0732 5C       		.byte	92
+ 1872 0733 06       		.byte	6
+ 1873 0734 5D       		.byte	93
+ 1874 0735 63       		.byte	99
+ 1875 0736 5F       		.byte	95
+ 1876 0737 01       		.byte	1
+ 1877 0738 60       		.byte	96
+ 1878 0739 40       		.byte	64
+ 1879 073a 61       		.byte	97
+ 1880 073b A8       		.byte	-88
+ 1881 073c 62       		.byte	98
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 34
+
+
+ 1882 073d 40       		.byte	64
+ 1883 073e 63       		.byte	99
+ 1884 073f 20       		.byte	32
+ 1885 0740 88       		.byte	-120
+ 1886 0741 1F       		.byte	31
+ 1887 0742 89       		.byte	-119
+ 1888 0743 10       		.byte	16
+ 1889 0744 8A       		.byte	-118
+ 1890 0745 60       		.byte	96
+ 1891 0746 8C       		.byte	-116
+ 1892 0747 80       		.byte	-128
+ 1893 0748 8D       		.byte	-115
+ 1894 0749 20       		.byte	32
+ 1895 074a 90       		.byte	-112
+ 1896 074b 52       		.byte	82
+ 1897 074c 92       		.byte	-110
+ 1898 074d 24       		.byte	36
+ 1899 074e 93       		.byte	-109
+ 1900 074f 03       		.byte	3
+ 1901 0750 94       		.byte	-108
+ 1902 0751 1F       		.byte	31
+ 1903 0752 95       		.byte	-107
+ 1904 0753 14       		.byte	20
+ 1905 0754 96       		.byte	-106
+ 1906 0755 20       		.byte	32
+ 1907 0756 99       		.byte	-103
+ 1908 0757 10       		.byte	16
+ 1909 0758 9B       		.byte	-101
+ 1910 0759 0C       		.byte	12
+ 1911 075a 9D       		.byte	-99
+ 1912 075b 09       		.byte	9
+ 1913 075c 9E       		.byte	-98
+ 1914 075d 2D       		.byte	45
+ 1915 075e 9F       		.byte	-97
+ 1916 075f 10       		.byte	16
+ 1917 0760 A2       		.byte	-94
+ 1918 0761 40       		.byte	64
+ 1919 0762 A4       		.byte	-92
+ 1920 0763 18       		.byte	24
+ 1921 0764 A6       		.byte	-90
+ 1922 0765 24       		.byte	36
+ 1923 0766 A9       		.byte	-87
+ 1924 0767 0C       		.byte	12
+ 1925 0768 AB       		.byte	-85
+ 1926 0769 11       		.byte	17
+ 1927 076a AD       		.byte	-83
+ 1928 076b 1C       		.byte	28
+ 1929 076c AF       		.byte	-81
+ 1930 076d 02       		.byte	2
+ 1931 076e B0       		.byte	-80
+ 1932 076f 04       		.byte	4
+ 1933 0770 B1       		.byte	-79
+ 1934 0771 1F       		.byte	31
+ 1935 0772 B2       		.byte	-78
+ 1936 0773 78       		.byte	120
+ 1937 0774 B3       		.byte	-77
+ 1938 0775 20       		.byte	32
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 35
+
+
+ 1939 0776 B4       		.byte	-76
+ 1940 0777 03       		.byte	3
+ 1941 0778 B6       		.byte	-74
+ 1942 0779 80       		.byte	-128
+ 1943 077a B8       		.byte	-72
+ 1944 077b 20       		.byte	32
+ 1945 077c BA       		.byte	-70
+ 1946 077d 08       		.byte	8
+ 1947 077e BE       		.byte	-66
+ 1948 077f 51       		.byte	81
+ 1949 0780 BF       		.byte	-65
+ 1950 0781 04       		.byte	4
+ 1951 0782 C0       		.byte	-64
+ 1952 0783 34       		.byte	52
+ 1953 0784 C1       		.byte	-63
+ 1954 0785 02       		.byte	2
+ 1955 0786 C5       		.byte	-59
+ 1956 0787 0C       		.byte	12
+ 1957 0788 C6       		.byte	-58
+ 1958 0789 0E       		.byte	14
+ 1959 078a C7       		.byte	-57
+ 1960 078b 0B       		.byte	11
+ 1961 078c C8       		.byte	-56
+ 1962 078d 15       		.byte	21
+ 1963 078e C9       		.byte	-55
+ 1964 078f FF       		.byte	-1
+ 1965 0790 CA       		.byte	-54
+ 1966 0791 FF       		.byte	-1
+ 1967 0792 CB       		.byte	-53
+ 1968 0793 FF       		.byte	-1
+ 1969 0794 CE       		.byte	-50
+ 1970 0795 F0       		.byte	-16
+ 1971 0796 CF       		.byte	-49
+ 1972 0797 44       		.byte	68
+ 1973 0798 D0       		.byte	-48
+ 1974 0799 0C       		.byte	12
+ 1975 079a D4       		.byte	-44
+ 1976 079b 01       		.byte	1
+ 1977 079c D8       		.byte	-40
+ 1978 079d 04       		.byte	4
+ 1979 079e D9       		.byte	-39
+ 1980 079f 04       		.byte	4
+ 1981 07a0 DA       		.byte	-38
+ 1982 07a1 04       		.byte	4
+ 1983 07a2 DB       		.byte	-37
+ 1984 07a3 04       		.byte	4
+ 1985 07a4 DC       		.byte	-36
+ 1986 07a5 33       		.byte	51
+ 1987 07a6 DD       		.byte	-35
+ 1988 07a7 33       		.byte	51
+ 1989 07a8 DF       		.byte	-33
+ 1990 07a9 01       		.byte	1
+ 1991 07aa E6       		.byte	-26
+ 1992 07ab C0       		.byte	-64
+ 1993 07ac EA       		.byte	-22
+ 1994 07ad 40       		.byte	64
+ 1995 07ae EB       		.byte	-21
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 36
+
+
+ 1996 07af 02       		.byte	2
+ 1997 07b0 00       		.byte	0
+ 1998 07b1 50       		.byte	80
+ 1999 07b2 05       		.byte	5
+ 2000 07b3 04       		.byte	4
+ 2001 07b4 08       		.byte	8
+ 2002 07b5 8A       		.byte	-118
+ 2003 07b6 09       		.byte	9
+ 2004 07b7 40       		.byte	64
+ 2005 07b8 0A       		.byte	10
+ 2006 07b9 50       		.byte	80
+ 2007 07ba 0D       		.byte	13
+ 2008 07bb 08       		.byte	8
+ 2009 07bc 10       		.byte	16
+ 2010 07bd 70       		.byte	112
+ 2011 07be 14       		.byte	20
+ 2012 07bf 20       		.byte	32
+ 2013 07c0 15       		.byte	21
+ 2014 07c1 08       		.byte	8
+ 2015 07c2 18       		.byte	24
+ 2016 07c3 10       		.byte	16
+ 2017 07c4 1A       		.byte	26
+ 2018 07c5 A0       		.byte	-96
+ 2019 07c6 1B       		.byte	27
+ 2020 07c7 50       		.byte	80
+ 2021 07c8 1D       		.byte	29
+ 2022 07c9 14       		.byte	20
+ 2023 07ca 1E       		.byte	30
+ 2024 07cb 80       		.byte	-128
+ 2025 07cc 22       		.byte	34
+ 2026 07cd 05       		.byte	5
+ 2027 07ce 25       		.byte	37
+ 2028 07cf 20       		.byte	32
+ 2029 07d0 26       		.byte	38
+ 2030 07d1 80       		.byte	-128
+ 2031 07d2 27       		.byte	39
+ 2032 07d3 80       		.byte	-128
+ 2033 07d4 28       		.byte	40
+ 2034 07d5 0A       		.byte	10
+ 2035 07d6 2E       		.byte	46
+ 2036 07d7 01       		.byte	1
+ 2037 07d8 2F       		.byte	47
+ 2038 07d9 68       		.byte	104
+ 2039 07da 30       		.byte	48
+ 2040 07db 48       		.byte	72
+ 2041 07dc 31       		.byte	49
+ 2042 07dd 40       		.byte	64
+ 2043 07de 32       		.byte	50
+ 2044 07df 11       		.byte	17
+ 2045 07e0 34       		.byte	52
+ 2046 07e1 01       		.byte	1
+ 2047 07e2 37       		.byte	55
+ 2048 07e3 08       		.byte	8
+ 2049 07e4 3A       		.byte	58
+ 2050 07e5 10       		.byte	16
+ 2051 07e6 3B       		.byte	59
+ 2052 07e7 80       		.byte	-128
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 37
+
+
+ 2053 07e8 40       		.byte	64
+ 2054 07e9 98       		.byte	-104
+ 2055 07ea 48       		.byte	72
+ 2056 07eb 20       		.byte	32
+ 2057 07ec 4F       		.byte	79
+ 2058 07ed 20       		.byte	32
+ 2059 07ee 50       		.byte	80
+ 2060 07ef 08       		.byte	8
+ 2061 07f0 53       		.byte	83
+ 2062 07f1 40       		.byte	64
+ 2063 07f2 55       		.byte	85
+ 2064 07f3 50       		.byte	80
+ 2065 07f4 56       		.byte	86
+ 2066 07f5 10       		.byte	16
+ 2067 07f6 58       		.byte	88
+ 2068 07f7 10       		.byte	16
+ 2069 07f8 5A       		.byte	90
+ 2070 07f9 89       		.byte	-119
+ 2071 07fa 5C       		.byte	92
+ 2072 07fb 04       		.byte	4
+ 2073 07fc 5E       		.byte	94
+ 2074 07fd 80       		.byte	-128
+ 2075 07fe 5F       		.byte	95
+ 2076 07ff 01       		.byte	1
+ 2077 0800 81       		.byte	-127
+ 2078 0801 20       		.byte	32
+ 2079 0802 83       		.byte	-125
+ 2080 0803 80       		.byte	-128
+ 2081 0804 86       		.byte	-122
+ 2082 0805 80       		.byte	-128
+ 2083 0806 8B       		.byte	-117
+ 2084 0807 04       		.byte	4
+ 2085 0808 8C       		.byte	-116
+ 2086 0809 20       		.byte	32
+ 2087 080a 8F       		.byte	-113
+ 2088 080b 08       		.byte	8
+ 2089 080c 91       		.byte	-111
+ 2090 080d 02       		.byte	2
+ 2091 080e 99       		.byte	-103
+ 2092 080f 02       		.byte	2
+ 2093 0810 A5       		.byte	-91
+ 2094 0811 08       		.byte	8
+ 2095 0812 A7       		.byte	-89
+ 2096 0813 02       		.byte	2
+ 2097 0814 B0       		.byte	-80
+ 2098 0815 20       		.byte	32
+ 2099 0816 B3       		.byte	-77
+ 2100 0817 80       		.byte	-128
+ 2101 0818 B5       		.byte	-75
+ 2102 0819 40       		.byte	64
+ 2103 081a C0       		.byte	-64
+ 2104 081b 23       		.byte	35
+ 2105 081c C2       		.byte	-62
+ 2106 081d 2D       		.byte	45
+ 2107 081e C4       		.byte	-60
+ 2108 081f 2C       		.byte	44
+ 2109 0820 CA       		.byte	-54
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 38
+
+
+ 2110 0821 6C       		.byte	108
+ 2111 0822 CC       		.byte	-52
+ 2112 0823 CF       		.byte	-49
+ 2113 0824 CE       		.byte	-50
+ 2114 0825 0C       		.byte	12
+ 2115 0826 D0       		.byte	-48
+ 2116 0827 07       		.byte	7
+ 2117 0828 D2       		.byte	-46
+ 2118 0829 20       		.byte	32
+ 2119 082a D6       		.byte	-42
+ 2120 082b DF       		.byte	-33
+ 2121 082c E0       		.byte	-32
+ 2122 082d 80       		.byte	-128
+ 2123 082e E2       		.byte	-30
+ 2124 082f 40       		.byte	64
+ 2125 0830 E4       		.byte	-28
+ 2126 0831 40       		.byte	64
+ 2127 0832 06       		.byte	6
+ 2128 0833 08       		.byte	8
+ 2129 0834 0E       		.byte	14
+ 2130 0835 1C       		.byte	28
+ 2131 0836 14       		.byte	20
+ 2132 0837 5C       		.byte	92
+ 2133 0838 16       		.byte	22
+ 2134 0839 03       		.byte	3
+ 2135 083a 17       		.byte	23
+ 2136 083b 01       		.byte	1
+ 2137 083c 18       		.byte	24
+ 2138 083d 61       		.byte	97
+ 2139 083e 1A       		.byte	26
+ 2140 083f 0E       		.byte	14
+ 2141 0840 26       		.byte	38
+ 2142 0841 23       		.byte	35
+ 2143 0842 28       		.byte	40
+ 2144 0843 61       		.byte	97
+ 2145 0844 2A       		.byte	42
+ 2146 0845 16       		.byte	22
+ 2147 0846 2F       		.byte	47
+ 2148 0847 01       		.byte	1
+ 2149 0848 30       		.byte	48
+ 2150 0849 60       		.byte	96
+ 2151 084a 32       		.byte	50
+ 2152 084b 0F       		.byte	15
+ 2153 084c 34       		.byte	52
+ 2154 084d 1A       		.byte	26
+ 2155 084e 35       		.byte	53
+ 2156 084f 01       		.byte	1
+ 2157 0850 38       		.byte	56
+ 2158 0851 02       		.byte	2
+ 2159 0852 3A       		.byte	58
+ 2160 0853 28       		.byte	40
+ 2161 0854 3E       		.byte	62
+ 2162 0855 01       		.byte	1
+ 2163 0856 40       		.byte	64
+ 2164 0857 04       		.byte	4
+ 2165 0858 47       		.byte	71
+ 2166 0859 04       		.byte	4
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 39
+
+
+ 2167 085a 49       		.byte	73
+ 2168 085b FF       		.byte	-1
+ 2169 085c 4A       		.byte	74
+ 2170 085d 07       		.byte	7
+ 2171 085e 4B       		.byte	75
+ 2172 085f FF       		.byte	-1
+ 2173 0860 4C       		.byte	76
+ 2174 0861 40       		.byte	64
+ 2175 0862 4D       		.byte	77
+ 2176 0863 20       		.byte	32
+ 2177 0864 4E       		.byte	78
+ 2178 0865 F0       		.byte	-16
+ 2179 0866 4F       		.byte	79
+ 2180 0867 05       		.byte	5
+ 2181 0868 50       		.byte	80
+ 2182 0869 08       		.byte	8
+ 2183 086a 58       		.byte	88
+ 2184 086b 04       		.byte	4
+ 2185 086c 59       		.byte	89
+ 2186 086d 04       		.byte	4
+ 2187 086e 5A       		.byte	90
+ 2188 086f 04       		.byte	4
+ 2189 0870 5B       		.byte	91
+ 2190 0871 04       		.byte	4
+ 2191 0872 5C       		.byte	92
+ 2192 0873 60       		.byte	96
+ 2193 0874 5F       		.byte	95
+ 2194 0875 01       		.byte	1
+ 2195 0876 60       		.byte	96
+ 2196 0877 40       		.byte	64
+ 2197 0878 61       		.byte	97
+ 2198 0879 A8       		.byte	-88
+ 2199 087a 62       		.byte	98
+ 2200 087b 40       		.byte	64
+ 2201 087c 63       		.byte	99
+ 2202 087d 20       		.byte	32
+ 2203 087e 82       		.byte	-126
+ 2204 087f 40       		.byte	64
+ 2205 0880 84       		.byte	-124
+ 2206 0881 10       		.byte	16
+ 2207 0882 85       		.byte	-123
+ 2208 0883 53       		.byte	83
+ 2209 0884 87       		.byte	-121
+ 2210 0885 04       		.byte	4
+ 2211 0886 88       		.byte	-120
+ 2212 0887 0C       		.byte	12
+ 2213 0888 89       		.byte	-119
+ 2214 0889 53       		.byte	83
+ 2215 088a 8A       		.byte	-118
+ 2216 088b 11       		.byte	17
+ 2217 088c 8B       		.byte	-117
+ 2218 088d 0C       		.byte	12
+ 2219 088e 8C       		.byte	-116
+ 2220 088f 09       		.byte	9
+ 2221 0890 8D       		.byte	-115
+ 2222 0891 03       		.byte	3
+ 2223 0892 8E       		.byte	-114
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 40
+
+
+ 2224 0893 10       		.byte	16
+ 2225 0894 8F       		.byte	-113
+ 2226 0895 44       		.byte	68
+ 2227 0896 92       		.byte	-110
+ 2228 0897 03       		.byte	3
+ 2229 0898 93       		.byte	-109
+ 2230 0899 08       		.byte	8
+ 2231 089a 94       		.byte	-108
+ 2232 089b 1C       		.byte	28
+ 2233 089c 96       		.byte	-106
+ 2234 089d 02       		.byte	2
+ 2235 089e 9A       		.byte	-102
+ 2236 089f 40       		.byte	64
+ 2237 08a0 A0       		.byte	-96
+ 2238 08a1 20       		.byte	32
+ 2239 08a2 A4       		.byte	-92
+ 2240 08a3 10       		.byte	16
+ 2241 08a4 A5       		.byte	-91
+ 2242 08a5 20       		.byte	32
+ 2243 08a6 A6       		.byte	-90
+ 2244 08a7 0C       		.byte	12
+ 2245 08a8 A7       		.byte	-89
+ 2246 08a9 45       		.byte	69
+ 2247 08aa A8       		.byte	-88
+ 2248 08ab 14       		.byte	20
+ 2249 08ac A9       		.byte	-87
+ 2250 08ad 0A       		.byte	10
+ 2251 08ae AB       		.byte	-85
+ 2252 08af 54       		.byte	84
+ 2253 08b0 B0       		.byte	-80
+ 2254 08b1 1F       		.byte	31
+ 2255 08b2 B3       		.byte	-77
+ 2256 08b3 40       		.byte	64
+ 2257 08b4 B4       		.byte	-76
+ 2258 08b5 20       		.byte	32
+ 2259 08b6 B5       		.byte	-75
+ 2260 08b7 0F       		.byte	15
+ 2261 08b8 B6       		.byte	-74
+ 2262 08b9 40       		.byte	64
+ 2263 08ba B7       		.byte	-73
+ 2264 08bb 30       		.byte	48
+ 2265 08bc B9       		.byte	-71
+ 2266 08bd 80       		.byte	-128
+ 2267 08be BB       		.byte	-69
+ 2268 08bf 20       		.byte	32
+ 2269 08c0 BE       		.byte	-66
+ 2270 08c1 50       		.byte	80
+ 2271 08c2 BF       		.byte	-65
+ 2272 08c3 04       		.byte	4
+ 2273 08c4 C0       		.byte	-64
+ 2274 08c5 23       		.byte	35
+ 2275 08c6 C1       		.byte	-63
+ 2276 08c7 06       		.byte	6
+ 2277 08c8 C5       		.byte	-59
+ 2278 08c9 E0       		.byte	-32
+ 2279 08ca C6       		.byte	-58
+ 2280 08cb 0C       		.byte	12
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 41
+
+
+ 2281 08cc C7       		.byte	-57
+ 2282 08cd 0B       		.byte	11
+ 2283 08ce C8       		.byte	-56
+ 2284 08cf 16       		.byte	22
+ 2285 08d0 C9       		.byte	-55
+ 2286 08d1 FF       		.byte	-1
+ 2287 08d2 CA       		.byte	-54
+ 2288 08d3 FF       		.byte	-1
+ 2289 08d4 CB       		.byte	-53
+ 2290 08d5 FF       		.byte	-1
+ 2291 08d6 CE       		.byte	-50
+ 2292 08d7 F0       		.byte	-16
+ 2293 08d8 CF       		.byte	-49
+ 2294 08d9 44       		.byte	68
+ 2295 08da D0       		.byte	-48
+ 2296 08db 0C       		.byte	12
+ 2297 08dc D4       		.byte	-44
+ 2298 08dd 01       		.byte	1
+ 2299 08de D8       		.byte	-40
+ 2300 08df 04       		.byte	4
+ 2301 08e0 D9       		.byte	-39
+ 2302 08e1 04       		.byte	4
+ 2303 08e2 DA       		.byte	-38
+ 2304 08e3 04       		.byte	4
+ 2305 08e4 DB       		.byte	-37
+ 2306 08e5 04       		.byte	4
+ 2307 08e6 DF       		.byte	-33
+ 2308 08e7 01       		.byte	1
+ 2309 08e8 E6       		.byte	-26
+ 2310 08e9 C0       		.byte	-64
+ 2311 08ea EA       		.byte	-22
+ 2312 08eb 40       		.byte	64
+ 2313 08ec EB       		.byte	-21
+ 2314 08ed 02       		.byte	2
+ 2315 08ee 00       		.byte	0
+ 2316 08ef 04       		.byte	4
+ 2317 08f0 03       		.byte	3
+ 2318 08f1 01       		.byte	1
+ 2319 08f2 04       		.byte	4
+ 2320 08f3 0E       		.byte	14
+ 2321 08f4 05       		.byte	5
+ 2322 08f5 10       		.byte	16
+ 2323 08f6 07       		.byte	7
+ 2324 08f7 01       		.byte	1
+ 2325 08f8 0A       		.byte	10
+ 2326 08f9 14       		.byte	20
+ 2327 08fa 0D       		.byte	13
+ 2328 08fb 11       		.byte	17
+ 2329 08fc 0E       		.byte	14
+ 2330 08fd 90       		.byte	-112
+ 2331 08fe 10       		.byte	16
+ 2332 08ff 20       		.byte	32
+ 2333 0900 11       		.byte	17
+ 2334 0901 20       		.byte	32
+ 2335 0902 13       		.byte	19
+ 2336 0903 08       		.byte	8
+ 2337 0904 15       		.byte	21
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 42
+
+
+ 2338 0905 01       		.byte	1
+ 2339 0906 16       		.byte	22
+ 2340 0907 04       		.byte	4
+ 2341 0908 17       		.byte	23
+ 2342 0909 04       		.byte	4
+ 2343 090a 18       		.byte	24
+ 2344 090b 40       		.byte	64
+ 2345 090c 19       		.byte	25
+ 2346 090d 10       		.byte	16
+ 2347 090e 1A       		.byte	26
+ 2348 090f 1C       		.byte	28
+ 2349 0910 1D       		.byte	29
+ 2350 0911 80       		.byte	-128
+ 2351 0912 1E       		.byte	30
+ 2352 0913 88       		.byte	-120
+ 2353 0914 21       		.byte	33
+ 2354 0915 10       		.byte	16
+ 2355 0916 25       		.byte	37
+ 2356 0917 10       		.byte	16
+ 2357 0918 26       		.byte	38
+ 2358 0919 08       		.byte	8
+ 2359 091a 27       		.byte	39
+ 2360 091b 05       		.byte	5
+ 2361 091c 2B       		.byte	43
+ 2362 091d 02       		.byte	2
+ 2363 091e 2C       		.byte	44
+ 2364 091f 20       		.byte	32
+ 2365 0920 2E       		.byte	46
+ 2366 0921 10       		.byte	16
+ 2367 0922 31       		.byte	49
+ 2368 0923 08       		.byte	8
+ 2369 0924 37       		.byte	55
+ 2370 0925 01       		.byte	1
+ 2371 0926 3D       		.byte	61
+ 2372 0927 20       		.byte	32
+ 2373 0928 3E       		.byte	62
+ 2374 0929 04       		.byte	4
+ 2375 092a 3F       		.byte	63
+ 2376 092b 80       		.byte	-128
+ 2377 092c 40       		.byte	64
+ 2378 092d 40       		.byte	64
+ 2379 092e 45       		.byte	69
+ 2380 092f 10       		.byte	16
+ 2381 0930 47       		.byte	71
+ 2382 0931 08       		.byte	8
+ 2383 0932 48       		.byte	72
+ 2384 0933 20       		.byte	32
+ 2385 0934 4D       		.byte	77
+ 2386 0935 01       		.byte	1
+ 2387 0936 4E       		.byte	78
+ 2388 0937 04       		.byte	4
+ 2389 0938 50       		.byte	80
+ 2390 0939 04       		.byte	4
+ 2391 093a 56       		.byte	86
+ 2392 093b 04       		.byte	4
+ 2393 093c 57       		.byte	87
+ 2394 093d C0       		.byte	-64
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 43
+
+
+ 2395 093e 5C       		.byte	92
+ 2396 093f 20       		.byte	32
+ 2397 0940 5D       		.byte	93
+ 2398 0941 01       		.byte	1
+ 2399 0942 5E       		.byte	94
+ 2400 0943 48       		.byte	72
+ 2401 0944 69       		.byte	105
+ 2402 0945 40       		.byte	64
+ 2403 0946 6C       		.byte	108
+ 2404 0947 01       		.byte	1
+ 2405 0948 89       		.byte	-119
+ 2406 0949 02       		.byte	2
+ 2407 094a 8D       		.byte	-115
+ 2408 094b 80       		.byte	-128
+ 2409 094c 8E       		.byte	-114
+ 2410 094d 48       		.byte	72
+ 2411 094e C0       		.byte	-64
+ 2412 094f F5       		.byte	-11
+ 2413 0950 C2       		.byte	-62
+ 2414 0951 76       		.byte	118
+ 2415 0952 C4       		.byte	-60
+ 2416 0953 76       		.byte	118
+ 2417 0954 CA       		.byte	-54
+ 2418 0955 68       		.byte	104
+ 2419 0956 CC       		.byte	-52
+ 2420 0957 82       		.byte	-126
+ 2421 0958 CE       		.byte	-50
+ 2422 0959 70       		.byte	112
+ 2423 095a D0       		.byte	-48
+ 2424 095b 61       		.byte	97
+ 2425 095c D2       		.byte	-46
+ 2426 095d 20       		.byte	32
+ 2427 095e D6       		.byte	-42
+ 2428 095f F0       		.byte	-16
+ 2429 0960 E0       		.byte	-32
+ 2430 0961 80       		.byte	-128
+ 2431 0962 E2       		.byte	-30
+ 2432 0963 10       		.byte	16
+ 2433 0964 0F       		.byte	15
+ 2434 0965 01       		.byte	1
+ 2435 0966 12       		.byte	18
+ 2436 0967 08       		.byte	8
+ 2437 0968 13       		.byte	19
+ 2438 0969 02       		.byte	2
+ 2439 096a 14       		.byte	20
+ 2440 096b 01       		.byte	1
+ 2441 096c 1A       		.byte	26
+ 2442 096d 04       		.byte	4
+ 2443 096e 2A       		.byte	42
+ 2444 096f 07       		.byte	7
+ 2445 0970 2B       		.byte	43
+ 2446 0971 01       		.byte	1
+ 2447 0972 2F       		.byte	47
+ 2448 0973 02       		.byte	2
+ 2449 0974 30       		.byte	48
+ 2450 0975 04       		.byte	4
+ 2451 0976 31       		.byte	49
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 44
+
+
+ 2452 0977 02       		.byte	2
+ 2453 0978 32       		.byte	50
+ 2454 0979 02       		.byte	2
+ 2455 097a 33       		.byte	51
+ 2456 097b 01       		.byte	1
+ 2457 097c 34       		.byte	52
+ 2458 097d 08       		.byte	8
+ 2459 097e 36       		.byte	54
+ 2460 097f 01       		.byte	1
+ 2461 0980 3F       		.byte	63
+ 2462 0981 05       		.byte	5
+ 2463 0982 40       		.byte	64
+ 2464 0983 60       		.byte	96
+ 2465 0984 41       		.byte	65
+ 2466 0985 05       		.byte	5
+ 2467 0986 45       		.byte	69
+ 2468 0987 D0       		.byte	-48
+ 2469 0988 46       		.byte	70
+ 2470 0989 02       		.byte	2
+ 2471 098a 47       		.byte	71
+ 2472 098b 01       		.byte	1
+ 2473 098c 48       		.byte	72
+ 2474 098d 16       		.byte	22
+ 2475 098e 49       		.byte	73
+ 2476 098f FF       		.byte	-1
+ 2477 0990 4A       		.byte	74
+ 2478 0991 FF       		.byte	-1
+ 2479 0992 4B       		.byte	75
+ 2480 0993 FF       		.byte	-1
+ 2481 0994 4D       		.byte	77
+ 2482 0995 A0       		.byte	-96
+ 2483 0996 4F       		.byte	79
+ 2484 0997 04       		.byte	4
+ 2485 0998 50       		.byte	80
+ 2486 0999 18       		.byte	24
+ 2487 099a 52       		.byte	82
+ 2488 099b 80       		.byte	-128
+ 2489 099c 54       		.byte	84
+ 2490 099d 05       		.byte	5
+ 2491 099e 58       		.byte	88
+ 2492 099f 04       		.byte	4
+ 2493 09a0 59       		.byte	89
+ 2494 09a1 04       		.byte	4
+ 2495 09a2 5A       		.byte	90
+ 2496 09a3 04       		.byte	4
+ 2497 09a4 5B       		.byte	91
+ 2498 09a5 04       		.byte	4
+ 2499 09a6 5C       		.byte	92
+ 2500 09a7 04       		.byte	4
+ 2501 09a8 5D       		.byte	93
+ 2502 09a9 44       		.byte	68
+ 2503 09aa 5F       		.byte	95
+ 2504 09ab 01       		.byte	1
+ 2505 09ac 60       		.byte	96
+ 2506 09ad 40       		.byte	64
+ 2507 09ae 62       		.byte	98
+ 2508 09af C0       		.byte	-64
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 45
+
+
+ 2509 09b0 64       		.byte	100
+ 2510 09b1 40       		.byte	64
+ 2511 09b2 65       		.byte	101
+ 2512 09b3 40       		.byte	64
+ 2513 09b4 66       		.byte	102
+ 2514 09b5 C0       		.byte	-64
+ 2515 09b6 68       		.byte	104
+ 2516 09b7 C0       		.byte	-64
+ 2517 09b8 6A       		.byte	106
+ 2518 09b9 C0       		.byte	-64
+ 2519 09ba 6C       		.byte	108
+ 2520 09bb C0       		.byte	-64
+ 2521 09bc 6E       		.byte	110
+ 2522 09bd C0       		.byte	-64
+ 2523 09be 82       		.byte	-126
+ 2524 09bf 2C       		.byte	44
+ 2525 09c0 86       		.byte	-122
+ 2526 09c1 43       		.byte	67
+ 2527 09c2 88       		.byte	-120
+ 2528 09c3 10       		.byte	16
+ 2529 09c4 89       		.byte	-119
+ 2530 09c5 20       		.byte	32
+ 2531 09c6 8B       		.byte	-117
+ 2532 09c7 45       		.byte	69
+ 2533 09c8 8C       		.byte	-116
+ 2534 09c9 AC       		.byte	-84
+ 2535 09ca 8E       		.byte	-114
+ 2536 09cb 03       		.byte	3
+ 2537 09cc 91       		.byte	-111
+ 2538 09cd 53       		.byte	83
+ 2539 09ce 93       		.byte	-109
+ 2540 09cf 04       		.byte	4
+ 2541 09d0 94       		.byte	-108
+ 2542 09d1 C1       		.byte	-63
+ 2543 09d2 96       		.byte	-106
+ 2544 09d3 0E       		.byte	14
+ 2545 09d4 99       		.byte	-103
+ 2546 09d5 53       		.byte	83
+ 2547 09d6 9B       		.byte	-101
+ 2548 09d7 0C       		.byte	12
+ 2549 09d8 9F       		.byte	-97
+ 2550 09d9 08       		.byte	8
+ 2551 09da A2       		.byte	-94
+ 2552 09db 08       		.byte	8
+ 2553 09dc A5       		.byte	-91
+ 2554 09dd 03       		.byte	3
+ 2555 09de A7       		.byte	-89
+ 2556 09df 44       		.byte	68
+ 2557 09e0 A8       		.byte	-88
+ 2558 09e1 C1       		.byte	-63
+ 2559 09e2 AA       		.byte	-86
+ 2560 09e3 26       		.byte	38
+ 2561 09e4 AD       		.byte	-83
+ 2562 09e5 0A       		.byte	10
+ 2563 09e6 AF       		.byte	-81
+ 2564 09e7 54       		.byte	84
+ 2565 09e8 B0       		.byte	-80
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 46
+
+
+ 2566 09e9 0F       		.byte	15
+ 2567 09ea B1       		.byte	-79
+ 2568 09eb 30       		.byte	48
+ 2569 09ec B2       		.byte	-78
+ 2570 09ed C0       		.byte	-64
+ 2571 09ee B3       		.byte	-77
+ 2572 09ef 0F       		.byte	15
+ 2573 09f0 B4       		.byte	-76
+ 2574 09f1 10       		.byte	16
+ 2575 09f2 B5       		.byte	-75
+ 2576 09f3 40       		.byte	64
+ 2577 09f4 B6       		.byte	-74
+ 2578 09f5 2A       		.byte	42
+ 2579 09f6 B8       		.byte	-72
+ 2580 09f7 08       		.byte	8
+ 2581 09f8 B9       		.byte	-71
+ 2582 09f9 02       		.byte	2
+ 2583 09fa BA       		.byte	-70
+ 2584 09fb 82       		.byte	-126
+ 2585 09fc BB       		.byte	-69
+ 2586 09fd 08       		.byte	8
+ 2587 09fe BE       		.byte	-66
+ 2588 09ff 14       		.byte	20
+ 2589 0a00 BF       		.byte	-65
+ 2590 0a01 10       		.byte	16
+ 2591 0a02 C0       		.byte	-64
+ 2592 0a03 23       		.byte	35
+ 2593 0a04 C1       		.byte	-63
+ 2594 0a05 05       		.byte	5
+ 2595 0a06 C5       		.byte	-59
+ 2596 0a07 EE       		.byte	-18
+ 2597 0a08 C6       		.byte	-58
+ 2598 0a09 C0       		.byte	-64
+ 2599 0a0a C7       		.byte	-57
+ 2600 0a0b 0B       		.byte	11
+ 2601 0a0c C8       		.byte	-56
+ 2602 0a0d 1B       		.byte	27
+ 2603 0a0e C9       		.byte	-55
+ 2604 0a0f FF       		.byte	-1
+ 2605 0a10 CA       		.byte	-54
+ 2606 0a11 FF       		.byte	-1
+ 2607 0a12 CB       		.byte	-53
+ 2608 0a13 FF       		.byte	-1
+ 2609 0a14 CE       		.byte	-50
+ 2610 0a15 F0       		.byte	-16
+ 2611 0a16 CF       		.byte	-49
+ 2612 0a17 44       		.byte	68
+ 2613 0a18 D0       		.byte	-48
+ 2614 0a19 0C       		.byte	12
+ 2615 0a1a D4       		.byte	-44
+ 2616 0a1b 01       		.byte	1
+ 2617 0a1c D8       		.byte	-40
+ 2618 0a1d 04       		.byte	4
+ 2619 0a1e D9       		.byte	-39
+ 2620 0a1f 04       		.byte	4
+ 2621 0a20 DA       		.byte	-38
+ 2622 0a21 04       		.byte	4
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 47
+
+
+ 2623 0a22 DB       		.byte	-37
+ 2624 0a23 04       		.byte	4
+ 2625 0a24 DC       		.byte	-36
+ 2626 0a25 22       		.byte	34
+ 2627 0a26 DD       		.byte	-35
+ 2628 0a27 22       		.byte	34
+ 2629 0a28 DF       		.byte	-33
+ 2630 0a29 01       		.byte	1
+ 2631 0a2a E6       		.byte	-26
+ 2632 0a2b C0       		.byte	-64
+ 2633 0a2c EA       		.byte	-22
+ 2634 0a2d 40       		.byte	64
+ 2635 0a2e EB       		.byte	-21
+ 2636 0a2f 02       		.byte	2
+ 2637 0a30 04       		.byte	4
+ 2638 0a31 60       		.byte	96
+ 2639 0a32 06       		.byte	6
+ 2640 0a33 20       		.byte	32
+ 2641 0a34 07       		.byte	7
+ 2642 0a35 40       		.byte	64
+ 2643 0a36 09       		.byte	9
+ 2644 0a37 02       		.byte	2
+ 2645 0a38 0A       		.byte	10
+ 2646 0a39 24       		.byte	36
+ 2647 0a3a 0E       		.byte	14
+ 2648 0a3b 20       		.byte	32
+ 2649 0a3c 10       		.byte	16
+ 2650 0a3d 08       		.byte	8
+ 2651 0a3e 16       		.byte	22
+ 2652 0a3f 40       		.byte	64
+ 2653 0a40 17       		.byte	23
+ 2654 0a41 20       		.byte	32
+ 2655 0a42 19       		.byte	25
+ 2656 0a43 60       		.byte	96
+ 2657 0a44 1A       		.byte	26
+ 2658 0a45 A4       		.byte	-92
+ 2659 0a46 1C       		.byte	28
+ 2660 0a47 42       		.byte	66
+ 2661 0a48 1D       		.byte	29
+ 2662 0a49 08       		.byte	8
+ 2663 0a4a 1E       		.byte	30
+ 2664 0a4b 0A       		.byte	10
+ 2665 0a4c 1F       		.byte	31
+ 2666 0a4d 01       		.byte	1
+ 2667 0a4e 21       		.byte	33
+ 2668 0a4f 01       		.byte	1
+ 2669 0a50 22       		.byte	34
+ 2670 0a51 04       		.byte	4
+ 2671 0a52 27       		.byte	39
+ 2672 0a53 68       		.byte	104
+ 2673 0a54 29       		.byte	41
+ 2674 0a55 20       		.byte	32
+ 2675 0a56 2A       		.byte	42
+ 2676 0a57 80       		.byte	-128
+ 2677 0a58 2D       		.byte	45
+ 2678 0a59 40       		.byte	64
+ 2679 0a5a 2F       		.byte	47
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 48
+
+
+ 2680 0a5b 21       		.byte	33
+ 2681 0a5c 33       		.byte	51
+ 2682 0a5d 01       		.byte	1
+ 2683 0a5e 36       		.byte	54
+ 2684 0a5f 03       		.byte	3
+ 2685 0a60 37       		.byte	55
+ 2686 0a61 60       		.byte	96
+ 2687 0a62 38       		.byte	56
+ 2688 0a63 80       		.byte	-128
+ 2689 0a64 3E       		.byte	62
+ 2690 0a65 20       		.byte	32
+ 2691 0a66 46       		.byte	70
+ 2692 0a67 20       		.byte	32
+ 2693 0a68 47       		.byte	71
+ 2694 0a69 20       		.byte	32
+ 2695 0a6a 49       		.byte	73
+ 2696 0a6b 21       		.byte	33
+ 2697 0a6c 4B       		.byte	75
+ 2698 0a6d 80       		.byte	-128
+ 2699 0a6e 4C       		.byte	76
+ 2700 0a6f 10       		.byte	16
+ 2701 0a70 4D       		.byte	77
+ 2702 0a71 01       		.byte	1
+ 2703 0a72 4E       		.byte	78
+ 2704 0a73 02       		.byte	2
+ 2705 0a74 50       		.byte	80
+ 2706 0a75 48       		.byte	72
+ 2707 0a76 53       		.byte	83
+ 2708 0a77 40       		.byte	64
+ 2709 0a78 56       		.byte	86
+ 2710 0a79 04       		.byte	4
+ 2711 0a7a 57       		.byte	87
+ 2712 0a7b 20       		.byte	32
+ 2713 0a7c 59       		.byte	89
+ 2714 0a7d 41       		.byte	65
+ 2715 0a7e 5A       		.byte	90
+ 2716 0a7f 08       		.byte	8
+ 2717 0a80 5D       		.byte	93
+ 2718 0a81 91       		.byte	-111
+ 2719 0a82 5E       		.byte	94
+ 2720 0a83 08       		.byte	8
+ 2721 0a84 6F       		.byte	111
+ 2722 0a85 01       		.byte	1
+ 2723 0a86 71       		.byte	113
+ 2724 0a87 02       		.byte	2
+ 2725 0a88 82       		.byte	-126
+ 2726 0a89 C0       		.byte	-64
+ 2727 0a8a 84       		.byte	-124
+ 2728 0a8b 01       		.byte	1
+ 2729 0a8c 85       		.byte	-123
+ 2730 0a8d 81       		.byte	-127
+ 2731 0a8e 86       		.byte	-122
+ 2732 0a8f 10       		.byte	16
+ 2733 0a90 87       		.byte	-121
+ 2734 0a91 08       		.byte	8
+ 2735 0a92 89       		.byte	-119
+ 2736 0a93 10       		.byte	16
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 49
+
+
+ 2737 0a94 8B       		.byte	-117
+ 2738 0a95 20       		.byte	32
+ 2739 0a96 95       		.byte	-107
+ 2740 0a97 40       		.byte	64
+ 2741 0a98 9A       		.byte	-102
+ 2742 0a99 60       		.byte	96
+ 2743 0a9a 9E       		.byte	-98
+ 2744 0a9b 04       		.byte	4
+ 2745 0a9c 9F       		.byte	-97
+ 2746 0a9d 61       		.byte	97
+ 2747 0a9e A5       		.byte	-91
+ 2748 0a9f 08       		.byte	8
+ 2749 0aa0 A6       		.byte	-90
+ 2750 0aa1 01       		.byte	1
+ 2751 0aa2 A8       		.byte	-88
+ 2752 0aa3 08       		.byte	8
+ 2753 0aa4 AC       		.byte	-84
+ 2754 0aa5 80       		.byte	-128
+ 2755 0aa6 AE       		.byte	-82
+ 2756 0aa7 01       		.byte	1
+ 2757 0aa8 AF       		.byte	-81
+ 2758 0aa9 09       		.byte	9
+ 2759 0aaa B0       		.byte	-80
+ 2760 0aab 80       		.byte	-128
+ 2761 0aac B5       		.byte	-75
+ 2762 0aad 04       		.byte	4
+ 2763 0aae C0       		.byte	-64
+ 2764 0aaf F0       		.byte	-16
+ 2765 0ab0 C2       		.byte	-62
+ 2766 0ab1 2E       		.byte	46
+ 2767 0ab2 C4       		.byte	-60
+ 2768 0ab3 52       		.byte	82
+ 2769 0ab4 CA       		.byte	-54
+ 2770 0ab5 5C       		.byte	92
+ 2771 0ab6 CC       		.byte	-52
+ 2772 0ab7 B1       		.byte	-79
+ 2773 0ab8 CE       		.byte	-50
+ 2774 0ab9 28       		.byte	40
+ 2775 0aba D0       		.byte	-48
+ 2776 0abb 60       		.byte	96
+ 2777 0abc D2       		.byte	-46
+ 2778 0abd 1C       		.byte	28
+ 2779 0abe D6       		.byte	-42
+ 2780 0abf FB       		.byte	-5
+ 2781 0ac0 E8       		.byte	-24
+ 2782 0ac1 02       		.byte	2
+ 2783 0ac2 EA       		.byte	-22
+ 2784 0ac3 01       		.byte	1
+ 2785 0ac4 EE       		.byte	-18
+ 2786 0ac5 02       		.byte	2
+ 2787 0ac6 00       		.byte	0
+ 2788 0ac7 09       		.byte	9
+ 2789 0ac8 02       		.byte	2
+ 2790 0ac9 10       		.byte	16
+ 2791 0aca 06       		.byte	6
+ 2792 0acb 03       		.byte	3
+ 2793 0acc 07       		.byte	7
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 50
+
+
+ 2794 0acd 02       		.byte	2
+ 2795 0ace 08       		.byte	8
+ 2796 0acf 14       		.byte	20
+ 2797 0ad0 0F       		.byte	15
+ 2798 0ad1 01       		.byte	1
+ 2799 0ad2 13       		.byte	19
+ 2800 0ad3 02       		.byte	2
+ 2801 0ad4 16       		.byte	22
+ 2802 0ad5 20       		.byte	32
+ 2803 0ad6 1A       		.byte	26
+ 2804 0ad7 20       		.byte	32
+ 2805 0ad8 1C       		.byte	28
+ 2806 0ad9 0C       		.byte	12
+ 2807 0ada 1E       		.byte	30
+ 2808 0adb 11       		.byte	17
+ 2809 0adc 20       		.byte	32
+ 2810 0add 10       		.byte	16
+ 2811 0ade 28       		.byte	40
+ 2812 0adf 10       		.byte	16
+ 2813 0ae0 2A       		.byte	42
+ 2814 0ae1 0C       		.byte	12
+ 2815 0ae2 2C       		.byte	44
+ 2816 0ae3 1C       		.byte	28
+ 2817 0ae4 2E       		.byte	46
+ 2818 0ae5 02       		.byte	2
+ 2819 0ae6 2F       		.byte	47
+ 2820 0ae7 01       		.byte	1
+ 2821 0ae8 31       		.byte	49
+ 2822 0ae9 01       		.byte	1
+ 2823 0aea 32       		.byte	50
+ 2824 0aeb 1F       		.byte	31
+ 2825 0aec 36       		.byte	54
+ 2826 0aed 20       		.byte	32
+ 2827 0aee 37       		.byte	55
+ 2828 0aef 02       		.byte	2
+ 2829 0af0 3A       		.byte	58
+ 2830 0af1 02       		.byte	2
+ 2831 0af2 3B       		.byte	59
+ 2832 0af3 20       		.byte	32
+ 2833 0af4 3E       		.byte	62
+ 2834 0af5 40       		.byte	64
+ 2835 0af6 3F       		.byte	63
+ 2836 0af7 41       		.byte	65
+ 2837 0af8 40       		.byte	64
+ 2838 0af9 03       		.byte	3
+ 2839 0afa 46       		.byte	70
+ 2840 0afb 04       		.byte	4
+ 2841 0afc 49       		.byte	73
+ 2842 0afd FF       		.byte	-1
+ 2843 0afe 4A       		.byte	74
+ 2844 0aff 07       		.byte	7
+ 2845 0b00 4B       		.byte	75
+ 2846 0b01 FF       		.byte	-1
+ 2847 0b02 4C       		.byte	76
+ 2848 0b03 40       		.byte	64
+ 2849 0b04 4D       		.byte	77
+ 2850 0b05 20       		.byte	32
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 51
+
+
+ 2851 0b06 4E       		.byte	78
+ 2852 0b07 F0       		.byte	-16
+ 2853 0b08 4F       		.byte	79
+ 2854 0b09 05       		.byte	5
+ 2855 0b0a 50       		.byte	80
+ 2856 0b0b 08       		.byte	8
+ 2857 0b0c 54       		.byte	84
+ 2858 0b0d 18       		.byte	24
+ 2859 0b0e 58       		.byte	88
+ 2860 0b0f 04       		.byte	4
+ 2861 0b10 59       		.byte	89
+ 2862 0b11 04       		.byte	4
+ 2863 0b12 5A       		.byte	90
+ 2864 0b13 04       		.byte	4
+ 2865 0b14 5B       		.byte	91
+ 2866 0b15 04       		.byte	4
+ 2867 0b16 5C       		.byte	92
+ 2868 0b17 12       		.byte	18
+ 2869 0b18 5D       		.byte	93
+ 2870 0b19 22       		.byte	34
+ 2871 0b1a 5F       		.byte	95
+ 2872 0b1b 01       		.byte	1
+ 2873 0b1c 60       		.byte	96
+ 2874 0b1d 40       		.byte	64
+ 2875 0b1e 61       		.byte	97
+ 2876 0b1f A8       		.byte	-88
+ 2877 0b20 62       		.byte	98
+ 2878 0b21 40       		.byte	64
+ 2879 0b22 63       		.byte	99
+ 2880 0b23 20       		.byte	32
+ 2881 0b24 80       		.byte	-128
+ 2882 0b25 19       		.byte	25
+ 2883 0b26 82       		.byte	-126
+ 2884 0b27 62       		.byte	98
+ 2885 0b28 84       		.byte	-124
+ 2886 0b29 18       		.byte	24
+ 2887 0b2a 87       		.byte	-121
+ 2888 0b2b 02       		.byte	2
+ 2889 0b2c 8A       		.byte	-118
+ 2890 0b2d 26       		.byte	38
+ 2891 0b2e 8C       		.byte	-116
+ 2892 0b2f 19       		.byte	25
+ 2893 0b30 8E       		.byte	-114
+ 2894 0b31 64       		.byte	100
+ 2895 0b32 8F       		.byte	-113
+ 2896 0b33 01       		.byte	1
+ 2897 0b34 94       		.byte	-108
+ 2898 0b35 67       		.byte	103
+ 2899 0b36 96       		.byte	-106
+ 2900 0b37 18       		.byte	24
+ 2901 0b38 9A       		.byte	-102
+ 2902 0b39 01       		.byte	1
+ 2903 0b3a 9C       		.byte	-100
+ 2904 0b3b 01       		.byte	1
+ 2905 0b3c 9F       		.byte	-97
+ 2906 0b3d 02       		.byte	2
+ 2907 0b3e A4       		.byte	-92
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 52
+
+
+ 2908 0b3f 08       		.byte	8
+ 2909 0b40 A7       		.byte	-89
+ 2910 0b41 01       		.byte	1
+ 2911 0b42 A8       		.byte	-88
+ 2912 0b43 7F       		.byte	127
+ 2913 0b44 AC       		.byte	-84
+ 2914 0b45 10       		.byte	16
+ 2915 0b46 B0       		.byte	-80
+ 2916 0b47 38       		.byte	56
+ 2917 0b48 B4       		.byte	-76
+ 2918 0b49 40       		.byte	64
+ 2919 0b4a B5       		.byte	-75
+ 2920 0b4b 01       		.byte	1
+ 2921 0b4c B6       		.byte	-74
+ 2922 0b4d 1F       		.byte	31
+ 2923 0b4e B7       		.byte	-73
+ 2924 0b4f 02       		.byte	2
+ 2925 0b50 B8       		.byte	-72
+ 2926 0b51 20       		.byte	32
+ 2927 0b52 BA       		.byte	-70
+ 2928 0b53 82       		.byte	-126
+ 2929 0b54 BB       		.byte	-69
+ 2930 0b55 08       		.byte	8
+ 2931 0b56 BF       		.byte	-65
+ 2932 0b57 50       		.byte	80
+ 2933 0b58 C0       		.byte	-64
+ 2934 0b59 45       		.byte	69
+ 2935 0b5a C1       		.byte	-63
+ 2936 0b5b 06       		.byte	6
+ 2937 0b5c C5       		.byte	-59
+ 2938 0b5d E0       		.byte	-32
+ 2939 0b5e C6       		.byte	-58
+ 2940 0b5f BC       		.byte	-68
+ 2941 0b60 C8       		.byte	-56
+ 2942 0b61 0E       		.byte	14
+ 2943 0b62 C9       		.byte	-55
+ 2944 0b63 FF       		.byte	-1
+ 2945 0b64 CA       		.byte	-54
+ 2946 0b65 FF       		.byte	-1
+ 2947 0b66 CB       		.byte	-53
+ 2948 0b67 FF       		.byte	-1
+ 2949 0b68 CE       		.byte	-50
+ 2950 0b69 F0       		.byte	-16
+ 2951 0b6a CF       		.byte	-49
+ 2952 0b6b 44       		.byte	68
+ 2953 0b6c D0       		.byte	-48
+ 2954 0b6d 0C       		.byte	12
+ 2955 0b6e D4       		.byte	-44
+ 2956 0b6f 18       		.byte	24
+ 2957 0b70 D8       		.byte	-40
+ 2958 0b71 04       		.byte	4
+ 2959 0b72 D9       		.byte	-39
+ 2960 0b73 04       		.byte	4
+ 2961 0b74 DA       		.byte	-38
+ 2962 0b75 04       		.byte	4
+ 2963 0b76 DB       		.byte	-37
+ 2964 0b77 04       		.byte	4
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 53
+
+
+ 2965 0b78 DD       		.byte	-35
+ 2966 0b79 01       		.byte	1
+ 2967 0b7a DF       		.byte	-33
+ 2968 0b7b 01       		.byte	1
+ 2969 0b7c E6       		.byte	-26
+ 2970 0b7d C0       		.byte	-64
+ 2971 0b7e EA       		.byte	-22
+ 2972 0b7f 40       		.byte	64
+ 2973 0b80 EB       		.byte	-21
+ 2974 0b81 02       		.byte	2
+ 2975 0b82 00       		.byte	0
+ 2976 0b83 08       		.byte	8
+ 2977 0b84 01       		.byte	1
+ 2978 0b85 82       		.byte	-126
+ 2979 0b86 02       		.byte	2
+ 2980 0b87 08       		.byte	8
+ 2981 0b88 05       		.byte	5
+ 2982 0b89 04       		.byte	4
+ 2983 0b8a 06       		.byte	6
+ 2984 0b8b 04       		.byte	4
+ 2985 0b8c 07       		.byte	7
+ 2986 0b8d 40       		.byte	64
+ 2987 0b8e 08       		.byte	8
+ 2988 0b8f 40       		.byte	64
+ 2989 0b90 0A       		.byte	10
+ 2990 0b91 20       		.byte	32
+ 2991 0b92 0B       		.byte	11
+ 2992 0b93 04       		.byte	4
+ 2993 0b94 0E       		.byte	14
+ 2994 0b95 22       		.byte	34
+ 2995 0b96 0F       		.byte	15
+ 2996 0b97 08       		.byte	8
+ 2997 0b98 10       		.byte	16
+ 2998 0b99 10       		.byte	16
+ 2999 0b9a 12       		.byte	18
+ 3000 0b9b 01       		.byte	1
+ 3001 0b9c 13       		.byte	19
+ 3002 0b9d 10       		.byte	16
+ 3003 0b9e 15       		.byte	21
+ 3004 0b9f 40       		.byte	64
+ 3005 0ba0 16       		.byte	22
+ 3006 0ba1 40       		.byte	64
+ 3007 0ba2 17       		.byte	23
+ 3008 0ba3 20       		.byte	32
+ 3009 0ba4 18       		.byte	24
+ 3010 0ba5 80       		.byte	-128
+ 3011 0ba6 19       		.byte	25
+ 3012 0ba7 82       		.byte	-126
+ 3013 0ba8 1B       		.byte	27
+ 3014 0ba9 10       		.byte	16
+ 3015 0baa 1D       		.byte	29
+ 3016 0bab 44       		.byte	68
+ 3017 0bac 1F       		.byte	31
+ 3018 0bad 02       		.byte	2
+ 3019 0bae 20       		.byte	32
+ 3020 0baf 04       		.byte	4
+ 3021 0bb0 21       		.byte	33
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 54
+
+
+ 3022 0bb1 04       		.byte	4
+ 3023 0bb2 22       		.byte	34
+ 3024 0bb3 80       		.byte	-128
+ 3025 0bb4 23       		.byte	35
+ 3026 0bb5 10       		.byte	16
+ 3027 0bb6 24       		.byte	36
+ 3028 0bb7 40       		.byte	64
+ 3029 0bb8 26       		.byte	38
+ 3030 0bb9 60       		.byte	96
+ 3031 0bba 27       		.byte	39
+ 3032 0bbb 08       		.byte	8
+ 3033 0bbc 2B       		.byte	43
+ 3034 0bbd 10       		.byte	16
+ 3035 0bbe 2F       		.byte	47
+ 3036 0bbf 01       		.byte	1
+ 3037 0bc0 31       		.byte	49
+ 3038 0bc1 80       		.byte	-128
+ 3039 0bc2 37       		.byte	55
+ 3040 0bc3 01       		.byte	1
+ 3041 0bc4 38       		.byte	56
+ 3042 0bc5 08       		.byte	8
+ 3043 0bc6 3B       		.byte	59
+ 3044 0bc7 80       		.byte	-128
+ 3045 0bc8 3D       		.byte	61
+ 3046 0bc9 08       		.byte	8
+ 3047 0bca 3F       		.byte	63
+ 3048 0bcb 80       		.byte	-128
+ 3049 0bcc 40       		.byte	64
+ 3050 0bcd 80       		.byte	-128
+ 3051 0bce 45       		.byte	69
+ 3052 0bcf 08       		.byte	8
+ 3053 0bd0 48       		.byte	72
+ 3054 0bd1 89       		.byte	-119
+ 3055 0bd2 51       		.byte	81
+ 3056 0bd3 40       		.byte	64
+ 3057 0bd4 52       		.byte	82
+ 3058 0bd5 10       		.byte	16
+ 3059 0bd6 56       		.byte	86
+ 3060 0bd7 60       		.byte	96
+ 3061 0bd8 5A       		.byte	90
+ 3062 0bd9 02       		.byte	2
+ 3063 0bda 5F       		.byte	95
+ 3064 0bdb 02       		.byte	2
+ 3065 0bdc 60       		.byte	96
+ 3066 0bdd 04       		.byte	4
+ 3067 0bde 62       		.byte	98
+ 3068 0bdf 80       		.byte	-128
+ 3069 0be0 64       		.byte	100
+ 3070 0be1 08       		.byte	8
+ 3071 0be2 65       		.byte	101
+ 3072 0be3 40       		.byte	64
+ 3073 0be4 80       		.byte	-128
+ 3074 0be5 48       		.byte	72
+ 3075 0be6 81       		.byte	-127
+ 3076 0be7 40       		.byte	64
+ 3077 0be8 86       		.byte	-122
+ 3078 0be9 10       		.byte	16
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 55
+
+
+ 3079 0bea 8A       		.byte	-118
+ 3080 0beb 40       		.byte	64
+ 3081 0bec 90       		.byte	-112
+ 3082 0bed 08       		.byte	8
+ 3083 0bee 92       		.byte	-110
+ 3084 0bef 22       		.byte	34
+ 3085 0bf0 93       		.byte	-109
+ 3086 0bf1 86       		.byte	-122
+ 3087 0bf2 94       		.byte	-108
+ 3088 0bf3 80       		.byte	-128
+ 3089 0bf4 95       		.byte	-107
+ 3090 0bf5 08       		.byte	8
+ 3091 0bf6 96       		.byte	-106
+ 3092 0bf7 01       		.byte	1
+ 3093 0bf8 98       		.byte	-104
+ 3094 0bf9 50       		.byte	80
+ 3095 0bfa 9A       		.byte	-102
+ 3096 0bfb 01       		.byte	1
+ 3097 0bfc 9B       		.byte	-101
+ 3098 0bfd 02       		.byte	2
+ 3099 0bfe 9D       		.byte	-99
+ 3100 0bff 80       		.byte	-128
+ 3101 0c00 A0       		.byte	-96
+ 3102 0c01 05       		.byte	5
+ 3103 0c02 A1       		.byte	-95
+ 3104 0c03 84       		.byte	-124
+ 3105 0c04 A2       		.byte	-94
+ 3106 0c05 18       		.byte	24
+ 3107 0c06 A3       		.byte	-93
+ 3108 0c07 44       		.byte	68
+ 3109 0c08 A6       		.byte	-90
+ 3110 0c09 20       		.byte	32
+ 3111 0c0a A7       		.byte	-89
+ 3112 0c0b 02       		.byte	2
+ 3113 0c0c A9       		.byte	-87
+ 3114 0c0d 04       		.byte	4
+ 3115 0c0e AA       		.byte	-86
+ 3116 0c0f 01       		.byte	1
+ 3117 0c10 AE       		.byte	-82
+ 3118 0c11 84       		.byte	-124
+ 3119 0c12 B5       		.byte	-75
+ 3120 0c13 04       		.byte	4
+ 3121 0c14 C0       		.byte	-64
+ 3122 0c15 7F       		.byte	127
+ 3123 0c16 C2       		.byte	-62
+ 3124 0c17 E7       		.byte	-25
+ 3125 0c18 C4       		.byte	-60
+ 3126 0c19 D7       		.byte	-41
+ 3127 0c1a CA       		.byte	-54
+ 3128 0c1b 12       		.byte	18
+ 3129 0c1c CC       		.byte	-52
+ 3130 0c1d 88       		.byte	-120
+ 3131 0c1e CE       		.byte	-50
+ 3132 0c1f 5A       		.byte	90
+ 3133 0c20 D0       		.byte	-48
+ 3134 0c21 41       		.byte	65
+ 3135 0c22 D2       		.byte	-46
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 56
+
+
+ 3136 0c23 0C       		.byte	12
+ 3137 0c24 D6       		.byte	-42
+ 3138 0c25 81       		.byte	-127
+ 3139 0c26 D8       		.byte	-40
+ 3140 0c27 3C       		.byte	60
+ 3141 0c28 E0       		.byte	-32
+ 3142 0c29 03       		.byte	3
+ 3143 0c2a E2       		.byte	-30
+ 3144 0c2b 20       		.byte	32
+ 3145 0c2c E8       		.byte	-24
+ 3146 0c2d 04       		.byte	4
+ 3147 0c2e EC       		.byte	-20
+ 3148 0c2f 40       		.byte	64
+ 3149 0c30 EE       		.byte	-18
+ 3150 0c31 20       		.byte	32
+ 3151 0c32 04       		.byte	4
+ 3152 0c33 0A       		.byte	10
+ 3153 0c34 06       		.byte	6
+ 3154 0c35 14       		.byte	20
+ 3155 0c36 09       		.byte	9
+ 3156 0c37 1C       		.byte	28
+ 3157 0c38 0B       		.byte	11
+ 3158 0c39 02       		.byte	2
+ 3159 0c3a 0E       		.byte	14
+ 3160 0c3b 08       		.byte	8
+ 3161 0c3c 11       		.byte	17
+ 3162 0c3d 14       		.byte	20
+ 3163 0c3e 14       		.byte	20
+ 3164 0c3f 13       		.byte	19
+ 3165 0c40 15       		.byte	21
+ 3166 0c41 0C       		.byte	12
+ 3167 0c42 16       		.byte	22
+ 3168 0c43 0C       		.byte	12
+ 3169 0c44 17       		.byte	23
+ 3170 0c45 11       		.byte	17
+ 3171 0c46 1C       		.byte	28
+ 3172 0c47 20       		.byte	32
+ 3173 0c48 1E       		.byte	30
+ 3174 0c49 05       		.byte	5
+ 3175 0c4a 1F       		.byte	31
+ 3176 0c4b 03       		.byte	3
+ 3177 0c4c 20       		.byte	32
+ 3178 0c4d 40       		.byte	64
+ 3179 0c4e 24       		.byte	36
+ 3180 0c4f 13       		.byte	19
+ 3181 0c50 25       		.byte	37
+ 3182 0c51 10       		.byte	16
+ 3183 0c52 26       		.byte	38
+ 3184 0c53 04       		.byte	4
+ 3185 0c54 28       		.byte	40
+ 3186 0c55 03       		.byte	3
+ 3187 0c56 29       		.byte	41
+ 3188 0c57 10       		.byte	16
+ 3189 0c58 2A       		.byte	42
+ 3190 0c59 04       		.byte	4
+ 3191 0c5a 2B       		.byte	43
+ 3192 0c5b 0C       		.byte	12
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 57
+
+
+ 3193 0c5c 2D       		.byte	45
+ 3194 0c5d 09       		.byte	9
+ 3195 0c5e 2F       		.byte	47
+ 3196 0c5f 10       		.byte	16
+ 3197 0c60 30       		.byte	48
+ 3198 0c61 30       		.byte	48
+ 3199 0c62 31       		.byte	49
+ 3200 0c63 1F       		.byte	31
+ 3201 0c64 32       		.byte	50
+ 3202 0c65 0F       		.byte	15
+ 3203 0c66 34       		.byte	52
+ 3204 0c67 40       		.byte	64
+ 3205 0c68 38       		.byte	56
+ 3206 0c69 02       		.byte	2
+ 3207 0c6a 3A       		.byte	58
+ 3208 0c6b 08       		.byte	8
+ 3209 0c6c 3E       		.byte	62
+ 3210 0c6d 10       		.byte	16
+ 3211 0c6e 40       		.byte	64
+ 3212 0c6f 53       		.byte	83
+ 3213 0c70 42       		.byte	66
+ 3214 0c71 06       		.byte	6
+ 3215 0c72 49       		.byte	73
+ 3216 0c73 FF       		.byte	-1
+ 3217 0c74 4A       		.byte	74
+ 3218 0c75 FF       		.byte	-1
+ 3219 0c76 4B       		.byte	75
+ 3220 0c77 FF       		.byte	-1
+ 3221 0c78 4F       		.byte	79
+ 3222 0c79 01       		.byte	1
+ 3223 0c7a 50       		.byte	80
+ 3224 0c7b 18       		.byte	24
+ 3225 0c7c 54       		.byte	84
+ 3226 0c7d 18       		.byte	24
+ 3227 0c7e 58       		.byte	88
+ 3228 0c7f 04       		.byte	4
+ 3229 0c80 59       		.byte	89
+ 3230 0c81 04       		.byte	4
+ 3231 0c82 5A       		.byte	90
+ 3232 0c83 04       		.byte	4
+ 3233 0c84 5B       		.byte	91
+ 3234 0c85 04       		.byte	4
+ 3235 0c86 5C       		.byte	92
+ 3236 0c87 11       		.byte	17
+ 3237 0c88 5D       		.byte	93
+ 3238 0c89 35       		.byte	53
+ 3239 0c8a 5F       		.byte	95
+ 3240 0c8b 01       		.byte	1
+ 3241 0c8c 60       		.byte	96
+ 3242 0c8d 40       		.byte	64
+ 3243 0c8e 62       		.byte	98
+ 3244 0c8f 40       		.byte	64
+ 3245 0c90 64       		.byte	100
+ 3246 0c91 40       		.byte	64
+ 3247 0c92 65       		.byte	101
+ 3248 0c93 40       		.byte	64
+ 3249 0c94 66       		.byte	102
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 58
+
+
+ 3250 0c95 80       		.byte	-128
+ 3251 0c96 68       		.byte	104
+ 3252 0c97 80       		.byte	-128
+ 3253 0c98 6A       		.byte	106
+ 3254 0c99 80       		.byte	-128
+ 3255 0c9a 6C       		.byte	108
+ 3256 0c9b 80       		.byte	-128
+ 3257 0c9c 6E       		.byte	110
+ 3258 0c9d 80       		.byte	-128
+ 3259 0c9e 80       		.byte	-128
+ 3260 0c9f 01       		.byte	1
+ 3261 0ca0 82       		.byte	-126
+ 3262 0ca1 02       		.byte	2
+ 3263 0ca2 84       		.byte	-124
+ 3264 0ca3 10       		.byte	16
+ 3265 0ca4 87       		.byte	-121
+ 3266 0ca5 FF       		.byte	-1
+ 3267 0ca6 89       		.byte	-119
+ 3268 0ca7 30       		.byte	48
+ 3269 0ca8 8B       		.byte	-117
+ 3270 0ca9 C3       		.byte	-61
+ 3271 0caa 8D       		.byte	-115
+ 3272 0cab 55       		.byte	85
+ 3273 0cac 8E       		.byte	-114
+ 3274 0cad 01       		.byte	1
+ 3275 0cae 8F       		.byte	-113
+ 3276 0caf A0       		.byte	-96
+ 3277 0cb0 92       		.byte	-110
+ 3278 0cb1 01       		.byte	1
+ 3279 0cb2 95       		.byte	-107
+ 3280 0cb3 30       		.byte	48
+ 3281 0cb4 97       		.byte	-105
+ 3282 0cb5 C9       		.byte	-55
+ 3283 0cb6 98       		.byte	-104
+ 3284 0cb7 04       		.byte	4
+ 3285 0cb8 9A       		.byte	-102
+ 3286 0cb9 08       		.byte	8
+ 3287 0cba 9C       		.byte	-100
+ 3288 0cbb 0C       		.byte	12
+ 3289 0cbc A0       		.byte	-96
+ 3290 0cbd 0C       		.byte	12
+ 3291 0cbe A1       		.byte	-95
+ 3292 0cbf 50       		.byte	80
+ 3293 0cc0 A3       		.byte	-93
+ 3294 0cc1 AE       		.byte	-82
+ 3295 0cc2 A8       		.byte	-88
+ 3296 0cc3 04       		.byte	4
+ 3297 0cc4 AA       		.byte	-86
+ 3298 0cc5 08       		.byte	8
+ 3299 0cc6 B0       		.byte	-80
+ 3300 0cc7 02       		.byte	2
+ 3301 0cc8 B3       		.byte	-77
+ 3302 0cc9 0F       		.byte	15
+ 3303 0cca B4       		.byte	-76
+ 3304 0ccb 01       		.byte	1
+ 3305 0ccc B5       		.byte	-75
+ 3306 0ccd F0       		.byte	-16
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 59
+
+
+ 3307 0cce B6       		.byte	-74
+ 3308 0ccf 1C       		.byte	28
+ 3309 0cd0 BA       		.byte	-70
+ 3310 0cd1 C0       		.byte	-64
+ 3311 0cd2 BB       		.byte	-69
+ 3312 0cd3 08       		.byte	8
+ 3313 0cd4 BE       		.byte	-66
+ 3314 0cd5 10       		.byte	16
+ 3315 0cd6 C0       		.byte	-64
+ 3316 0cd7 56       		.byte	86
+ 3317 0cd8 C2       		.byte	-62
+ 3318 0cd9 02       		.byte	2
+ 3319 0cda C5       		.byte	-59
+ 3320 0cdb EC       		.byte	-20
+ 3321 0cdc C6       		.byte	-58
+ 3322 0cdd 20       		.byte	32
+ 3323 0cde C8       		.byte	-56
+ 3324 0cdf 0B       		.byte	11
+ 3325 0ce0 C9       		.byte	-55
+ 3326 0ce1 FF       		.byte	-1
+ 3327 0ce2 CA       		.byte	-54
+ 3328 0ce3 FF       		.byte	-1
+ 3329 0ce4 CB       		.byte	-53
+ 3330 0ce5 FF       		.byte	-1
+ 3331 0ce6 CD       		.byte	-51
+ 3332 0ce7 83       		.byte	-125
+ 3333 0ce8 CE       		.byte	-50
+ 3334 0ce9 03       		.byte	3
+ 3335 0cea CF       		.byte	-49
+ 3336 0ceb 01       		.byte	1
+ 3337 0cec D0       		.byte	-48
+ 3338 0ced 18       		.byte	24
+ 3339 0cee D2       		.byte	-46
+ 3340 0cef 83       		.byte	-125
+ 3341 0cf0 D4       		.byte	-44
+ 3342 0cf1 03       		.byte	3
+ 3343 0cf2 D6       		.byte	-42
+ 3344 0cf3 04       		.byte	4
+ 3345 0cf4 D8       		.byte	-40
+ 3346 0cf5 04       		.byte	4
+ 3347 0cf6 D9       		.byte	-39
+ 3348 0cf7 04       		.byte	4
+ 3349 0cf8 DA       		.byte	-38
+ 3350 0cf9 04       		.byte	4
+ 3351 0cfa DB       		.byte	-37
+ 3352 0cfb 04       		.byte	4
+ 3353 0cfc DC       		.byte	-36
+ 3354 0cfd 55       		.byte	85
+ 3355 0cfe DD       		.byte	-35
+ 3356 0cff 55       		.byte	85
+ 3357 0d00 DF       		.byte	-33
+ 3358 0d01 01       		.byte	1
+ 3359 0d02 E0       		.byte	-32
+ 3360 0d03 40       		.byte	64
+ 3361 0d04 E2       		.byte	-30
+ 3362 0d05 40       		.byte	64
+ 3363 0d06 E4       		.byte	-28
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 60
+
+
+ 3364 0d07 40       		.byte	64
+ 3365 0d08 E5       		.byte	-27
+ 3366 0d09 40       		.byte	64
+ 3367 0d0a E6       		.byte	-26
+ 3368 0d0b 80       		.byte	-128
+ 3369 0d0c E8       		.byte	-24
+ 3370 0d0d 80       		.byte	-128
+ 3371 0d0e EA       		.byte	-22
+ 3372 0d0f 80       		.byte	-128
+ 3373 0d10 EC       		.byte	-20
+ 3374 0d11 80       		.byte	-128
+ 3375 0d12 EE       		.byte	-18
+ 3376 0d13 80       		.byte	-128
+ 3377 0d14 00       		.byte	0
+ 3378 0d15 06       		.byte	6
+ 3379 0d16 03       		.byte	3
+ 3380 0d17 02       		.byte	2
+ 3381 0d18 05       		.byte	5
+ 3382 0d19 80       		.byte	-128
+ 3383 0d1a 06       		.byte	6
+ 3384 0d1b 20       		.byte	32
+ 3385 0d1c 0A       		.byte	10
+ 3386 0d1d 09       		.byte	9
+ 3387 0d1e 0B       		.byte	11
+ 3388 0d1f 40       		.byte	64
+ 3389 0d20 0E       		.byte	14
+ 3390 0d21 20       		.byte	32
+ 3391 0d22 0F       		.byte	15
+ 3392 0d23 02       		.byte	2
+ 3393 0d24 10       		.byte	16
+ 3394 0d25 08       		.byte	8
+ 3395 0d26 13       		.byte	19
+ 3396 0d27 02       		.byte	2
+ 3397 0d28 15       		.byte	21
+ 3398 0d29 02       		.byte	2
+ 3399 0d2a 17       		.byte	23
+ 3400 0d2b 24       		.byte	36
+ 3401 0d2c 18       		.byte	24
+ 3402 0d2d 04       		.byte	4
+ 3403 0d2e 19       		.byte	25
+ 3404 0d2f 20       		.byte	32
+ 3405 0d30 1A       		.byte	26
+ 3406 0d31 01       		.byte	1
+ 3407 0d32 1B       		.byte	27
+ 3408 0d33 42       		.byte	66
+ 3409 0d34 1E       		.byte	30
+ 3410 0d35 24       		.byte	36
+ 3411 0d36 1F       		.byte	31
+ 3412 0d37 09       		.byte	9
+ 3413 0d38 22       		.byte	34
+ 3414 0d39 14       		.byte	20
+ 3415 0d3a 24       		.byte	36
+ 3416 0d3b 40       		.byte	64
+ 3417 0d3c 27       		.byte	39
+ 3418 0d3d 40       		.byte	64
+ 3419 0d3e 2B       		.byte	43
+ 3420 0d3f 40       		.byte	64
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 61
+
+
+ 3421 0d40 2D       		.byte	45
+ 3422 0d41 80       		.byte	-128
+ 3423 0d42 2F       		.byte	47
+ 3424 0d43 29       		.byte	41
+ 3425 0d44 32       		.byte	50
+ 3426 0d45 04       		.byte	4
+ 3427 0d46 37       		.byte	55
+ 3428 0d47 45       		.byte	69
+ 3429 0d48 38       		.byte	56
+ 3430 0d49 04       		.byte	4
+ 3431 0d4a 39       		.byte	57
+ 3432 0d4b 50       		.byte	80
+ 3433 0d4c 3C       		.byte	60
+ 3434 0d4d 20       		.byte	32
+ 3435 0d4e 3E       		.byte	62
+ 3436 0d4f 20       		.byte	32
+ 3437 0d50 40       		.byte	64
+ 3438 0d51 04       		.byte	4
+ 3439 0d52 46       		.byte	70
+ 3440 0d53 10       		.byte	16
+ 3441 0d54 49       		.byte	73
+ 3442 0d55 05       		.byte	5
+ 3443 0d56 4B       		.byte	75
+ 3444 0d57 60       		.byte	96
+ 3445 0d58 4D       		.byte	77
+ 3446 0d59 20       		.byte	32
+ 3447 0d5a 4F       		.byte	79
+ 3448 0d5b 40       		.byte	64
+ 3449 0d5c 52       		.byte	82
+ 3450 0d5d 10       		.byte	16
+ 3451 0d5e 53       		.byte	83
+ 3452 0d5f 10       		.byte	16
+ 3453 0d60 58       		.byte	88
+ 3454 0d61 40       		.byte	64
+ 3455 0d62 59       		.byte	89
+ 3456 0d63 05       		.byte	5
+ 3457 0d64 5A       		.byte	90
+ 3458 0d65 20       		.byte	32
+ 3459 0d66 5D       		.byte	93
+ 3460 0d67 02       		.byte	2
+ 3461 0d68 62       		.byte	98
+ 3462 0d69 02       		.byte	2
+ 3463 0d6a 67       		.byte	103
+ 3464 0d6b 09       		.byte	9
+ 3465 0d6c 68       		.byte	104
+ 3466 0d6d 08       		.byte	8
+ 3467 0d6e 69       		.byte	105
+ 3468 0d6f 50       		.byte	80
+ 3469 0d70 6B       		.byte	107
+ 3470 0d71 02       		.byte	2
+ 3471 0d72 73       		.byte	115
+ 3472 0d73 40       		.byte	64
+ 3473 0d74 83       		.byte	-125
+ 3474 0d75 20       		.byte	32
+ 3475 0d76 87       		.byte	-121
+ 3476 0d77 01       		.byte	1
+ 3477 0d78 91       		.byte	-111
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 62
+
+
+ 3478 0d79 02       		.byte	2
+ 3479 0d7a 93       		.byte	-109
+ 3480 0d7b 09       		.byte	9
+ 3481 0d7c 94       		.byte	-108
+ 3482 0d7d 40       		.byte	64
+ 3483 0d7e 95       		.byte	-107
+ 3484 0d7f 08       		.byte	8
+ 3485 0d80 97       		.byte	-105
+ 3486 0d81 42       		.byte	66
+ 3487 0d82 98       		.byte	-104
+ 3488 0d83 40       		.byte	64
+ 3489 0d84 99       		.byte	-103
+ 3490 0d85 02       		.byte	2
+ 3491 0d86 9B       		.byte	-101
+ 3492 0d87 04       		.byte	4
+ 3493 0d88 9C       		.byte	-100
+ 3494 0d89 01       		.byte	1
+ 3495 0d8a 9E       		.byte	-98
+ 3496 0d8b 18       		.byte	24
+ 3497 0d8c 9F       		.byte	-97
+ 3498 0d8d 20       		.byte	32
+ 3499 0d8e A0       		.byte	-96
+ 3500 0d8f 10       		.byte	16
+ 3501 0d90 A3       		.byte	-93
+ 3502 0d91 21       		.byte	33
+ 3503 0d92 A6       		.byte	-90
+ 3504 0d93 12       		.byte	18
+ 3505 0d94 A9       		.byte	-87
+ 3506 0d95 04       		.byte	4
+ 3507 0d96 B2       		.byte	-78
+ 3508 0d97 02       		.byte	2
+ 3509 0d98 C0       		.byte	-64
+ 3510 0d99 AD       		.byte	-83
+ 3511 0d9a C2       		.byte	-62
+ 3512 0d9b AB       		.byte	-85
+ 3513 0d9c C4       		.byte	-60
+ 3514 0d9d 7A       		.byte	122
+ 3515 0d9e CA       		.byte	-54
+ 3516 0d9f 71       		.byte	113
+ 3517 0da0 CC       		.byte	-52
+ 3518 0da1 D2       		.byte	-46
+ 3519 0da2 CE       		.byte	-50
+ 3520 0da3 2E       		.byte	46
+ 3521 0da4 D0       		.byte	-48
+ 3522 0da5 44       		.byte	68
+ 3523 0da6 D2       		.byte	-46
+ 3524 0da7 3C       		.byte	60
+ 3525 0da8 D6       		.byte	-42
+ 3526 0da9 8F       		.byte	-113
+ 3527 0daa D8       		.byte	-40
+ 3528 0dab 31       		.byte	49
+ 3529 0dac EE       		.byte	-18
+ 3530 0dad 20       		.byte	32
+ 3531 0dae 88       		.byte	-120
+ 3532 0daf 01       		.byte	1
+ 3533 0db0 A4       		.byte	-92
+ 3534 0db1 01       		.byte	1
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 63
+
+
+ 3535 0db2 AB       		.byte	-85
+ 3536 0db3 04       		.byte	4
+ 3537 0db4 AC       		.byte	-84
+ 3538 0db5 01       		.byte	1
+ 3539 0db6 AF       		.byte	-81
+ 3540 0db7 08       		.byte	8
+ 3541 0db8 B1       		.byte	-79
+ 3542 0db9 04       		.byte	4
+ 3543 0dba B2       		.byte	-78
+ 3544 0dbb 04       		.byte	4
+ 3545 0dbc B6       		.byte	-74
+ 3546 0dbd 08       		.byte	8
+ 3547 0dbe E8       		.byte	-24
+ 3548 0dbf 10       		.byte	16
+ 3549 0dc0 EC       		.byte	-20
+ 3550 0dc1 80       		.byte	-128
+ 3551 0dc2 0C       		.byte	12
+ 3552 0dc3 40       		.byte	64
+ 3553 0dc4 0F       		.byte	15
+ 3554 0dc5 80       		.byte	-128
+ 3555 0dc6 30       		.byte	48
+ 3556 0dc7 20       		.byte	32
+ 3557 0dc8 33       		.byte	51
+ 3558 0dc9 08       		.byte	8
+ 3559 0dca 34       		.byte	52
+ 3560 0dcb 02       		.byte	2
+ 3561 0dcc 37       		.byte	55
+ 3562 0dcd 10       		.byte	16
+ 3563 0dce 39       		.byte	57
+ 3564 0dcf 10       		.byte	16
+ 3565 0dd0 5B       		.byte	91
+ 3566 0dd1 40       		.byte	64
+ 3567 0dd2 8F       		.byte	-113
+ 3568 0dd3 40       		.byte	64
+ 3569 0dd4 C2       		.byte	-62
+ 3570 0dd5 A0       		.byte	-96
+ 3571 0dd6 CC       		.byte	-52
+ 3572 0dd7 F0       		.byte	-16
+ 3573 0dd8 CE       		.byte	-50
+ 3574 0dd9 10       		.byte	16
+ 3575 0dda D4       		.byte	-44
+ 3576 0ddb 80       		.byte	-128
+ 3577 0ddc 01       		.byte	1
+ 3578 0ddd 44       		.byte	68
+ 3579 0dde 0B       		.byte	11
+ 3580 0ddf 88       		.byte	-120
+ 3581 0de0 0E       		.byte	14
+ 3582 0de1 42       		.byte	66
+ 3583 0de2 32       		.byte	50
+ 3584 0de3 24       		.byte	36
+ 3585 0de4 37       		.byte	55
+ 3586 0de5 80       		.byte	-128
+ 3587 0de6 83       		.byte	-125
+ 3588 0de7 90       		.byte	-112
+ 3589 0de8 85       		.byte	-123
+ 3590 0de9 14       		.byte	20
+ 3591 0dea 86       		.byte	-122
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 64
+
+
+ 3592 0deb 04       		.byte	4
+ 3593 0dec 8F       		.byte	-113
+ 3594 0ded 40       		.byte	64
+ 3595 0dee 95       		.byte	-107
+ 3596 0def 10       		.byte	16
+ 3597 0df0 98       		.byte	-104
+ 3598 0df1 40       		.byte	64
+ 3599 0df2 9C       		.byte	-100
+ 3600 0df3 02       		.byte	2
+ 3601 0df4 9F       		.byte	-97
+ 3602 0df5 10       		.byte	16
+ 3603 0df6 A3       		.byte	-93
+ 3604 0df7 40       		.byte	64
+ 3605 0df8 A4       		.byte	-92
+ 3606 0df9 20       		.byte	32
+ 3607 0dfa A7       		.byte	-89
+ 3608 0dfb 08       		.byte	8
+ 3609 0dfc C0       		.byte	-64
+ 3610 0dfd 50       		.byte	80
+ 3611 0dfe C2       		.byte	-62
+ 3612 0dff F0       		.byte	-16
+ 3613 0e00 CC       		.byte	-52
+ 3614 0e01 70       		.byte	112
+ 3615 0e02 E2       		.byte	-30
+ 3616 0e03 A0       		.byte	-96
+ 3617 0e04 E4       		.byte	-28
+ 3618 0e05 40       		.byte	64
+ 3619 0e06 E6       		.byte	-26
+ 3620 0e07 10       		.byte	16
+ 3621 0e08 8F       		.byte	-113
+ 3622 0e09 08       		.byte	8
+ 3623 0e0a 92       		.byte	-110
+ 3624 0e0b 40       		.byte	64
+ 3625 0e0c 9C       		.byte	-100
+ 3626 0e0d 02       		.byte	2
+ 3627 0e0e A4       		.byte	-92
+ 3628 0e0f 20       		.byte	32
+ 3629 0e10 A6       		.byte	-90
+ 3630 0e11 20       		.byte	32
+ 3631 0e12 A7       		.byte	-89
+ 3632 0e13 08       		.byte	8
+ 3633 0e14 A9       		.byte	-87
+ 3634 0e15 40       		.byte	64
+ 3635 0e16 AF       		.byte	-81
+ 3636 0e17 44       		.byte	68
+ 3637 0e18 B0       		.byte	-80
+ 3638 0e19 40       		.byte	64
+ 3639 0e1a B6       		.byte	-74
+ 3640 0e1b 01       		.byte	1
+ 3641 0e1c E8       		.byte	-24
+ 3642 0e1d 10       		.byte	16
+ 3643 0e1e EC       		.byte	-20
+ 3644 0e1f 30       		.byte	48
+ 3645 0e20 92       		.byte	-110
+ 3646 0e21 40       		.byte	64
+ 3647 0e22 9C       		.byte	-100
+ 3648 0e23 02       		.byte	2
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 65
+
+
+ 3649 0e24 A4       		.byte	-92
+ 3650 0e25 20       		.byte	32
+ 3651 0e26 A6       		.byte	-90
+ 3652 0e27 20       		.byte	32
+ 3653 0e28 52       		.byte	82
+ 3654 0e29 08       		.byte	8
+ 3655 0e2a 7F       		.byte	127
+ 3656 0e2b 01       		.byte	1
+ 3657 0e2c D4       		.byte	-44
+ 3658 0e2d 04       		.byte	4
+ 3659 0e2e DE       		.byte	-34
+ 3660 0e2f 04       		.byte	4
+ 3661 0e30 A6       		.byte	-90
+ 3662 0e31 08       		.byte	8
+ 3663 0e32 B7       		.byte	-73
+ 3664 0e33 01       		.byte	1
+ 3665 0e34 E8       		.byte	-24
+ 3666 0e35 02       		.byte	2
+ 3667 0e36 8F       		.byte	-113
+ 3668 0e37 01       		.byte	1
+ 3669 0e38 AA       		.byte	-86
+ 3670 0e39 08       		.byte	8
+ 3671 0e3a E4       		.byte	-28
+ 3672 0e3b 08       		.byte	8
+ 3673 0e3c 93       		.byte	-109
+ 3674 0e3d 01       		.byte	1
+ 3675 0e3e 99       		.byte	-103
+ 3676 0e3f 01       		.byte	1
+ 3677 0e40 B5       		.byte	-75
+ 3678 0e41 01       		.byte	1
+ 3679 0e42 EC       		.byte	-20
+ 3680 0e43 02       		.byte	2
+ 3681 0e44 88       		.byte	-120
+ 3682 0e45 02       		.byte	2
+ 3683 0e46 9C       		.byte	-100
+ 3684 0e47 02       		.byte	2
+ 3685 0e48 9E       		.byte	-98
+ 3686 0e49 20       		.byte	32
+ 3687 0e4a A6       		.byte	-90
+ 3688 0e4b 20       		.byte	32
+ 3689 0e4c AA       		.byte	-86
+ 3690 0e4d 20       		.byte	32
+ 3691 0e4e B0       		.byte	-80
+ 3692 0e4f 20       		.byte	32
+ 3693 0e50 B6       		.byte	-74
+ 3694 0e51 40       		.byte	64
+ 3695 0e52 E8       		.byte	-24
+ 3696 0e53 20       		.byte	32
+ 3697 0e54 06       		.byte	6
+ 3698 0e55 20       		.byte	32
+ 3699 0e56 0D       		.byte	13
+ 3700 0e57 40       		.byte	64
+ 3701 0e58 5B       		.byte	91
+ 3702 0e59 40       		.byte	64
+ 3703 0e5a 81       		.byte	-127
+ 3704 0e5b 40       		.byte	64
+ 3705 0e5c 83       		.byte	-125
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 66
+
+
+ 3706 0e5d 40       		.byte	64
+ 3707 0e5e 86       		.byte	-122
+ 3708 0e5f 20       		.byte	32
+ 3709 0e60 9E       		.byte	-98
+ 3710 0e61 20       		.byte	32
+ 3711 0e62 A6       		.byte	-90
+ 3712 0e63 20       		.byte	32
+ 3713 0e64 C0       		.byte	-64
+ 3714 0e65 20       		.byte	32
+ 3715 0e66 C2       		.byte	-62
+ 3716 0e67 80       		.byte	-128
+ 3717 0e68 D4       		.byte	-44
+ 3718 0e69 80       		.byte	-128
+ 3719 0e6a E0       		.byte	-32
+ 3720 0e6b 80       		.byte	-128
+ 3721 0e6c E6       		.byte	-26
+ 3722 0e6d C0       		.byte	-64
+ 3723 0e6e 54       		.byte	84
+ 3724 0e6f 20       		.byte	32
+ 3725 0e70 5F       		.byte	95
+ 3726 0e71 01       		.byte	1
+ 3727 0e72 61       		.byte	97
+ 3728 0e73 01       		.byte	1
+ 3729 0e74 93       		.byte	-109
+ 3730 0e75 01       		.byte	1
+ 3731 0e76 99       		.byte	-103
+ 3732 0e77 01       		.byte	1
+ 3733 0e78 D4       		.byte	-44
+ 3734 0e79 02       		.byte	2
+ 3735 0e7a D6       		.byte	-42
+ 3736 0e7b 01       		.byte	1
+ 3737 0e7c D8       		.byte	-40
+ 3738 0e7d 02       		.byte	2
+ 3739 0e7e 01       		.byte	1
+ 3740 0e7f 02       		.byte	2
+ 3741 0e80 89       		.byte	-119
+ 3742 0e81 02       		.byte	2
+ 3743 0e82 B0       		.byte	-80
+ 3744 0e83 20       		.byte	32
+ 3745 0e84 C0       		.byte	-64
+ 3746 0e85 08       		.byte	8
+ 3747 0e86 E2       		.byte	-30
+ 3748 0e87 01       		.byte	1
+ 3749 0e88 EC       		.byte	-20
+ 3750 0e89 04       		.byte	4
+ 3751 0e8a 00       		.byte	0
+ 3752 0e8b 4F       		.byte	79
+ 3753 0e8c 08       		.byte	8
+ 3754 0e8d 0F       		.byte	15
+ 3755 0e8e 0A       		.byte	10
+ 3756 0e8f 07       		.byte	7
+ 3757 0e90 0C       		.byte	12
+ 3758 0e91 4A       		.byte	74
+ 3759 0e92 0E       		.byte	14
+ 3760 0e93 49       		.byte	73
+ 3761 0e94 10       		.byte	16
+ 3762 0e95 3F       		.byte	63
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 67
+
+
+ 3763 0e96 1A       		.byte	26
+ 3764 0e97 17       		.byte	23
+ 3765 0e98 1C       		.byte	28
+ 3766 0e99 2A       		.byte	42
+ 3767 0e9a 00       		.byte	0
+ 3768 0e9b AB       		.byte	-85
+ 3769 0e9c 01       		.byte	1
+ 3770 0e9d EA       		.byte	-22
+ 3771 0e9e 00       		.byte	0
+ 3772 0e9f 00       		.byte	0
+ 3773 0ea0 41       		.byte	65
+ 3774 0ea1 10       		.byte	16
+ 3775 0ea2 00       		.byte	0
+ 3776 0ea3 00       		.byte	0
+ 3777 0ea4 0F       		.byte	15
+ 3778 0ea5 3C       		.byte	60
+ 3779 0ea6 F0       		.byte	-16
+ 3780 0ea7 82       		.byte	-126
+ 3781 0ea8 1C       		.byte	28
+ 3782 0ea9 BF       		.byte	-65
+ 3783 0eaa E3       		.byte	-29
+ 3784 0eab 00       		.byte	0
+ 3785 0eac 00       		.byte	0
+ 3786 0ead 00       		.byte	0
+ 3787 0eae 00       		.byte	0
+ 3788 0eaf 04       		.byte	4
+ 3789 0eb0 F3       		.byte	-13
+ 3790 0eb1 00       		.byte	0
+ 3791 0eb2 0C       		.byte	12
+ 3792 0eb3 00       		.byte	0
+ 3793 0eb4 FF       		.byte	-1
+ 3794 0eb5 08       		.byte	8
+ 3795 0eb6 00       		.byte	0
+ 3796 0eb7 00       		.byte	0
+ 3797 0eb8 82       		.byte	-126
+ 3798 0eb9 18       		.byte	24
+ 3799 0eba 00       		.byte	0
+ 3800 0ebb 00       		.byte	0
+ 3801 0ebc 00       		.byte	0
+ 3802 0ebd 00       		.byte	0
+ 3803 0ebe F3       		.byte	-13
+ 3804 0ebf 03       		.byte	3
+ 3805 0ec0 08       		.byte	8
+ 3806 0ec1 04       		.byte	4
+ 3807 0ec2 00       		.byte	0
+ 3808 0ec3 40       		.byte	64
+ 3809 0ec4 04       		.byte	4
+ 3810 0ec5 3C       		.byte	60
+ 3811 0ec6 00       		.byte	0
+ 3812 0ec7 81       		.byte	-127
+ 3813 0ec8 0C       		.byte	12
+ 3814 0ec9 A7       		.byte	-89
+ 3815 0eca 00       		.byte	0
+ 3816 0ecb 18       		.byte	24
+ 3817 0ecc C3       		.byte	-61
+ 3818 0ecd 00       		.byte	0
+ 3819 0ece 00       		.byte	0
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 68
+
+
+ 3820 0ecf 00       		.byte	0
+ 3821 0ed0 1C       		.byte	28
+ 3822 0ed1 40       		.byte	64
+ 3823 0ed2 0F       		.byte	15
+ 3824 0ed3 1F       		.byte	31
+ 3825 0ed4 2C       		.byte	44
+ 3826 0ed5 20       		.byte	32
+ 3827 0ed6 C0       		.byte	-64
+ 3828 0ed7 80       		.byte	-128
+ 3829 0ed8 00       		.byte	0
+ 3830 0ed9 80       		.byte	-128
+ 3831 0eda 28       		.byte	40
+ 3832 0edb 08       		.byte	8
+ 3833 0edc 00       		.byte	0
+ 3834 0edd 00       		.byte	0
+ 3835 0ede 00       		.byte	0
+ 3836 0edf 10       		.byte	16
+ 3837 0ee0 54       		.byte	84
+ 3838 0ee1 06       		.byte	6
+ 3839 0ee2 02       		.byte	2
+ 3840 0ee3 00       		.byte	0
+ 3841 0ee4 03       		.byte	3
+ 3842 0ee5 E0       		.byte	-32
+ 3843 0ee6 00       		.byte	0
+ 3844 0ee7 0C       		.byte	12
+ 3845 0ee8 12       		.byte	18
+ 3846 0ee9 FF       		.byte	-1
+ 3847 0eea FF       		.byte	-1
+ 3848 0eeb FF       		.byte	-1
+ 3849 0eec 62       		.byte	98
+ 3850 0eed A0       		.byte	-96
+ 3851 0eee F0       		.byte	-16
+ 3852 0eef 41       		.byte	65
+ 3853 0ef0 0C       		.byte	12
+ 3854 0ef1 00       		.byte	0
+ 3855 0ef2 00       		.byte	0
+ 3856 0ef3 00       		.byte	0
+ 3857 0ef4 00       		.byte	0
+ 3858 0ef5 00       		.byte	0
+ 3859 0ef6 02       		.byte	2
+ 3860 0ef7 11       		.byte	17
+ 3861 0ef8 04       		.byte	4
+ 3862 0ef9 04       		.byte	4
+ 3863 0efa 04       		.byte	4
+ 3864 0efb 04       		.byte	4
+ 3865 0efc 33       		.byte	51
+ 3866 0efd 33       		.byte	51
+ 3867 0efe 00       		.byte	0
+ 3868 0eff 01       		.byte	1
+ 3869 0f00 00       		.byte	0
+ 3870 0f01 00       		.byte	0
+ 3871 0f02 00       		.byte	0
+ 3872 0f03 00       		.byte	0
+ 3873 0f04 00       		.byte	0
+ 3874 0f05 00       		.byte	0
+ 3875 0f06 40       		.byte	64
+ 3876 0f07 02       		.byte	2
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 69
+
+
+ 3877 0f08 00       		.byte	0
+ 3878 0f09 10       		.byte	16
+ 3879 0f0a 30       		.byte	48
+ 3880 0f0b 10       		.byte	16
+ 3881 0f0c 00       		.byte	0
+ 3882 0f0d 10       		.byte	16
+ 3883 0f0e 10       		.byte	16
+ 3884 0f0f 12       		.byte	18
+ 3885 0f10 00       		.byte	0
+ 3886 0f11 00       		.byte	0
+ 3887 0f12 00       		.byte	0
+ 3888 0f13 00       		.byte	0
+ 3889 0f14 00       		.byte	0
+ 3890 0f15 00       		.byte	0
+ 3891 0f16 00       		.byte	0
+ 3892 0f17 00       		.byte	0
+ 3893 0f18 00       		.byte	0
+ 3894 0f19 00       		.byte	0
+ 3895 0f1a 00       		.byte	0
+ 3896 0f1b 00       		.byte	0
+ 3897 0f1c 00       		.byte	0
+ 3898 0f1d 00       		.byte	0
+ 3899 0f1e 00       		.byte	0
+ 3900 0f1f 00       		.byte	0
+ 3901 0f20 FF       		.byte	-1
+ 3902 0f21 00       		.byte	0
+ 3903 0f22 00       		.byte	0
+ 3904 0f23 00       		.byte	0
+ 3905 0f24 00       		.byte	0
+ 3906 0f25 00       		.byte	0
+ 3907 0f26 00       		.byte	0
+ 3908 0f27 00       		.byte	0
+ 3909 0f28 00       		.byte	0
+ 3910 0f29 10       		.byte	16
+ 3911 0f2a 10       		.byte	16
+ 3912 0f2b 00       		.byte	0
+ 3913 0f2c 10       		.byte	16
+ 3914 0f2d 00       		.byte	0
+ 3915 0f2e 00       		.byte	0
+ 3916 0f2f 00       		.byte	0
+ 3917 0f30 94       		.byte	-108
+ 3918 0f31 00       		.byte	0
+ 3919 0f32 00       		.byte	0
+ 3920 0f33 9F       		.byte	-97
+ 3921 0f34 9F       		.byte	-97
+ 3922 0f35 00       		.byte	0
+ 3923 0f36 94       		.byte	-108
+ 3924 0f37 00       		.byte	0
+ 3925 0f38 00       		.byte	0
+ 3926 0f39 00       		.byte	0
+ 3927 0f3a 00       		.byte	0
+ 3928 0f3b 00       		.byte	0
+ 3929 0f3c AA       		.byte	-86
+ 3930 0f3d 01       		.byte	1
+ 3931 0f3e 01       		.byte	1
+ 3932 0f3f 00       		.byte	0
+ 3933 0f40 01       		.byte	1
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 70
+
+
+ 3934 0f41 00       		.byte	0
+ 3935 0f42 00       		.byte	0
+ 3936 0f43 00       		.byte	0
+ 3937 0f44 A0       		.byte	-96
+ 3938 0f45 01       		.byte	1
+ 3939 0f46 01       		.byte	1
+ 3940 0f47 00       		.byte	0
+ 3941 0f48 01       		.byte	1
+ 3942 0f49 00       		.byte	0
+ 3943 0f4a 00       		.byte	0
+ 3944 0f4b 00       		.byte	0
+ 3945 0f4c 01       		.byte	1
+ 3946 0f4d 00       		.byte	0
+ 3947 0f4e 00       		.byte	0
+ 3948 0f4f 00       		.byte	0
+ 3949 0f50 00       		.byte	0
+ 3950 0f51 00       		.byte	0
+ 3951 0f52 00       		.byte	0
+ 3952 0f53 00       		.byte	0
+ 3953 0f54 01       		.byte	1
+ 3954 0f55 00       		.byte	0
+ 3955 0f56 00       		.byte	0
+ 3956 0f57 01       		.byte	1
+ 3957 0f58 01       		.byte	1
+ 3958 0f59 00       		.byte	0
+ 3959 0f5a 01       		.byte	1
+ 3960 0f5b 00       		.byte	0
+ 3961 0f5c 00       		.byte	0
+ 3962 0f5d 00       		.byte	0
+ 3963 0f5e 00       		.byte	0
+ 3964 0f5f 00       		.byte	0
+ 3965              		.section	.cywolatch,"a",%progbits
+ 3966              		.align	2
+ 3967              		.type	cy_meta_wonvl, %object
+ 3968              		.size	cy_meta_wonvl, 4
+ 3969              	cy_meta_wonvl:
+ 3970 0000 BC       		.byte	-68
+ 3971 0001 90       		.byte	-112
+ 3972 0002 AC       		.byte	-84
+ 3973 0003 AF       		.byte	-81
+ 3974              		.section	.cycustnvl,"a",%progbits
+ 3975              		.align	2
+ 3976              		.type	cy_meta_custnvl, %object
+ 3977              		.size	cy_meta_custnvl, 4
+ 3978              	cy_meta_custnvl:
+ 3979 0000 00       		.byte	0
+ 3980 0001 00       		.byte	0
+ 3981 0002 40       		.byte	64
+ 3982 0003 05       		.byte	5
+ 3983              		.section	.cymeta,"a",%progbits
+ 3984              		.align	2
+ 3985              		.type	cy_metadata, %object
+ 3986              		.size	cy_metadata, 12
+ 3987              	cy_metadata:
+ 3988 0000 00       		.byte	0
+ 3989 0001 01       		.byte	1
+ 3990 0002 2E       		.byte	46
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 71
+
+
+ 3991 0003 12       		.byte	18
+ 3992 0004 30       		.byte	48
+ 3993 0005 69       		.byte	105
+ 3994 0006 00       		.byte	0
+ 3995 0007 01       		.byte	1
+ 3996 0008 00       		.byte	0
+ 3997 0009 00       		.byte	0
+ 3998 000a 00       		.byte	0
+ 3999 000b 00       		.byte	0
+ 4000              		.section	.cyflashprotect,"a",%progbits
+ 4001              		.align	2
+ 4002              		.type	cy_meta_flashprotect, %object
+ 4003              		.size	cy_meta_flashprotect, 256
+ 4004              	cy_meta_flashprotect:
+ 4005 0000 00000000 		.space	256
+ 4005      00000000 
+ 4005      00000000 
+ 4005      00000000 
+ 4005      00000000 
+ 4006              		.text
+ 4007              	.Letext0:
+ 4008              		.file 1 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+ 4009              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+ 4010              		.file 3 "Generated_Source\\PSoC5\\cymetadata.c"
+ 4011              		.section	.debug_info,"",%progbits
+ 4012              	.Ldebug_info0:
+ 4013 0000 35010000 		.4byte	0x135
+ 4014 0004 0400     		.2byte	0x4
+ 4015 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 4016 000a 04       		.byte	0x4
+ 4017 000b 01       		.uleb128 0x1
+ 4018 000c 5D000000 		.4byte	.LASF17
+ 4019 0010 0C       		.byte	0xc
+ 4020 0011 B7010000 		.4byte	.LASF18
+ 4021 0015 0A000000 		.4byte	.LASF19
+ 4022 0019 00000000 		.4byte	.Ldebug_line0
+ 4023 001d 02       		.uleb128 0x2
+ 4024 001e 01       		.byte	0x1
+ 4025 001f 06       		.byte	0x6
+ 4026 0020 AB010000 		.4byte	.LASF0
+ 4027 0024 03       		.uleb128 0x3
+ 4028 0025 00000000 		.4byte	.LASF9
+ 4029 0029 01       		.byte	0x1
+ 4030 002a 1D       		.byte	0x1d
+ 4031 002b 2F000000 		.4byte	0x2f
+ 4032 002f 02       		.uleb128 0x2
+ 4033 0030 01       		.byte	0x1
+ 4034 0031 08       		.byte	0x8
+ 4035 0032 4F000000 		.4byte	.LASF1
+ 4036 0036 02       		.uleb128 0x2
+ 4037 0037 02       		.byte	0x2
+ 4038 0038 05       		.byte	0x5
+ 4039 0039 98010000 		.4byte	.LASF2
+ 4040 003d 02       		.uleb128 0x2
+ 4041 003e 02       		.byte	0x2
+ 4042 003f 07       		.byte	0x7
+ 4043 0040 FD000000 		.4byte	.LASF3
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 72
+
+
+ 4044 0044 02       		.uleb128 0x2
+ 4045 0045 04       		.byte	0x4
+ 4046 0046 05       		.byte	0x5
+ 4047 0047 A2010000 		.4byte	.LASF4
+ 4048 004b 02       		.uleb128 0x2
+ 4049 004c 04       		.byte	0x4
+ 4050 004d 07       		.byte	0x7
+ 4051 004e EB000000 		.4byte	.LASF5
+ 4052 0052 02       		.uleb128 0x2
+ 4053 0053 08       		.byte	0x8
+ 4054 0054 05       		.byte	0x5
+ 4055 0055 8A010000 		.4byte	.LASF6
+ 4056 0059 02       		.uleb128 0x2
+ 4057 005a 08       		.byte	0x8
+ 4058 005b 07       		.byte	0x7
+ 4059 005c 3F010000 		.4byte	.LASF7
+ 4060 0060 04       		.uleb128 0x4
+ 4061 0061 04       		.byte	0x4
+ 4062 0062 05       		.byte	0x5
+ 4063 0063 696E7400 		.ascii	"int\000"
+ 4064 0067 02       		.uleb128 0x2
+ 4065 0068 04       		.byte	0x4
+ 4066 0069 07       		.byte	0x7
+ 4067 006a 32010000 		.4byte	.LASF8
+ 4068 006e 03       		.uleb128 0x3
+ 4069 006f 56010000 		.4byte	.LASF10
+ 4070 0073 02       		.byte	0x2
+ 4071 0074 18       		.byte	0x18
+ 4072 0075 24000000 		.4byte	0x24
+ 4073 0079 05       		.uleb128 0x5
+ 4074 007a 91000000 		.4byte	0x91
+ 4075 007e 8A000000 		.4byte	0x8a
+ 4076 0082 06       		.uleb128 0x6
+ 4077 0083 8A000000 		.4byte	0x8a
+ 4078 0087 5F0F     		.2byte	0xf5f
+ 4079 0089 00       		.byte	0
+ 4080 008a 02       		.uleb128 0x2
+ 4081 008b 04       		.byte	0x4
+ 4082 008c 07       		.byte	0x7
+ 4083 008d 81010000 		.4byte	.LASF11
+ 4084 0091 07       		.uleb128 0x7
+ 4085 0092 6E000000 		.4byte	0x6e
+ 4086 0096 08       		.uleb128 0x8
+ 4087 0097 20010000 		.4byte	.LASF12
+ 4088 009b 03       		.byte	0x3
+ 4089 009c 1F       		.byte	0x1f
+ 4090 009d A7000000 		.4byte	0xa7
+ 4091 00a1 05       		.uleb128 0x5
+ 4092 00a2 03       		.byte	0x3
+ 4093 00a3 00000000 		.4byte	cy_meta_configecc
+ 4094 00a7 07       		.uleb128 0x7
+ 4095 00a8 79000000 		.4byte	0x79
+ 4096 00ac 05       		.uleb128 0x5
+ 4097 00ad 91000000 		.4byte	0x91
+ 4098 00b1 BC000000 		.4byte	0xbc
+ 4099 00b5 09       		.uleb128 0x9
+ 4100 00b6 8A000000 		.4byte	0x8a
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 73
+
+
+ 4101 00ba 03       		.byte	0x3
+ 4102 00bb 00       		.byte	0
+ 4103 00bc 0A       		.uleb128 0xa
+ 4104 00bd 10010000 		.4byte	.LASF13
+ 4105 00c1 03       		.byte	0x3
+ 4106 00c2 1802     		.2byte	0x218
+ 4107 00c4 CE000000 		.4byte	0xce
+ 4108 00c8 05       		.uleb128 0x5
+ 4109 00c9 03       		.byte	0x3
+ 4110 00ca 00000000 		.4byte	cy_meta_custnvl
+ 4111 00ce 07       		.uleb128 0x7
+ 4112 00cf AC000000 		.4byte	0xac
+ 4113 00d3 0A       		.uleb128 0xa
+ 4114 00d4 73010000 		.4byte	.LASF14
+ 4115 00d8 03       		.byte	0x3
+ 4116 00d9 2602     		.2byte	0x226
+ 4117 00db E5000000 		.4byte	0xe5
+ 4118 00df 05       		.uleb128 0x5
+ 4119 00e0 03       		.byte	0x3
+ 4120 00e1 00000000 		.4byte	cy_meta_wonvl
+ 4121 00e5 07       		.uleb128 0x7
+ 4122 00e6 AC000000 		.4byte	0xac
+ 4123 00ea 05       		.uleb128 0x5
+ 4124 00eb 91000000 		.4byte	0x91
+ 4125 00ef FA000000 		.4byte	0xfa
+ 4126 00f3 09       		.uleb128 0x9
+ 4127 00f4 8A000000 		.4byte	0x8a
+ 4128 00f8 FF       		.byte	0xff
+ 4129 00f9 00       		.byte	0
+ 4130 00fa 0A       		.uleb128 0xa
+ 4131 00fb 5E010000 		.4byte	.LASF15
+ 4132 00ff 03       		.byte	0x3
+ 4133 0100 3402     		.2byte	0x234
+ 4134 0102 0C010000 		.4byte	0x10c
+ 4135 0106 05       		.uleb128 0x5
+ 4136 0107 03       		.byte	0x3
+ 4137 0108 00000000 		.4byte	cy_meta_flashprotect
+ 4138 010c 07       		.uleb128 0x7
+ 4139 010d EA000000 		.4byte	0xea
+ 4140 0111 05       		.uleb128 0x5
+ 4141 0112 91000000 		.4byte	0x91
+ 4142 0116 21010000 		.4byte	0x121
+ 4143 011a 09       		.uleb128 0x9
+ 4144 011b 8A000000 		.4byte	0x8a
+ 4145 011f 0B       		.byte	0xb
+ 4146 0120 00       		.byte	0
+ 4147 0121 0A       		.uleb128 0xa
+ 4148 0122 43000000 		.4byte	.LASF16
+ 4149 0126 03       		.byte	0x3
+ 4150 0127 6102     		.2byte	0x261
+ 4151 0129 33010000 		.4byte	0x133
+ 4152 012d 05       		.uleb128 0x5
+ 4153 012e 03       		.byte	0x3
+ 4154 012f 00000000 		.4byte	cy_metadata
+ 4155 0133 07       		.uleb128 0x7
+ 4156 0134 11010000 		.4byte	0x111
+ 4157 0138 00       		.byte	0
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 74
+
+
+ 4158              		.section	.debug_abbrev,"",%progbits
+ 4159              	.Ldebug_abbrev0:
+ 4160 0000 01       		.uleb128 0x1
+ 4161 0001 11       		.uleb128 0x11
+ 4162 0002 01       		.byte	0x1
+ 4163 0003 25       		.uleb128 0x25
+ 4164 0004 0E       		.uleb128 0xe
+ 4165 0005 13       		.uleb128 0x13
+ 4166 0006 0B       		.uleb128 0xb
+ 4167 0007 03       		.uleb128 0x3
+ 4168 0008 0E       		.uleb128 0xe
+ 4169 0009 1B       		.uleb128 0x1b
+ 4170 000a 0E       		.uleb128 0xe
+ 4171 000b 10       		.uleb128 0x10
+ 4172 000c 17       		.uleb128 0x17
+ 4173 000d 00       		.byte	0
+ 4174 000e 00       		.byte	0
+ 4175 000f 02       		.uleb128 0x2
+ 4176 0010 24       		.uleb128 0x24
+ 4177 0011 00       		.byte	0
+ 4178 0012 0B       		.uleb128 0xb
+ 4179 0013 0B       		.uleb128 0xb
+ 4180 0014 3E       		.uleb128 0x3e
+ 4181 0015 0B       		.uleb128 0xb
+ 4182 0016 03       		.uleb128 0x3
+ 4183 0017 0E       		.uleb128 0xe
+ 4184 0018 00       		.byte	0
+ 4185 0019 00       		.byte	0
+ 4186 001a 03       		.uleb128 0x3
+ 4187 001b 16       		.uleb128 0x16
+ 4188 001c 00       		.byte	0
+ 4189 001d 03       		.uleb128 0x3
+ 4190 001e 0E       		.uleb128 0xe
+ 4191 001f 3A       		.uleb128 0x3a
+ 4192 0020 0B       		.uleb128 0xb
+ 4193 0021 3B       		.uleb128 0x3b
+ 4194 0022 0B       		.uleb128 0xb
+ 4195 0023 49       		.uleb128 0x49
+ 4196 0024 13       		.uleb128 0x13
+ 4197 0025 00       		.byte	0
+ 4198 0026 00       		.byte	0
+ 4199 0027 04       		.uleb128 0x4
+ 4200 0028 24       		.uleb128 0x24
+ 4201 0029 00       		.byte	0
+ 4202 002a 0B       		.uleb128 0xb
+ 4203 002b 0B       		.uleb128 0xb
+ 4204 002c 3E       		.uleb128 0x3e
+ 4205 002d 0B       		.uleb128 0xb
+ 4206 002e 03       		.uleb128 0x3
+ 4207 002f 08       		.uleb128 0x8
+ 4208 0030 00       		.byte	0
+ 4209 0031 00       		.byte	0
+ 4210 0032 05       		.uleb128 0x5
+ 4211 0033 01       		.uleb128 0x1
+ 4212 0034 01       		.byte	0x1
+ 4213 0035 49       		.uleb128 0x49
+ 4214 0036 13       		.uleb128 0x13
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 75
+
+
+ 4215 0037 01       		.uleb128 0x1
+ 4216 0038 13       		.uleb128 0x13
+ 4217 0039 00       		.byte	0
+ 4218 003a 00       		.byte	0
+ 4219 003b 06       		.uleb128 0x6
+ 4220 003c 21       		.uleb128 0x21
+ 4221 003d 00       		.byte	0
+ 4222 003e 49       		.uleb128 0x49
+ 4223 003f 13       		.uleb128 0x13
+ 4224 0040 2F       		.uleb128 0x2f
+ 4225 0041 05       		.uleb128 0x5
+ 4226 0042 00       		.byte	0
+ 4227 0043 00       		.byte	0
+ 4228 0044 07       		.uleb128 0x7
+ 4229 0045 26       		.uleb128 0x26
+ 4230 0046 00       		.byte	0
+ 4231 0047 49       		.uleb128 0x49
+ 4232 0048 13       		.uleb128 0x13
+ 4233 0049 00       		.byte	0
+ 4234 004a 00       		.byte	0
+ 4235 004b 08       		.uleb128 0x8
+ 4236 004c 34       		.uleb128 0x34
+ 4237 004d 00       		.byte	0
+ 4238 004e 03       		.uleb128 0x3
+ 4239 004f 0E       		.uleb128 0xe
+ 4240 0050 3A       		.uleb128 0x3a
+ 4241 0051 0B       		.uleb128 0xb
+ 4242 0052 3B       		.uleb128 0x3b
+ 4243 0053 0B       		.uleb128 0xb
+ 4244 0054 49       		.uleb128 0x49
+ 4245 0055 13       		.uleb128 0x13
+ 4246 0056 3F       		.uleb128 0x3f
+ 4247 0057 19       		.uleb128 0x19
+ 4248 0058 02       		.uleb128 0x2
+ 4249 0059 18       		.uleb128 0x18
+ 4250 005a 00       		.byte	0
+ 4251 005b 00       		.byte	0
+ 4252 005c 09       		.uleb128 0x9
+ 4253 005d 21       		.uleb128 0x21
+ 4254 005e 00       		.byte	0
+ 4255 005f 49       		.uleb128 0x49
+ 4256 0060 13       		.uleb128 0x13
+ 4257 0061 2F       		.uleb128 0x2f
+ 4258 0062 0B       		.uleb128 0xb
+ 4259 0063 00       		.byte	0
+ 4260 0064 00       		.byte	0
+ 4261 0065 0A       		.uleb128 0xa
+ 4262 0066 34       		.uleb128 0x34
+ 4263 0067 00       		.byte	0
+ 4264 0068 03       		.uleb128 0x3
+ 4265 0069 0E       		.uleb128 0xe
+ 4266 006a 3A       		.uleb128 0x3a
+ 4267 006b 0B       		.uleb128 0xb
+ 4268 006c 3B       		.uleb128 0x3b
+ 4269 006d 05       		.uleb128 0x5
+ 4270 006e 49       		.uleb128 0x49
+ 4271 006f 13       		.uleb128 0x13
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 76
+
+
+ 4272 0070 3F       		.uleb128 0x3f
+ 4273 0071 19       		.uleb128 0x19
+ 4274 0072 02       		.uleb128 0x2
+ 4275 0073 18       		.uleb128 0x18
+ 4276 0074 00       		.byte	0
+ 4277 0075 00       		.byte	0
+ 4278 0076 00       		.byte	0
+ 4279              		.section	.debug_aranges,"",%progbits
+ 4280 0000 14000000 		.4byte	0x14
+ 4281 0004 0200     		.2byte	0x2
+ 4282 0006 00000000 		.4byte	.Ldebug_info0
+ 4283 000a 04       		.byte	0x4
+ 4284 000b 00       		.byte	0
+ 4285 000c 0000     		.2byte	0
+ 4286 000e 0000     		.2byte	0
+ 4287 0010 00000000 		.4byte	0
+ 4288 0014 00000000 		.4byte	0
+ 4289              		.section	.debug_line,"",%progbits
+ 4290              	.Ldebug_line0:
+ 4291 0000 3D010000 		.section	.debug_str,"MS",%progbits,1
+ 4291      02003701 
+ 4291      00000201 
+ 4291      FB0E0D00 
+ 4291      01010101 
+ 4292              	.LASF9:
+ 4293 0000 5F5F7569 		.ascii	"__uint8_t\000"
+ 4293      6E74385F 
+ 4293      7400
+ 4294              	.LASF19:
+ 4295 000a 433A5C55 		.ascii	"C:\\Users\\stanl\\Documents\\PSoC Creator\\CarLab\\"
+ 4295      73657273 
+ 4295      5C737461 
+ 4295      6E6C5C44 
+ 4295      6F63756D 
+ 4296 0037 46696E61 		.ascii	"Final.cydsn\000"
+ 4296      6C2E6379 
+ 4296      64736E00 
+ 4297              	.LASF16:
+ 4298 0043 63795F6D 		.ascii	"cy_metadata\000"
+ 4298      65746164 
+ 4298      61746100 
+ 4299              	.LASF1:
+ 4300 004f 756E7369 		.ascii	"unsigned char\000"
+ 4300      676E6564 
+ 4300      20636861 
+ 4300      7200
+ 4301              	.LASF17:
+ 4302 005d 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 4302      43313120 
+ 4302      352E342E 
+ 4302      31203230 
+ 4302      31363036 
+ 4303 0090 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 4303      20726576 
+ 4303      6973696F 
+ 4303      6E203233 
+ 4303      37373135 
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 77
+
+
+ 4304 00c3 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 4304      66756E63 
+ 4304      74696F6E 
+ 4304      2D736563 
+ 4304      74696F6E 
+ 4305              	.LASF5:
+ 4306 00eb 6C6F6E67 		.ascii	"long unsigned int\000"
+ 4306      20756E73 
+ 4306      69676E65 
+ 4306      6420696E 
+ 4306      7400
+ 4307              	.LASF3:
+ 4308 00fd 73686F72 		.ascii	"short unsigned int\000"
+ 4308      7420756E 
+ 4308      7369676E 
+ 4308      65642069 
+ 4308      6E7400
+ 4309              	.LASF13:
+ 4310 0110 63795F6D 		.ascii	"cy_meta_custnvl\000"
+ 4310      6574615F 
+ 4310      63757374 
+ 4310      6E766C00 
+ 4311              	.LASF12:
+ 4312 0120 63795F6D 		.ascii	"cy_meta_configecc\000"
+ 4312      6574615F 
+ 4312      636F6E66 
+ 4312      69676563 
+ 4312      6300
+ 4313              	.LASF8:
+ 4314 0132 756E7369 		.ascii	"unsigned int\000"
+ 4314      676E6564 
+ 4314      20696E74 
+ 4314      00
+ 4315              	.LASF7:
+ 4316 013f 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 4316      206C6F6E 
+ 4316      6720756E 
+ 4316      7369676E 
+ 4316      65642069 
+ 4317              	.LASF10:
+ 4318 0156 75696E74 		.ascii	"uint8_t\000"
+ 4318      385F7400 
+ 4319              	.LASF15:
+ 4320 015e 63795F6D 		.ascii	"cy_meta_flashprotect\000"
+ 4320      6574615F 
+ 4320      666C6173 
+ 4320      6870726F 
+ 4320      74656374 
+ 4321              	.LASF14:
+ 4322 0173 63795F6D 		.ascii	"cy_meta_wonvl\000"
+ 4322      6574615F 
+ 4322      776F6E76 
+ 4322      6C00
+ 4323              	.LASF11:
+ 4324 0181 73697A65 		.ascii	"sizetype\000"
+ 4324      74797065 
+ 4324      00
+ARM GAS  C:\Users\stanl\AppData\Local\Temp\ccbhZe97.s 			page 78
+
+
+ 4325              	.LASF6:
+ 4326 018a 6C6F6E67 		.ascii	"long long int\000"
+ 4326      206C6F6E 
+ 4326      6720696E 
+ 4326      7400
+ 4327              	.LASF2:
+ 4328 0198 73686F72 		.ascii	"short int\000"
+ 4328      7420696E 
+ 4328      7400
+ 4329              	.LASF4:
+ 4330 01a2 6C6F6E67 		.ascii	"long int\000"
+ 4330      20696E74 
+ 4330      00
+ 4331              	.LASF0:
+ 4332 01ab 7369676E 		.ascii	"signed char\000"
+ 4332      65642063 
+ 4332      68617200 
+ 4333              	.LASF18:
+ 4334 01b7 47656E65 		.ascii	"Generated_Source\\PSoC5\\cymetadata.c\000"
+ 4334      72617465 
+ 4334      645F536F 
+ 4334      75726365 
+ 4334      5C50536F 
+ 4335              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

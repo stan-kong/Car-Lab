@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="CarLab\Speed_Control">
+<ExpandedNodeIds>
+<v>CarLab</v>
+<v>CarLab\Nav</v>
+<v>CarLab\Nav\TopDesign</v>
+<v>CarLab\Nav\Nav.cydwr</v>
+<v>CarLab\Nav\Nav.cydwr\Pins</v>
+<v>CarLab\Nav\Nav.cydwr\Analog</v>
+<v>CarLab\Nav\Nav.cydwr\Clocks</v>
+<v>CarLab\Nav\Nav.cydwr\Interrupts</v>
+<v>CarLab\Nav\Nav.cydwr\DMA</v>
+<v>CarLab\Nav\Nav.cydwr\System</v>
+<v>CarLab\Nav\Nav.cydwr\Directives</v>
+<v>CarLab\Nav\Nav.cydwr\Flash Security</v>
+<v>CarLab\Nav\Nav.cydwr\EEPROM</v>
+<v>CarLab\Nav\Header Files</v>
+<v>CarLab\Nav\Header Files\cyapicallbacks.h</v>
+<v>CarLab\Nav\Source Files</v>
+<v>CarLab\Nav\Source Files\main.c</v>
+<v>CarLab\Nav\Generated_Source\PSoC5</v>
+<v>CarLab\Speed_Control\TopDesign</v>
+<v>CarLab\Speed_Control\Speed_Control.cydwr</v>
+<v>CarLab\Speed_Control\Speed_Control.cydwr\Pins</v>
+<v>CarLab\Speed_Control\Speed_Control.cydwr\Analog</v>
+<v>CarLab\Speed_Control\Speed_Control.cydwr\Clocks</v>
+<v>CarLab\Speed_Control\Speed_Control.cydwr\Interrupts</v>
+<v>CarLab\Speed_Control\Speed_Control.cydwr\DMA</v>
+<v>CarLab\Speed_Control\Speed_Control.cydwr\System</v>
+<v>CarLab\Speed_Control\Speed_Control.cydwr\Directives</v>
+<v>CarLab\Speed_Control\Speed_Control.cydwr\Flash Security</v>
+<v>CarLab\Speed_Control\Speed_Control.cydwr\EEPROM</v>
+<v>CarLab\Speed_Control\Header Files</v>
+<v>CarLab\Speed_Control\Header Files\cyapicallbacks.h</v>
+<v>CarLab\Speed_Control\Source Files</v>
+<v>CarLab\Speed_Control\Source Files\main.c</v>
+<v>CarLab\Speed_Control\Generated_Source\PSoC5</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>CarLab</v>
+<v>CarLab\Nav</v>
+<v>CarLab\Nav\TopDesign</v>
+<v>CarLab\Nav\Nav.cydwr</v>
+<v>CarLab\Nav\Nav.cydwr\Pins</v>
+<v>CarLab\Nav\Nav.cydwr\Analog</v>
+<v>CarLab\Nav\Nav.cydwr\Clocks</v>
+<v>CarLab\Nav\Nav.cydwr\Interrupts</v>
+<v>CarLab\Nav\Nav.cydwr\DMA</v>
+<v>CarLab\Nav\Nav.cydwr\System</v>
+<v>CarLab\Nav\Nav.cydwr\Directives</v>
+<v>CarLab\Nav\Nav.cydwr\Flash Security</v>
+<v>CarLab\Nav\Nav.cydwr\EEPROM</v>
+<v>CarLab\Nav\Header Files</v>
+<v>CarLab\Nav\Header Files\cyapicallbacks.h</v>
+<v>CarLab\Nav\Source Files</v>
+<v>CarLab\Nav\Source Files\main.c</v>
+<v>CarLab\Nav\Generated_Source</v>
+<v>CarLab\Speed_Control</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>CarLab</v>
+<v>CarLab\Nav</v>
+<v>CarLab\Nav\TopDesign</v>
+<v>CarLab\Nav\TopDesign\TopDesign.cysch</v>
+<v>CarLab\Speed_Control</v>
+<v>CarLab\Speed_Control\TopDesign</v>
+<v>CarLab\Speed_Control\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>CarLab</v>
+<v>CarLab\Nav</v>
+<v>CarLab\Nav\TopDesign</v>
+<v>CarLab\Nav\TopDesign\TopDesign.cysch</v>
+<v>CarLab\Speed_Control</v>
+<v>CarLab\Speed_Control\TopDesign</v>
+<v>CarLab\Speed_Control\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>CarLab</v>
+<v>CarLab\Nav</v>
+<v>CarLab\Nav\CortexM3</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\BUS_CLK.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\Clock.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\Clock_0.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\Comp_1.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\Comp_1_PM.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\csync.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\DAC.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\DAC_PM.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\HE.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\HE_Interrupt.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\motor.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\nav_isr.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\PWM.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\PWM_1.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\PWM_1_PM.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\PWM_PM.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\raw_vid.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\servo_pwm.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\Timer.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\Timer_1.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\Timer_1_PM.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\Timer_PM.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_1.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_1_BOOT.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_1_INT.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_1_IntClock.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_1_PM.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\vsync.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Nav.elf</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Nav.hex</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Nav.map</v>
+<v>CarLab\Nav\Nav.gpdsc</v>
+<v>CarLab\Nav\Nav.rpt</v>
+<v>CarLab\Nav\Nav_timing.html</v>
+<v>CarLab\Speed_Control</v>
+<v>CarLab\Speed_Control\CortexM3</v>
+<v>CarLab\Speed_Control\CortexM3\ARM_GCC_541</v>
+<v>CarLab\Speed_Control\CortexM3\ARM_GCC_541\Debug</v>
+<v>CarLab\Speed_Control\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>CarLab\Speed_Control\CortexM3\ARM_GCC_541\Debug\Listing Files\Clock.lst</v>
+<v>CarLab\Speed_Control\CortexM3\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
+<v>CarLab\Speed_Control\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>CarLab\Speed_Control\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>CarLab\Speed_Control\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>CarLab\Speed_Control\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>CarLab\Speed_Control\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>CarLab\Speed_Control\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>CarLab\Speed_Control\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>CarLab\Speed_Control\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>CarLab\Speed_Control\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>CarLab\Speed_Control\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>CarLab\Speed_Control\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>CarLab\Speed_Control\CortexM3\ARM_GCC_541\Debug\Listing Files\HE.lst</v>
+<v>CarLab\Speed_Control\CortexM3\ARM_GCC_541\Debug\Listing Files\HE_Interrupt.lst</v>
+<v>CarLab\Speed_Control\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>CarLab\Speed_Control\CortexM3\ARM_GCC_541\Debug\Listing Files\Motor.lst</v>
+<v>CarLab\Speed_Control\CortexM3\ARM_GCC_541\Debug\Listing Files\PWM.lst</v>
+<v>CarLab\Speed_Control\CortexM3\ARM_GCC_541\Debug\Listing Files\PWM_PM.lst</v>
+<v>CarLab\Speed_Control\CortexM3\ARM_GCC_541\Debug\Listing Files\Timer.lst</v>
+<v>CarLab\Speed_Control\CortexM3\ARM_GCC_541\Debug\Listing Files\Timer_PM.lst</v>
+<v>CarLab\Speed_Control\CortexM3\ARM_GCC_541\Debug\Listing Files\UART.lst</v>
+<v>CarLab\Speed_Control\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_BOOT.lst</v>
+<v>CarLab\Speed_Control\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_INT.lst</v>
+<v>CarLab\Speed_Control\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_IntClock.lst</v>
+<v>CarLab\Speed_Control\CortexM3\ARM_GCC_541\Debug\Listing Files\UART_PM.lst</v>
+<v>CarLab\Speed_Control\CortexM3\ARM_GCC_541\Debug\Speed_Control.elf</v>
+<v>CarLab\Speed_Control\CortexM3\ARM_GCC_541\Debug\Speed_Control.hex</v>
+<v>CarLab\Speed_Control\CortexM3\ARM_GCC_541\Debug\Speed_Control.map</v>
+<v>CarLab\Speed_Control\Speed_Control.gpdsc</v>
+<v>CarLab\Speed_Control\Speed_Control.rpt</v>
+<v>CarLab\Speed_Control\Speed_Control_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>CarLab</v>
+<v>CarLab\Nav</v>
+<v>CarLab\Nav\CortexM3</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\BUS_CLK.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\Clock.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\Clock_0.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\Clock_1.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\Comp_1.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\Comp_1_PM.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\csync.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\DAC.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\DAC_PM.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\HE.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\HE_Interrupt.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\motor.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\nav_isr.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\PWM.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\PWM_1.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\PWM_1_PM.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\PWM_PM.lst</v>
+<v>CarLab\Nav\CortexM3\ARM_GCC_541\Debug\Listing Files\raw_vid.lst</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>CarLab</v>
+<v>CarLab\Nav</v>
+<v>CarLab\Nav\PSoC 5LP Architecture TRM</v>
+<v>CarLab\Nav\CY8C58LP Family Datasheet</v>
+<v>CarLab\Nav\System Reference Guides</v>
+<v>CarLab\Nav\System Reference Guides\cy_boot_v6_10</v>
+<v>CarLab\Nav\and_v1_0.pdf</v>
+<v>CarLab\Nav\BasicCounter_v1_0.pdf</v>
+<v>CarLab\Nav\Comp_v2_0.pdf</v>
+<v>CarLab\Nav\cy_clock_v2_20</v>
+<v>CarLab\Nav\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
+<v>CarLab\Nav\cy_constant_v1_0</v>
+<v>CarLab\Nav\cy_constant_v1_0\cy_constant_v1_0.pdf</v>
+<v>CarLab\Nav\cy_isr_v1_71</v>
+<v>CarLab\Nav\cy_isr_v1_71\cy_isr_v1_71.pdf</v>
+<v>CarLab\Nav\cy_pins_v2_20</v>
+<v>CarLab\Nav\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>CarLab\Nav\DigitalComp_v1_0.pdf</v>
+<v>CarLab\Nav\GlitchFilter_v2_0.pdf</v>
+<v>CarLab\Nav\not_v1_0</v>
+<v>CarLab\Nav\not_v1_0\not_v1_0.pdf</v>
+<v>CarLab\Nav\PWM_v3_30</v>
+<v>CarLab\Nav\PWM_v3_30\PWM_v3_30.pdf</v>
+<v>CarLab\Nav\Timer_v2_80</v>
+<v>CarLab\Nav\Timer_v2_80\Timer_v2_80.pdf</v>
+<v>CarLab\Nav\UART_v2_50.pdf</v>
+<v>CarLab\Nav\VDAC8_v1_90.pdf</v>
+<v>CarLab\Nav\ZeroTerminal.pdf</v>
+<v>CarLab\Speed_Control</v>
+<v>CarLab\Speed_Control\PSoC 5LP Architecture TRM</v>
+<v>CarLab\Speed_Control\CY8C58LP Family Datasheet</v>
+<v>CarLab\Speed_Control\System Reference Guides</v>
+<v>CarLab\Speed_Control\System Reference Guides\cy_boot_v6_10</v>
+<v>CarLab\Speed_Control\cy_clock_v2_20</v>
+<v>CarLab\Speed_Control\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
+<v>CarLab\Speed_Control\cy_isr_v1_71.pdf</v>
+<v>CarLab\Speed_Control\cy_pins_v2_20</v>
+<v>CarLab\Speed_Control\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>CarLab\Speed_Control\PWM_v3_30.pdf</v>
+<v>CarLab\Speed_Control\Timer_v2_80.pdf</v>
+<v>CarLab\Speed_Control\UART_v2_50.pdf</v>
+<v>CarLab\Speed_Control\ZeroTerminal.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>CarLab</v>
+<v>CarLab\Nav</v>
+<v>CarLab\Nav\PSoC 5LP Architecture TRM</v>
+<v>CarLab\Nav\CY8C58LP Family Datasheet</v>
+<v>CarLab\Nav\System Reference Guides</v>
+<v>CarLab\Nav\System Reference Guides\cy_boot_v6_10</v>
+<v>CarLab\Nav\and_v1_0.pdf</v>
+<v>CarLab\Nav\BasicCounter_v1_0.pdf</v>
+<v>CarLab\Nav\Comp_v2_0.pdf</v>
+<v>CarLab\Nav\cy_clock_v2_20</v>
+<v>CarLab\Nav\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
+<v>CarLab\Nav\cy_constant_v1_0</v>
+<v>CarLab\Nav\cy_constant_v1_0\cy_constant_v1_0.pdf</v>
+<v>CarLab\Nav\cy_isr_v1_71</v>
+<v>CarLab\Nav\cy_isr_v1_71\cy_isr_v1_71.pdf</v>
+<v>CarLab\Nav\cy_pins_v2_20</v>
+<v>CarLab\Nav\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>CarLab\Nav\DigitalComp_v1_0.pdf</v>
+<v>CarLab\Nav\GlitchFilter_v2_0.pdf</v>
+<v>CarLab\Nav\not_v1_0</v>
+<v>CarLab\Nav\not_v1_0\not_v1_0.pdf</v>
+<v>CarLab\Nav\PWM_v3_30</v>
+<v>CarLab\Nav\PWM_v3_30\PWM_v3_30.pdf</v>
+<v>CarLab\Nav\Timer_v2_80</v>
+<v>CarLab\Nav\Timer_v2_80\Timer_v2_80.pdf</v>
+<v>CarLab\Nav\UART_v2_50.pdf</v>
+<v>CarLab\Nav\VDAC8_v1_90.pdf</v>
+<v>CarLab\Nav\ZeroTerminal.pdf</v>
+<v>CarLab\Speed_Control</v>
+<v>CarLab\Speed_Control\PSoC 5LP Architecture TRM</v>
+<v>CarLab\Speed_Control\CY8C58LP Family Datasheet</v>
+<v>CarLab\Speed_Control\System Reference Guides</v>
+<v>CarLab\Speed_Control\System Reference Guides\cy_boot_v6_10</v>
+<v>CarLab\Speed_Control\cy_clock_v2_20</v>
+<v>CarLab\Speed_Control\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
+<v>CarLab\Speed_Control\cy_isr_v1_71.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+<dataGuid v="6c335137-fa19-46ce-bc2d-2fbeb6d5f2a2">
+<CyGuid_70084457-cd6a-4593-9ed0-7f6eeb432dc2 type_name="CyDesigner.Common.ProjMgmt.GUI.CyDependenciesCustomData" version="1">
+<dictName v=".\Speed_Control.cydsn\Speed_Control.cyprj">
+<listName />
+</dictName>
+</CyGuid_70084457-cd6a-4593-9ed0-7f6eeb432dc2>
+</dataGuid>
+<dataGuid v="5f2be1a5-0687-4501-bb8c-cf21cb8211bf">
+<CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf type_name="CyDesigner.Common.ProjMgmt.GUI.CyBookmarkData" version="1">
+<indicators />
+</CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v=".\Nav.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\Nav.cydsn\main.c" />
+<name v=".\Nav.cydsn\Nav.cydwr" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1226, 495" SelectedTabbedMdiWindow="8ea17b99-cac2-455b-b592-b24ec4dc8ce1"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="897b24f3-6ad6-4ef3-a214-3e3f3d2a0c5e" /><DocumentWindow Key="C:\Users\Elifl\Documents\PSoC Creator\CarLab\Nav.cydsn\TopDesign\TopDesign.cysch" Guid="0da69137-5ac7-4d19-ab54-c8ec5c54bb8e" /><DocumentWindow Key="C:\Users\Elifl\Documents\PSoC Creator\CarLab\Nav.cydsn\main.c" Guid="8ea17b99-cac2-455b-b592-b24ec4dc8ce1" /><DocumentWindow Key="C:\Users\Elifl\Documents\PSoC Creator\CarLab\Nav.cydsn\Nav.cydwr" Guid="b2a0c423-94cb-46e2-8c8e-ef1c4757bf11" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>

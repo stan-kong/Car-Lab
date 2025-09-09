@@ -1,0 +1,28 @@
+# Final
+# 2024-12-11 07:18:37Z
+
+# IO_0@[IOP=(1)][IoId=(0)] is reserved: SWDDebugEnabled
+dont_use_io iocell 1 0
+# IO_1@[IOP=(1)][IoId=(1)] is reserved: SWDDebugEnabled
+dont_use_io iocell 1 1
+# IO_3@[IOP=(1)][IoId=(3)] is reserved: SWDDebugEnabled
+dont_use_io iocell 1 3
+set_io "Rx_4(0)" iocell 0 6
+set_io "servo_pwm(0)" iocell 3 0
+set_io "Rx_3(0)" iocell 0 4
+set_io "Rx_1(0)" iocell 0 0
+set_io "Tx_1(0)" iocell 6 0
+set_io "motor(0)" iocell 4 0
+set_io "HE(0)" iocell 5 0
+set_io "Rx_2(0)" iocell 0 2
+set_io "P_front_right(0)" iocell 4 7
+set_io "P_left_1(0)" iocell 3 5
+set_io "P_left_2(0)" iocell 3 3
+set_io "P_right_2(0)" iocell 0 3
+set_io "P_right_1(0)" iocell 0 1
+set_io "P_front_left(0)" iocell 3 7
+set_io "P_front(0)" iocell 4 5
+set_io "P_back_left(0)" iocell 3 1
+set_io "P_back(0)" iocell 0 7
+set_io "P_back_right(0)" iocell 0 5
+set_io "LED_status(0)" iocell 12 4

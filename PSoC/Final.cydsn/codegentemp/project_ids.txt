@@ -1,0 +1,8 @@
+C:\Users\stanl\Documents\PSoC Creator\CarLab\Speed_Control.cydsn\Speed_Control.cyprj|7e843299-bd68-4169-993d-e70a5cd67eb7
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|cb938ac4-b050-469d-a4cc-8cf5661edae3
+C:\Users\stanl\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|eed4ef01-88f3-417e-b453-5d53b5ec3887
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|6de2a6e8-1778-4d6a-a8c4-40036875a047
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|d7fd8f50-6082-4e57-8ae6-addfd3cfc718
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|0af7e0ee-8742-45bc-a92b-db8f18b84891
+C:\Users\stanl\Documents\PSoC Creator\CarLab\Nav.cydsn\Nav.cyprj|3a5d0d1a-c941-483b-a2a2-1a48747bea9c
+C:\Users\stanl\Documents\PSoC Creator\CarLab\Final.cydsn\Final.cyprj|27dd8e52-a863-4a0b-90ef-bb7c8f1ce780
